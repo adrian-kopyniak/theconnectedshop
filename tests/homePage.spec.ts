@@ -6,7 +6,7 @@ test.beforeEach(async({page})=>{
 });
 
 test('Test opening verification', async ({page})=>{
-        await expect(page).toHaveURL('https://theconnectedshop.com/')
+        await expect(page).toHaveURL('/')
 
 });
 
@@ -31,8 +31,8 @@ await expect(logoImage).toHaveAttribute('width', '180');
 test('Search availability verification', async ({page})=>{
 const search = page.locator('div.header__search');
 const searchInput = page.locator('input#Search-In-Inline');
-const searchButton = page.locator('button.search__button');
-const searchButtonIcon = page.locator('svg.icon-search');
+const searchButton = page.locator('button.search__button').first();
+const searchButtonIcon = page.locator('svg.icon-search').first();
 
 await expect(search).toBeVisible({timeout:10000});
 
@@ -53,7 +53,7 @@ await expect(searchButtonIcon).toHaveAttribute('height', '24');
 
 test('Customer support button availability verification', async ({page})=>{
 const customerSupportButton = page.locator('a.header__customer-support-region');
-const customerSupportButtonIcon = page.locator('svg.icon-support-region');
+const customerSupportButtonIcon = page.locator('svg.icon-support-region').nth(1);
 
 await expect(customerSupportButton).toBeVisible({timeout:10000});
 await expect(customerSupportButton).toHaveAttribute('href', 'tel:(305) 330-3424');
@@ -64,8 +64,8 @@ await expect(customerSupportButtonIcon).toHaveAttribute('height', '24');
 });
 
 test('Account button availability verification', async ({page})=>{
-const accountButton = page.locator('a.header__icon--account');
-const accountButtonIcon = page.locator('svg.icon-account');
+const accountButton = page.locator('a.header__icon--account').nth(1);
+const accountButtonIcon = page.locator('svg.icon-account').nth(1);
 
 await expect(accountButton).toBeVisible({timeout:10000});
 
