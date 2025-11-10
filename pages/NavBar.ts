@@ -33,9 +33,6 @@ export class NavBar {
     await expect(this.navBarOnSaleButton).toBeVisible();
     await expect(this.navBarOnSaleButton).toHaveText('On Sale');
 
-    await expect(this.navBarOnSaleButton).toBeVisible();
-    await expect(this.navBarOnSaleButton).toHaveText('On Sale');
-
     await expect(this.navBarCollectionsButton).toBeVisible();
     await expect(this.navBarCollectionsButton).toHaveText('Collections');
 
