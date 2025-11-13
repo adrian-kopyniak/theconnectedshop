@@ -1,11 +1,35 @@
 import { Locator, Page, expect } from '@playwright/test';
 
 export class Search {
-  readonly page:Page;
+  readonly page: Page;
   readonly search: Locator;
   readonly searchInput: Locator;
   readonly searchButton: Locator;
   readonly searchButtonIcon: Locator;
+
+  readonly searchModal: Locator;
+  readonly searchModalSearchForButton: Locator;
+  readonly searchModalResults: Locator;
+  readonly searchModalFooter: Locator;
+
+  readonly searchResultsHeader: Locator;
+  readonly searchResultsHeaderTitle: Locator;
+  readonly searchResultsHeaderSearch: Locator;
+  readonly searchResultsHeaderSearchInput: Locator;
+  readonly searchResultsHeaderSearchButton: Locator;
+  readonly searchResultsHeaderNoResultsMessage: Locator;
+
+  readonly searchResultsContainer: Locator;
+  readonly searchResultsProducts: Locator;
+  readonly searchResultsArticles: Locator;
+  readonly searchResultsPages: Locator;
+
+  readonly searchResultsFilter: Locator;
+  readonly searchResultsSorting: Locator;
+  readonly searchResultsCounter: Locator;
+
+  readonly searchResultsPaginationContainer: Locator;
+  readonly searchResultsPaginationButton: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -13,6 +37,30 @@ export class Search {
     this.searchInput = page.locator('input#Search-In-Inline');
     this.searchButton = page.locator('button.search__button').first();
     this.searchButtonIcon = page.locator('svg.icon-search').first();
+
+    this.searchModal = page.locator('div[data-predictive-search]');
+    this.searchModalSearchForButton = page.locator('div.predictive-search__header');
+    this.searchModalResults = page.locator('div.predictive-search__results-list');
+    this.searchModalFooter = page.locator('div.predictive-search__search-url');
+
+    this.searchResultsHeader = page.locator('div.template-search__header');
+    this.searchResultsHeaderTitle = this.searchResultsHeader.locator('h1.font-heading-bold');
+    this.searchResultsHeaderSearch = this.searchResultsHeader.locator('div.template-search__search');
+    this.searchResultsHeaderSearchInput = this.searchResultsHeader.locator('input.search__input');
+    this.searchResultsHeaderSearchButton = this.searchResultsHeader.locator('button.search__button');
+    this.searchResultsHeaderNoResultsMessage = this.searchResultsHeader.locator('p.alert');
+
+    this.searchResultsContainer = page.locator('div#product-grid');
+    this.searchResultsProducts = page.locator('ul#results-product-list-1');
+    this.searchResultsArticles = page.locator('ul#results-article-list-1');
+    this.searchResultsPages = page.locator('ul#results-pages-list-1');
+
+    this.searchResultsFilter = page.locator('form#FacetFiltersForm');
+    this.searchResultsSorting = page.locator('form#FacetSortForm');
+    this.searchResultsCounter = page.locator('div.product-count');
+
+    this.searchResultsPaginationContainer = page.locator('nav.pagination');
+    this.searchResultsPaginationButton = this.searchResultsPaginationContainer.locator('a.pagination__item');
   }
 
   async verifySearchVisibility() {
