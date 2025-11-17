@@ -8,6 +8,7 @@ export class Search {
   readonly searchButtonIcon: Locator;
 
   readonly searchModal: Locator;
+  readonly searchModalSuggestions: Locator;
   readonly searchModalSearchForButton: Locator;
   readonly searchModalResults: Locator;
   readonly searchModalFooter: Locator;
@@ -21,6 +22,9 @@ export class Search {
 
   readonly searchResultsContainer: Locator;
   readonly searchResultsProducts: Locator;
+  // readonly searchResultsProductsFirstItem: Locator;
+  readonly searchResultsItems: Locator;
+
   readonly searchResultsArticles: Locator;
   readonly searchResultsPages: Locator;
 
@@ -39,6 +43,7 @@ export class Search {
     this.searchButtonIcon = page.locator('svg.icon-search').first();
 
     this.searchModal = page.locator('div[data-predictive-search]');
+    this.searchModalSuggestions = page.locator('div.predictive-search__queries');
     this.searchModalSearchForButton = page.locator('div.predictive-search__header');
     this.searchModalResults = page.locator('div.predictive-search__results-list');
     this.searchModalFooter = page.locator('div.predictive-search__search-url');
@@ -52,6 +57,8 @@ export class Search {
 
     this.searchResultsContainer = page.locator('div#product-grid');
     this.searchResultsProducts = page.locator('ul#results-product-list-1');
+    this.searchResultsItems = page.locator('p.predictive-search__item__title');
+    // this.searchResultsProductsFirstItem = this.searchResultsProducts.locator('li')
     this.searchResultsArticles = page.locator('ul#results-article-list-1');
     this.searchResultsPages = page.locator('ul#results-pages-list-1');
 
@@ -82,5 +89,23 @@ export class Search {
 
   async clickOnSearchButtonIcon() {
     await this.searchButtonIcon.click();
+  }
+
+  async resultsOnSearchModalButton(value: string) {
+    await expect(this.searchModalSearchForButton).toBeVisible();
+    await expect(this.searchModalSearchForButton).toContainText(value);
+  }
+
+  async resultsOnSearchModalSuggestions(value: string) {
+    await expect(this.searchModalSuggestions).toBeVisible();
+    await expect(this.searchModalSuggestions).toContainText(value);
+  }
+
+  async resultsOnSearchModalProducts(text: string) {
+    await this.page.waitForSelector('p.predictive-search__item__title', { state: 'visible' });
+    const allTitles = await this.searchResultsItems.allTextContents();
+    console.log('Found search results:', allTitles);
+    const hasMatch = allTitles.some((t) => t.toLowerCase().includes(text.toLowerCase()));
+    expect(hasMatch, `Expected one of predictive results to contain: "${text}"`).toBeTruthy();
   }
 }
