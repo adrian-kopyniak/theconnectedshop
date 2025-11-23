@@ -1,6 +1,6 @@
 import { Locator, Page, expect } from '@playwright/test';
 
-export class contactUsPage {
+export class ContactUsPage {
   readonly page: Page;
   readonly heading: Locator;
   readonly nameInput: Locator;
@@ -12,6 +12,7 @@ export class contactUsPage {
   readonly commentTextarea: Locator;
   readonly commentLabel: Locator;
   readonly sendButton: Locator;
+  readonly successMessage: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -25,6 +26,7 @@ export class contactUsPage {
     this.commentTextarea = page.locator('#ContactForm-body');
     this.commentLabel = page.locator('label[for="ContactForm-body"]');
     this.sendButton = page.locator('button[type="submit"]');
+    this.successMessage = page.locator('h2.form__message')
   }
 
   async openContactUs() {
@@ -43,6 +45,14 @@ export class contactUsPage {
     await expect(this.heading).toHaveText('Contact Us');
   }
 
+  async verifyFormElements() {
+  await expect(this.nameInput).toBeVisible();
+  await expect(this.emailInput).toBeVisible();
+  await expect(this.phoneNumberInput).toBeVisible();
+  await expect(this.commentTextarea).toBeVisible();
+  await expect(this.sendButton).toBeVisible();
+}
+
   async verifyAllLabels() {
     await expect(this.nameInputLabel).toHaveText('Name');
     await expect(this.emailInputLabel).toContainText('Email'); // contains через asterisk
@@ -59,5 +69,9 @@ export class contactUsPage {
 
   async submitContactForm() {
     await this.sendButton.click();
+  }
+
+  async verifySuccessMessage() {
+    await expect(this.successMessage).toHaveText("Thanks for contacting us. We'll get back to you as soon as possible.");
   }
 }

@@ -8,8 +8,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.2",
+    "install": "^0.13.0",
     "prettier": "^3.6.2"
   }
 }
