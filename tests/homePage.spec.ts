@@ -19,6 +19,21 @@ test.describe('Main page verification', () => {
     await homePage.openMain();
   });
 
+  test('Check home page', async () => {
+    await homePage.openMain();
+    await homePage.verifyUrl();
+    await homePage.verifyTitle();
+
+    await header.verifyAccountButton();
+    await header.verifyCartButton();
+    await header.verifyCustomerSupport();
+    await header.verifyLogo();
+
+    await search.verifySearchVisibility();
+
+    await navBar.verifyNavBar();
+  });
+
   // test('Test opening verification', async ({ page }) => {
   //   await expect(page).toHaveURL('/');
   // });
@@ -96,19 +111,4 @@ test.describe('Main page verification', () => {
   //   await expect(cartButtonIcon).toHaveAttribute('width', '24');
   //   await expect(cartButtonIcon).toHaveAttribute('height', '24');
   // });
-
-  test('Check home page', async () => {
-    await homePage.openMain();
-    await homePage.verifyUrl();
-    await homePage.verifyTitle();
-
-    await header.verifyAccountButton();
-    await header.verifyCartButton();
-    await header.verifyCustomerSupport();
-    await header.verifyLogo();
-
-    await search.verifySearchVisibility();
-
-    await navBar.verifyNavBar();
-  });
 });
