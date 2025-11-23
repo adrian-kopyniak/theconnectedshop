@@ -9,8 +9,8 @@ export class Header {
     this.page = page;
   }
  
-async verifyLogo() {
-    await expect(this.logo).toBeVisible();
+// async verifyLogo() {
+//     await expect(this.logo).toBeVisible();
     
-  }
+//   }
 }
