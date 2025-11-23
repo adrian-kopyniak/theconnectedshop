@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { ContactUsPage } from '../pages/ContactUsPage';
-import { ContactFormDataBuilder } from '../pages/data-builders/ContactFormDataBuilder';
+import { generateContactFormData } from '../utils/test-data';
 
 test.describe('"Contact Us" page verification', () => {
   let contactUsPage: ContactUsPage;
@@ -19,7 +19,7 @@ test.describe('"Contact Us" page verification', () => {
   });
 
   test('Fill form with valid data', async () => {
-    const formData = new ContactFormDataBuilder().build();
+    const formData = await generateContactFormData();
 
     await contactUsPage.fillContactForm(formData.name, formData.email, formData.phone, formData.comment);
     await contactUsPage.submitContactForm();
@@ -27,7 +27,7 @@ test.describe('"Contact Us" page verification', () => {
   });
 
   test('Fill form with invalid data', async () => {
-    const formData = new ContactFormDataBuilder().build();
+    const formData = await generateContactFormData();
 
     await contactUsPage.fillContactForm(formData.email, formData.phone, formData.comment, formData.name);
     await contactUsPage.submitContactForm();
@@ -35,7 +35,7 @@ test.describe('"Contact Us" page verification', () => {
   });
 
   test('Submit form with empty required fields', async () => {
-    const formData = new ContactFormDataBuilder().build();
+    const formData = await generateContactFormData();
 
     await contactUsPage.fillContactForm(formData.name, '', formData.phone, formData.comment);
     await contactUsPage.submitContactForm();
@@ -43,7 +43,7 @@ test.describe('"Contact Us" page verification', () => {
   });
 
   test('Submit form with filled only required fields', async () => {
-    const formData = new ContactFormDataBuilder().build();
+    const formData = await generateContactFormData();
 
     await contactUsPage.fillContactForm('', formData.email, '', '');
     await contactUsPage.submitContactForm();
