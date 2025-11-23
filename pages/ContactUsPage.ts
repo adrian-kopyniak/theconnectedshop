@@ -16,7 +16,7 @@ export class ContactUsPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.heading = page.locator('div.title');
+    this.heading = page.locator('div.title h2');
     this.nameInput = page.locator('input#ContactForm-name');
     this.nameInputLabel = page.locator('label[for="ContactForm-name"]');
     this.emailInput = page.locator('#ContactForm-email');
@@ -25,8 +25,8 @@ export class ContactUsPage {
     this.phoneNumberInputLabel = page.locator('label[for="ContactForm-phone"]');
     this.commentTextarea = page.locator('#ContactForm-body');
     this.commentLabel = page.locator('label[for="ContactForm-body"]');
-    this.sendButton = page.locator('button[type="submit"]');
-    this.successMessage = page.locator('h2.form__message')
+    this.sendButton = page.locator('div.contact__button button');
+    this.successMessage = page.locator('form#ContactForm h2')
   }
 
   async openContactUs() {
