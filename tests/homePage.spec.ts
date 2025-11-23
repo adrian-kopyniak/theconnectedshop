@@ -5,17 +5,33 @@ import { Header } from '../pages/Header';
 import { Search } from '../pages/Search';
 
 test.describe('Main page verification', () => {
-  let homePage:HomePage;
-  let header:Header;
-  let navBar:NavBar;
-  let search:Search;
+  let homePage: HomePage;
+  let header: Header;
+  let navBar: NavBar;
+  let search: Search;
 
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
     homePage = new HomePage(page);
     header = new Header(page);
     navBar = new NavBar(page);
     search = new Search(page);
+
+    await homePage.openMain();
+  });
+
+  test('Check home page', async () => {
+    await homePage.openMain();
+    await homePage.verifyUrl();
+    await homePage.verifyTitle();
+
+    await header.verifyAccountButton();
+    await header.verifyCartButton();
+    await header.verifyCustomerSupport();
+    await header.verifyLogo();
+
+    await search.verifySearchVisibility();
+
+    await navBar.verifyNavBar();
   });
 
   // test('Test opening verification', async ({ page }) => {
@@ -95,19 +111,4 @@ test.describe('Main page verification', () => {
   //   await expect(cartButtonIcon).toHaveAttribute('width', '24');
   //   await expect(cartButtonIcon).toHaveAttribute('height', '24');
   // });
-
-  test('Check home page', async () => {
-await homePage.openMain();
-await homePage.verifyUrl();
-await homePage.verifyTitle();
-
-await header.verifyAccountButton();
-await header.verifyCartButton();
-await header.verifyCustomerSupport();
-await header.verifyLogo();
-
-await search.verifySearchVisibility();
-
-await navBar.verifyNavBar();
-  });
 });
