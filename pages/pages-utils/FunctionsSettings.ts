@@ -31,3 +31,37 @@ export async function visibleElement(locator: Locator, name: string) {
     throw new Error(` NOT VISIBLE: ${name}\n${error}`);
   }
 }
+
+export async function verifyText(locator: Locator, expectedText: string, elementName: string, partial = false) {
+  try {
+    console.log(`CHECK TEXT: ${elementName} -> "${expectedText}"`);
+    if (partial) {
+      await expect(locator).toContainText(expectedText);
+    } else {
+      await expect(locator).toHaveText(expectedText);
+    }
+    console.log(`TEXT OK: ${elementName}`);
+  } catch (error) {
+    throw new Error(`TEXT MISMATCH: ${elementName}, EXPECTED="${expectedText}"\n${error}`);
+  }
+}
+
+export async function verifyUrl(page: Page, expectedUrl: string) {
+  try {
+    console.log(`CHECK URL: ${expectedUrl}`);
+    await expect(page).toHaveURL(expectedUrl);
+    console.log(`URL OK: ${expectedUrl}`);
+  } catch (error) {
+    throw new Error(`URL MISMATCH: EXPECTED="${expectedUrl}"\n${error}`);
+  }
+}
+
+export async function verifyTitle(page: Page, expectedTitle: string) {
+  try {
+    console.log(`CHECK TITLE: ${expectedTitle}`);
+    await expect(page).toHaveTitle(expectedTitle);
+    console.log(`TITLE OK`);
+  } catch (error) {
+    throw new Error(`TITLE MISMATCH: EXPECTED="${expectedTitle}"\n${error}`);
+  }
+}
