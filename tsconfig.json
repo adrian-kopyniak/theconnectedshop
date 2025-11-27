@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "lib": ["ES2020"],
     "types": ["node", "@playwright/test"],
@@ -12,13 +12,6 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "tests/**/*.ts",
-    "pages/**/*.ts",
-    "utils/**/*.ts",
-    "playwright.config.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "utils/**/*.ts", "playwright.config.ts"],
+  "exclude": ["node_modules"]
 }

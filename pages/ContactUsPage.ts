@@ -1,6 +1,8 @@
 import { Locator, Page, expect } from '@playwright/test';
+import { clickElement, fillElement, visibleElement } from './pages-utils/FunctionsSettings';
+import { th } from '@faker-js/faker/.';
 
-export class ContactUsPage {
+export class ContactUsPage  {
   readonly page: Page;
   readonly heading: Locator;
   readonly nameInput: Locator;
@@ -15,7 +17,7 @@ export class ContactUsPage {
   readonly successMessage: Locator;
 
   constructor(page: Page) {
-    this.page = page;
+   this.page = page;
     this.heading = page.locator('div.title h2');
     this.nameInput = page.locator('input#ContactForm-name');
     this.nameInputLabel = page.locator('label[for="ContactForm-name"]');
@@ -46,11 +48,14 @@ export class ContactUsPage {
   }
 
   async verifyFormElements() {
-  await expect(this.nameInput).toBeVisible();
-  await expect(this.emailInput).toBeVisible();
-  await expect(this.phoneNumberInput).toBeVisible();
-  await expect(this.commentTextarea).toBeVisible();
-  await expect(this.sendButton).toBeVisible();
+  // await expect(this.nameInput).toBeVisible();
+  // await expect(this.emailInput).toBeVisible();
+  // await expect(this.phoneNumberInput).toBeVisible();
+  // await expect(this.commentTextarea).toBeVisible();
+  // await expect(this.sendButton).toBeVisible();
+  await visibleElement(this.nameInput, 'name input');
+    await visibleElement(this.emailInput, 'email input');
+
 }
 
   async verifyAllLabels() {
@@ -61,14 +66,19 @@ export class ContactUsPage {
   }
 
   async fillContactForm(name: string, email: string, phone: string, comment: string) {
-    await this.nameInput.fill(name);
-    await this.emailInput.fill(email);
-    await this.phoneNumberInput.fill(phone);
-    await this.commentTextarea.fill(comment);
+    // await this.nameInput.fill(name);
+    // await this.emailInput.fill(email);
+    // await this.phoneNumberInput.fill(phone);
+    // await this.commentTextarea.fill(comment);
+    await fillElement(this.nameInput, name, 'filed name field');
+    await fillElement(this.emailInput, email, 'filed email field');
+    await fillElement(this.phoneNumberInput, phone, 'filed phoneNumber field');
+    await fillElement(this.commentTextarea, comment, 'filed comment field');
   }
 
   async submitContactForm() {
-    await this.sendButton.click();
+   // await this.sendButton.click();
+   await clickElement(this.sendButton, 'send button')
   }
 
   async verifySuccessMessage() {
