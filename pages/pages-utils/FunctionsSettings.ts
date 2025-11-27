@@ -65,3 +65,38 @@ export async function verifyTitle(page: Page, expectedTitle: string) {
     throw new Error(`TITLE MISMATCH: EXPECTED="${expectedTitle}"\n${error}`);
   }
 }
+
+export async function pressKey(page: Page, key: string, actionName: string) {
+  try {
+    console.log(`PRESS KEY: ${key} (${actionName})`);
+    await page.keyboard.press(key);
+    console.log(`KEY PRESSED: ${key}`);
+  } catch (error) {
+    throw new Error(`KEY PRESS FAILED: ${key} (${actionName})\n${error}`);
+  }
+}
+
+export async function verifyAttribute(
+  locator: Locator, 
+  attribute: string, 
+  expectedValue: string, 
+  elementName: string
+) {
+  try {
+    console.log(`CHECK ATTR: ${elementName}.${attribute} -> "${expectedValue}"`);
+    await expect(locator).toHaveAttribute(attribute, expectedValue);
+    console.log(`ATTR OK: ${elementName}.${attribute}`);
+  } catch (error) {
+    throw new Error(`ATTR MISMATCH: ${elementName}.${attribute}, EXPECTED="${expectedValue}"\n${error}`);
+  }
+}
+
+export async function openUrl(page: Page, url: string) {
+  try {
+    console.log(`OPENING URL: ${url}`);
+    await page.goto(url);
+    console.log(`URL OPENED: ${url}`);
+  } catch (error) {
+    throw new Error(`FAILED TO OPEN URL: ${url}\n${error}`);
+  }
+}

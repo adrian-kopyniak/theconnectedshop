@@ -1,5 +1,5 @@
 import { Locator, Page, expect } from '@playwright/test';
-import { clickElement, fillElement, visibleElement, verifyText, verifyUrl, verifyTitle } from './pages-utils/FunctionsSettings';
+import { clickElement, fillElement, visibleElement, verifyText, verifyUrl, verifyTitle, openUrl } from './pages-utils/FunctionsSettings';
 
 export class ContactUsPage {
   readonly page: Page;
@@ -31,7 +31,9 @@ export class ContactUsPage {
   }
 
   async openContactUs() {
-    await this.page.goto('/pages/contact-us');
+    /* replaced by a utility function:
+    await this.page.goto('/pages/contact-us'); */
+    await openUrl(this.page, '/pages/contact-us');
   }
 
   async verifyUrl() {
@@ -41,7 +43,7 @@ export class ContactUsPage {
   }
 
   async verifyTitle() {
-        /* replaced by a utility function:
+    /* replaced by a utility function:
     await expect(this.page).toHaveTitle('Contact us - Email, Phone Call & Online Chat - The Connected Shop'); */
     await verifyTitle(this.page, 'Contact us - Email, Phone Call & Online Chat - The Connected Shop');
   }
