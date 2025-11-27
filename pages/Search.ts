@@ -1,4 +1,5 @@
 import { Locator, Page, expect } from '@playwright/test';
+import { verifyAttribute, verifyText, visibleElement } from './pages-utils/FunctionsSettings';
 
 export class Search {
   readonly page: Page;
@@ -71,11 +72,17 @@ export class Search {
   }
 
   async verifySearchVisibility() {
+    /* replaced by a utility function:
     await expect(this.search).toBeVisible();
     await expect(this.searchInput).toBeVisible();
     await expect(this.searchInput).toHaveAttribute('placeholder', 'Search');
     await expect(this.searchButton).toBeVisible();
-    await expect(this.searchButtonIcon).toBeVisible();
+    await expect(this.searchButtonIcon).toBeVisible(); */
+    await visibleElement(this.search, 'Search container');
+    await visibleElement(this.searchInput, 'Search Input');
+    await visibleElement(this.searchButton, 'Search Button');
+    await visibleElement(this.searchButtonIcon, 'Search Button Icon');
+    await verifyAttribute(this.searchInput, 'placeholder', 'Search', 'Search input placeholder');
   }
 
   async verifySearchFill(value: string) {
@@ -90,11 +97,13 @@ export class Search {
   async clickOnSearchButtonIcon() {
     await this.searchButtonIcon.click();
   }
-
-  async resultsOnSearchModalButton(value: string) {
-    await expect(this.searchModalSearchForButton).toBeVisible();
-    await expect(this.searchModalSearchForButton).toContainText(value);
-  }
+  //перевірити логіку:
+  // async resultsOnSearchModalButton(value: string) {
+  //   await expect(this.searchModalSearchForButton).toBeVisible();
+  //   await expect(this.searchModalSearchForButton).toContainText(value);
+  //   await visibleElement(this.searchModalSearchForButton, '"Search For" Button on search modal')
+  //   await verifyText(this.searchModalSearchForButton, value, 'Results On Search Modal Button')
+  // }
 
   async resultsOnSearchModalSuggestions(value: string) {
     await expect(this.searchModalSuggestions).toBeVisible();

@@ -1,4 +1,6 @@
+import { vi } from '@faker-js/faker/.';
 import { Locator, Page, expect } from '@playwright/test';
+import { verifyText, visibleElement } from './pages-utils/FunctionsSettings';
 
 export class NavBar {
   readonly navBar: Locator;
@@ -26,6 +28,7 @@ export class NavBar {
   }
 
   async verifyNavBar() {
+    /* replaced by a utility function:
     await expect(this.navBar).toBeVisible();
     await expect(this.navBarHomeButton).toBeVisible();
     await expect(this.navBarHomeButton).toHaveText('Home');
@@ -52,6 +55,27 @@ export class NavBar {
     await expect(this.navBarFAQButton).toHaveText('FAQ');
 
     await expect(this.navBarContactButton).toBeVisible();
-    await expect(this.navBarContactButton).toHaveText('Contact');
+    await expect(this.navBarContactButton).toHaveText('Contact'); */
+
+    await visibleElement(this.navBar, 'NavBar Container');
+    await visibleElement(this.navBarHomeButton, 'NavBar "Home" Button');
+    await visibleElement(this.navBarOnSaleButton, 'NavBar "On Sale" Button');
+    await visibleElement(this.navBarCollectionsButton, 'NavBar "Collections" Button');
+    await visibleElement(this.navBarPersonalButton, 'NavBar "Personal" Button');
+    await visibleElement(this.navBarBusinessesButton, 'NavBar "Businesses" Button');
+    await visibleElement(this.navBarTechTalkButton, 'NavBar "Tech Talk" Button');
+    await visibleElement(this.navBarAboutUsButton, 'NavBar "About Us" Button');
+    await visibleElement(this.navBarFAQButton, 'NavBar FAQ Button');
+    await visibleElement(this.navBarContactButton, 'NavBar "Contact" Button');
+
+    await verifyText(this.navBarHomeButton, 'Home', 'NavBar "Home" Button');
+    await verifyText(this.navBarOnSaleButton, 'On Sale', 'NavBar "On Sale" Button');
+    await verifyText(this.navBarCollectionsButton, 'Collections', 'NavBar "Collections" Button');
+    await verifyText(this.navBarPersonalButton, 'Personal', 'NavBar "Personal" Button');
+    await verifyText(this.navBarBusinessesButton, 'Businesses', 'NavBar "Businesses" Button');
+    await verifyText(this.navBarTechTalkButton, 'Tech Talk', 'NavBar "Tech Talk" Button');
+    await verifyText(this.navBarAboutUsButton, 'About Us', 'NavBar "About Us" Button');
+    await verifyText(this.navBarFAQButton, 'FAQ', 'NavBar FAQ Button');
+    await verifyText(this.navBarContactButton, 'Contact', 'NavBar "Contact" Button');
   }
 }

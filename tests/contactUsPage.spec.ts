@@ -23,8 +23,8 @@ test.describe('"Contact Us" page verification', () => {
 
     await contactUsPage.fillContactForm(formData.name, formData.email, formData.phone, formData.comment);
     await contactUsPage.submitContactForm();
-    //captcha problem
-    //await contactUsPage.verifySuccessMessage();
+    /* captcha issue
+    await contactUsPage.verifySuccessMessage(); */
   });
 
   test('Fill form with invalid data', async () => {
@@ -48,7 +48,7 @@ test.describe('"Contact Us" page verification', () => {
 
     await contactUsPage.fillContactForm('', formData.email, '', '');
     await contactUsPage.submitContactForm();
-    //captcha problem
-    //await contactUsPage.verifySuccessMessage();
+    /* captcha issue
+    await contactUsPage.verifySuccessMessage(); */
   });
 });
