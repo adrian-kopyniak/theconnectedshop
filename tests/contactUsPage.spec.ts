@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { ContactUsPage } from '../pages/ContactUsPage';
-import { generateContactFormData } from '../utils/test-data';
+import { generateContactFormData } from '../utils/TestData';
 import * as allure from 'allure-js-commons';
 
 test.describe('"Contact Us" page verification', () => {
