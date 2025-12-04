@@ -1,0 +1,962 @@
+RAW TEXT:
+ <!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Страница не найдена - API Ecommerce</title>
+	<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Страница не найдена - API Ecommerce" />
+	<meta property="og:site_name" content="API Ecommerce" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.emeli.in.ua/#website","url":"https://dev.emeli.in.ua/","name":"API Ecommerce","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://dev.emeli.in.ua/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="API Ecommerce &raquo; Feed" href="https://dev.emeli.in.ua/feed" />
+<link rel="alternate" type="application/rss+xml" title="API Ecommerce &raquo; Comments Feed" href="https://dev.emeli.in.ua/comments/feed" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dev.emeli.in.ua\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='wp-components-css' href='https://dev.emeli.in.ua/wp-includes/css/dist/components/style.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-admin-payment-method-promotions-css' href='https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/client/admin/payment-method-promotions/style.css?ver=7.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='astra-theme-css-css' href='https://dev.emeli.in.ua/wp-content/themes/astra/assets/css/minified/style.min.css?ver=1.6.9' type='text/css' media='all' />
+<style id='astra-theme-css-inline-css' type='text/css'>
+html{font-size:93.75%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3a;}body,button,input,select,textarea{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-weight:inherit;font-size:15px;font-size:1rem;}blockquote{border-color:rgba(2,116,190,0.05);}.site-title{font-size:35px;font-size:2.3333333333333rem;}.ast-archive-description .ast-archive-title{font-size:40px;font-size:2.6666666666667rem;}.site-header .site-description{font-size:15px;font-size:1rem;}.entry-title{font-size:40px;font-size:2.6666666666667rem;}.comment-reply-title{font-size:24px;font-size:1.6rem;}.ast-comment-list #cancel-comment-reply-link{font-size:15px;font-size:1rem;}h1,.entry-content h1{font-size:40px;font-size:2.6666666666667rem;}h2,.entry-content h2{font-size:30px;font-size:2rem;}h3,.entry-content h3{font-size:25px;font-size:1.6666666666667rem;}h4,.entry-content h4{font-size:20px;font-size:1.3333333333333rem;}h5,.entry-content h5{font-size:18px;font-size:1.2rem;}h6,.entry-content h6{font-size:15px;font-size:1rem;}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:2rem;}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:1rem;}::selection{background-color:#0274be;color:#ffffff;}body,h1,.entry-title a,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6{color:#3a3a3a;}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#ffffff;border-color:#0274be;background-color:#0274be;}.main-header-menu a,.ast-header-custom-item a{color:#3a3a3a;}.main-header-menu li:hover > a,.main-header-menu li:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu li.focus > a,.main-header-menu li.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > a,.main-header-menu .current-menu-ancestor > a,.main-header-menu .current_page_item > a,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle,.main-header-menu .current_page_item > .ast-menu-toggle{color:#0274be;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#0274be;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#0274be;background-color:#0274be;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#0274be;border-color:#0274be;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:#7a7a7a;}.ast-comment-meta{line-height:1.666666667;font-size:12px;font-size:0.8rem;}.single .nav-links .nav-previous,.single .nav-links .nav-next,.single .ast-author-details .author-title,.ast-comment-meta{color:#0274be;}.menu-toggle,button,.ast-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-radius:2px;padding:10px 40px;color:#ffffff;border-color:#0274be;background-color:#0274be;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.button:hover,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;border-color:#3a3a3a;background-color:#3a3a3a;}.entry-meta,.entry-meta *{line-height:1.45;color:#0274be;}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *{color:#3a3a3a;}blockquote,blockquote a{color:#000000;}.ast-404-layout-1 .ast-404-text{font-size:200px;font-size:13.333333333333rem;}.widget-title{font-size:21px;font-size:1.4rem;color:#3a3a3a;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#0274be;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#0274be;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#0274be;border-color:#0274be;}.calendar_wrap #today > a{color:#ffffff;}.ast-pagination a,.page-links .page-link,.single .post-navigation a{color:#0274be;}.ast-pagination a:hover,.ast-pagination a:focus,.ast-pagination > span:hover:not(.dots),.ast-pagination > span.current,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#3a3a3a;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#0274be;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #0274be;color:#0274be;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#0274be;}@media (min-width:545px){.ast-page-builder-template .comments-area,.single.ast-page-builder-template .entry-header,.single.ast-page-builder-template .post-navigation{max-width:1240px;margin-left:auto;margin-right:auto;}}@media (max-width:768px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:544px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}.ast-header-break-point .site-branding img,.ast-header-break-point #masthead .site-logo-img .custom-logo-link img{max-width:205px;}.astra-logo-svg{width:205px;}.ast-header-break-point .site-logo-img .custom-mobile-logo-link img{max-width:205px;}}@media (max-width:768px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:769px){.ast-container{max-width:1240px;}}@font-face {font-family: "Astra";src: url( https://dev.emeli.in.ua/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url( https://dev.emeli.in.ua/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url( https://dev.emeli.in.ua/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#0274be;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children{border-top-width:2px;border-right-width:0px;border-left-width:0px;border-bottom-width:0px;border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children .children{top:-2px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu a,.ast-desktop .main-header-menu.submenu-with-border .children a{border-bottom-width:0px;border-style:solid;border-color:#eaeaea;}@media (min-width:769px){.main-header-menu .sub-menu li.ast-left-align-sub-menu:hover > ul,.main-header-menu .sub-menu li.ast-left-align-sub-menu.focus > ul{margin-left:-0px;}}.ast-small-footer{border-top-style:solid;border-top-width:1px;border-top-color:#7a7a7a;}.ast-small-footer-wrap{text-align:center;}@media (max-width:920px){.ast-404-layout-1 .ast-404-text{font-size:100px;font-size:6.6666666666667rem;}}
+.ast-header-break-point .site-header{border-bottom-width:1px;}@media (min-width:769px){.main-header-bar{border-bottom-width:1px;}}.main-header-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu > .menu-item > a{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex;}
+@media (min-width:769px){.ast-theme-transparent-header #masthead{position:absolute;left:0;right:0;}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .main-header-bar{background:none;}body.elementor-editor-active.ast-theme-transparent-header #masthead, .fl-builder-edit .ast-theme-transparent-header #masthead, body.vc_editor.ast-theme-transparent-header #masthead{z-index:0;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .ast-mobile-header-logo{display:none;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo .custom-logo{display:inline-block;}.ast-theme-transparent-header .ast-above-header{background-image:none;background-color:transparent;}.ast-theme-transparent-header .ast-below-header{background-image:none;background-color:transparent;}}@media (max-width:768px){.ast-theme-transparent-header #masthead{position:absolute;left:0;right:0;}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .main-header-bar{background:none;}body.elementor-editor-active.ast-theme-transparent-header #masthead, .fl-builder-edit .ast-theme-transparent-header #masthead, body.vc_editor.ast-theme-transparent-header #masthead{z-index:0;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .ast-mobile-header-logo{display:none;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo .custom-logo{display:inline-block;}.ast-theme-transparent-header .ast-above-header{background-image:none;background-color:transparent;}.ast-theme-transparent-header .ast-below-header{background-image:none;background-color:transparent;}}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header .site-header{border-bottom-width:0;}
+</style>
+<link rel='stylesheet' id='astra-menu-animation-css' href='https://dev.emeli.in.ua/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=1.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-common-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.13.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-theme-ui-light-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.13.2' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://dev.emeli.in.ua/wp-includes/css/dist/block-library/style.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=9.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=9.8.5' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='woo-advanced-discounts-css' href='https://dev.emeli.in.ua/wp-content/plugins/woo-advanced-discounts/public/css/wad-public.css?ver=2.31.4' type='text/css' media='all' />
+<link rel='stylesheet' id='o-tooltip-css' href='https://dev.emeli.in.ua/wp-content/plugins/woo-advanced-discounts/public/css/tooltip.min.css?ver=2.31.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-stickers-by-webline-css' href='https://dev.emeli.in.ua/wp-content/plugins/woo-stickers-by-webline/public/css/woo-stickers-by-webline-public.css?ver=1.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://dev.emeli.in.ua/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-layout.min.css?ver=1.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://dev.emeli.in.ua/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-smallscreen.min.css?ver=1.6.9' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://dev.emeli.in.ua/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce.min.css?ver=1.6.9' type='text/css' media='all' />
+<style id='woocommerce-general-inline-css' type='text/css'>
+.woocommerce span.onsale{background-color:#0274be;color:#ffffff;}.woocommerce a.button, .woocommerce button.button, .woocommerce .woocommerce-message a.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce input.button,.woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, .woocommerce #respond input#submit, .woocommerce button.button.alt.disabled{color:#ffffff;border-color:#0274be;background-color:#0274be;}.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce .woocommerce-message a.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce button.button.alt.disabled:hover{color:#ffffff;border-color:#3a3a3a;background-color:#3a3a3a;}.woocommerce-message, .woocommerce-info{border-top-color:#0274be;}.woocommerce-message::before,.woocommerce-info::before{color:#0274be;}.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .widget_layered_nav_filters ul li.chosen a, .woocommerce-page ul.products li.product .ast-woo-product-category, .wc-layered-nav-rating a{color:#3a3a3a;}.woocommerce nav.woocommerce-pagination ul,.woocommerce nav.woocommerce-pagination ul li{border-color:#0274be;}.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current{background:#0274be;color:#ffffff;}.woocommerce-MyAccount-navigation-link.is-active a{color:#3a3a3a;}.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#0274be;}.woocommerce a.button, .woocommerce button.button, .woocommerce .woocommerce-message a.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce input.button,.woocommerce-cart table.cart td.actions .button, .woocommerce form.checkout_coupon .button, .woocommerce #respond input#submit{border-radius:2px;padding:10px 40px;}.woocommerce .star-rating, .woocommerce .comment-form-rating .stars a, .woocommerce .star-rating::before{color:#0274be;}.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before{background:#0274be;}.ast-site-header-cart a{color:#3a3a3a;}.ast-site-header-cart a:focus, .ast-site-header-cart a:hover, .ast-site-header-cart .current-menu-item a{color:#0274be;}.ast-cart-menu-wrap .count, .ast-cart-menu-wrap .count:after{border-color:#0274be;color:#0274be;}.ast-cart-menu-wrap:hover .count{color:#ffffff;background-color:#0274be;}.ast-site-header-cart .widget_shopping_cart .total .woocommerce-Price-amount{color:#0274be;}.woocommerce a.remove:hover, .ast-woocommerce-cart-menu .main-header-menu .woocommerce-custom-menu-item li:hover > a.remove:hover{color:#0274be;border-color:#0274be;background-color:#ffffff;}.ast-site-header-cart .widget_shopping_cart .buttons .button.checkout, .woocommerce .widget_shopping_cart .woocommerce-mini-cart__buttons .checkout.wc-forward{color:#ffffff;border-color:#3a3a3a;background-color:#3a3a3a;}.site-header .ast-site-header-cart-data .button.wc-forward, .site-header .ast-site-header-cart-data .button.wc-forward:hover{color:#ffffff;}.below-header-user-select .ast-site-header-cart .widget, .ast-above-header-section .ast-site-header-cart .widget a, .below-header-user-select .ast-site-header-cart .widget_shopping_cart a{color:#3a3a3a;}.below-header-user-select .ast-site-header-cart .widget_shopping_cart a:hover, .ast-above-header-section .ast-site-header-cart .widget_shopping_cart a:hover, .below-header-user-select .ast-site-header-cart .widget_shopping_cart a.remove:hover, .ast-above-header-section .ast-site-header-cart .widget_shopping_cart a.remove:hover{color:#0274be;}@media (min-width:769px){.ast-woo-shop-archive .site-content > .ast-container{max-width:1240px;}}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='hfe-style-css' href='https://dev.emeli.in.ua/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.13.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.13.2' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-374-css' href='https://dev.emeli.in.ua/wp-content/uploads/elementor/css/post-374.css?ver=1683919953' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://dev.emeli.in.ua/wp-content/uploads/elementor/css/global.css?ver=1683919953' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://dev.emeli.in.ua/wp-content/uploads/elementor/css/post-8.css?ver=1683919953' type='text/css' media='all' />
+<link rel='stylesheet' id='hfe-widgets-style-css' href='https://dev.emeli.in.ua/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13' type='text/css' media='all' />
+<link rel='stylesheet' id='hollerbox-popups-css' href='https://dev.emeli.in.ua/wp-content/plugins/holler-box/assets/css/popups.css?ver=1764612378' type='text/css' media='all' />
+<link rel='stylesheet' id='xoo-wsc-fonts-css' href='https://dev.emeli.in.ua/wp-content/plugins/side-cart-woocommerce/assets/css/xoo-wsc-fonts.css?ver=2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='xoo-wsc-style-css' href='https://dev.emeli.in.ua/wp-content/plugins/side-cart-woocommerce/assets/css/xoo-wsc-style.css?ver=2.1' type='text/css' media='all' />
+<style id='xoo-wsc-style-inline-css' type='text/css'>
+
+.xoo-wsc-sp-left-col img{
+	max-width: 80px;
+}
+
+.xoo-wsc-sp-right-col{
+	font-size: 14px;
+}
+
+.xoo-wsc-sp-container{
+	background-color: #eee;
+}
+
+
+ 
+
+.xoo-wsc-footer{
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px 20px;
+}
+
+.xoo-wsc-footer, .xoo-wsc-footer a, .xoo-wsc-footer .amount{
+	font-size: 18px;
+}
+
+.xoo-wsc-ft-buttons-cont{
+	grid-template-columns: auto;
+}
+
+.xoo-wsc-basket{
+	bottom: 12px;
+	right: 0px;
+	background-color: #ffffff;
+	color: #000000;
+	box-shadow: 0 1px 4px 0;
+	border-radius: 50%}
+
+.xoo-wsc-bki{
+	font-size: 30px}
+
+.xoo-wsc-items-count{
+	top: -12px;
+	left: -12px;
+}
+
+.xoo-wsc-items-count, .xoo-wsc-sc-count{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.xoo-wsc-container, .xoo-wsc-slider{
+	max-width: 320px;
+	right: -320px;
+	top: 0;bottom: 0;
+	bottom: 0;
+	font-family: }
+
+
+.xoo-wsc-cart-active .xoo-wsc-container, .xoo-wsc-slider-active .xoo-wsc-slider{
+	right: 0;
+}
+
+
+.xoo-wsc-cart-active .xoo-wsc-basket{
+	right: 320px;
+}
+
+.xoo-wsc-slider{
+	right: -320px;
+}
+
+span.xoo-wsch-close {
+    font-size: 16px;
+    right: 10px;
+}
+
+.xoo-wsch-top{
+	justify-content: center;
+}
+
+.xoo-wsch-text{
+	font-size: 20px;
+}
+
+.xoo-wsc-header{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.xoo-wsc-sb-bar > span{
+	background-color: #1e73be;
+}
+
+.xoo-wsc-body{
+	background-color: #ffffff;
+}
+
+.xoo-wsc-body, .xoo-wsc-body span.amount, .xoo-wsc-body a{
+	font-size: 16px;
+	color: #000000;
+}
+
+.xoo-wsc-product{
+	padding: 20px 15px;
+}
+
+.xoo-wsc-img-col{
+	width: 30%;
+}
+.xoo-wsc-sum-col{
+	width: 70%;
+}
+
+.xoo-wsc-sum-col{
+	justify-content: center;
+}
+
+/***** Quantity *****/
+
+.xoo-wsc-qty-box{
+	max-width: 75px;
+}
+
+.xoo-wsc-qty-box.xoo-wsc-qtb-square{
+	border-color: #000000;
+}
+
+input[type="number"].xoo-wsc-qty{
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+	height: 28px;
+	line-height: 28px;
+}
+
+input[type="number"].xoo-wsc-qty, .xoo-wsc-qtb-square{
+	border-width: 1px;
+	border-style: solid;
+}
+.xoo-wsc-chng{
+	background-color: #ffffff;
+	color: #000000;
+}
+</style>
+<link rel='stylesheet' id='pscrollbar-css' href='https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/pscrollbar/perfect-scrollbar.min.css?ver=2.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='owlcarousel-css' href='https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/owlcarousel/owl.carousel.min.css?ver=2.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-normalize-css' href='https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/css/quadmenu-normalize.min.css?ver=2.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-widgets-css' href='https://dev.emeli.in.ua/wp-content/uploads/astra/quadmenu-widgets.css?ver=1659291054' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-css' href='https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/css/quadmenu.min.css?ver=2.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-locations-css' href='https://dev.emeli.in.ua/wp-content/uploads/astra/quadmenu-locations.css?ver=1659291053' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://dev.emeli.in.ua/wp-includes/css/dashicons.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.6.4' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<!--[if IE]>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=1.6.9" id="astra-flexibility-js"></script>
+<script type="text/javascript" id="astra-flexibility-js-after">
+/* <![CDATA[ */
+flexibility(document.documentElement);
+/* ]]> */
+</script>
+<![endif]-->
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woo-advanced-discounts/public/js/wad-public.js?ver=2.31.4" id="woo-advanced-discounts-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woo-advanced-discounts/public/js/tooltip.min.js?ver=2.31.4" id="o-tooltip-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woo-stickers-by-webline/public/js/woo-stickers-by-webline-public.js?ver=1.1.5" id="woo-stickers-by-webline-js"></script>
+<link rel="https://api.w.org/" href="https://dev.emeli.in.ua/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dev.emeli.in.ua/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.4" />
+<meta name="generator" content="WooCommerce 7.6.1" />
+        <style id="hollerbox-frontend-styles">
+
+            .no-click {
+                cursor: not-allowed;
+                /*pointer-events: none;*/
+            }
+
+                    </style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="generator" content="Elementor 3.13.2; features: a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://dev.emeli.in.ua/wp-content/uploads/2019/02/cropped-emeli2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://dev.emeli.in.ua/wp-content/uploads/2019/02/cropped-emeli2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://dev.emeli.in.ua/wp-content/uploads/2019/02/cropped-emeli2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://dev.emeli.in.ua/wp-content/uploads/2019/02/cropped-emeli2-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.woocommerce ul.products li.product a img{
+	border-radius:10px;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce-page ul.products li.product .woocommerce-loop-category__title {
+	border-radius:10px;
+}
+
+.woocommerce ul.products li.product .button, .woocommerce-page ul.products li.product .button{
+	border-radius:5px;
+}
+
+.wc-block-grid__products .wc-block-grid__product-image img{
+	border-radius:10px;
+}		</style>
+		<script>
+        var woocs_is_mobile = 0;
+        var woocs_special_ajax_mode = 0;
+        var woocs_drop_down_view = "ddslick";
+        var woocs_current_currency = {"name":"UAH","rate":38.5,"symbol":"&#1075;&#1088;&#1085;.","position":"right_space","is_etalon":0,"hide_cents":0,"hide_on_front":0,"rate_plus":"","decimals":2,"separators":"0","description":"","flag":"https:\/\/emeli.in.ua\/wp-content\/plugins\/woocommerce-currency-switcher\/img\/no_flag.png"};
+        var woocs_default_currency = {"name":"USD","rate":1,"symbol":"&#36;","position":"right","is_etalon":1,"hide_cents":0,"hide_on_front":1,"rate_plus":"","decimals":2,"separators":"0","description":"\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u0435 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0438 \u044d\u0442\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043d\u0430 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f","flag":"https:\/\/emeli.in.ua\/wp-content\/plugins\/woocommerce-currency-switcher\/img\/no_flag.png"};
+        var woocs_redraw_cart = 1;
+        var woocs_array_of_get = '{}';
+        
+        woocs_array_no_cents = '["JPY","TWD"]';
+
+        var woocs_ajaxurl = "https://dev.emeli.in.ua/wp-admin/admin-ajax.php";
+        var woocs_lang_loading = "loading";
+        var woocs_shop_is_cached =0;
+        </script></head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="error404 logged-in theme-astra woocommerce-no-js ehf-header ehf-template-astra ehf-stylesheet-astra ast-desktop ast-separate-container ast-no-sidebar astra-1.6.9 ast-header-custom-item-inside ast-inherit-site-logo-transparent elementor-default elementor-kit-374 currency-uah">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+			<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://dev.emeli.in.ua" title="API Ecommerce" rel="home">API Ecommerce</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="8" class="elementor elementor-8">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-f37262f elementor-reverse-mobile elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f37262f" data-element_type="section" data-settings="{&quot;shape_divider_top&quot;:&quot;mountains&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"/>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"/>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3053bb3" data-id="3053bb3" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c1fa3bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1fa3bc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-301c60b" data-id="301c60b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4f4f91b elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-image" data-id="4f4f91b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="/">
+							<img src="https://dev.emeli.in.ua/wp-content/uploads/elementor/thumbs/emelis-oarrukr0kyh1wn9544nds5mqcb21uempi67h64j9wo.png" title="emelis" alt="emelis" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-cfb26bc" data-id="cfb26bc" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7c0e65e elementor-widget elementor-widget-text-editor" data-id="7c0e65e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p><span style="font-size: 15px; font-style: normal; font-weight: bold;"> </span><span style="font-size: 15px; font-style: normal; font-weight: 400;">Режим работы: с 9-00 до 17-00. Выходной: воскресенье</span></p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-9669c36 elementor-widget elementor-widget-wp-widget-woocommerce_product_search" data-id="9669c36" data-element_type="widget" data-widget_type="wp-widget-woocommerce_product_search.default">
+				<div class="elementor-widget-container">
+			<form role="search" method="get" class="woocommerce-product-search" action="https://dev.emeli.in.ua/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
+	<button type="submit" value="Search" class="wp-element-button">Search</button>
+	<input type="hidden" name="post_type" value="product" />
+</form>
+		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-edb6c02" data-id="edb6c02" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-17d60ae elementor-widget elementor-widget-text-editor" data-id="17d60ae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>[GTranslate]<img src="https://www.viber.com/app/uploads/viber-logo.png" alt="Viber" width="18" height="18" /><a href="tel:(096) 001-01-43"><strong>(096) 001-01-43</strong></a><br /><strong>     <a href="tel:(096) 140-67-79">(096) 140-67-79</a></strong></p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<nav class="elementor-section elementor-top-section elementor-element elementor-element-94d71e0 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="94d71e0" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0570f44" data-id="0570f44" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b4c73e6 elementor-widget elementor-widget-quadmenu" data-id="b4c73e6" data-element_type="widget" data-widget_type="quadmenu.default">
+				<div class="elementor-widget-container">
+			<nav id="quadmenu" class="quadmenu-default_theme quadmenu-v2.3.7 quadmenu-align-center quadmenu-divider-hide quadmenu-carets-hide quadmenu-background-color quadmenu-mobile-shadow-show quadmenu-dropdown-shadow-show quadmenu-hover-ripple" data-template="collapse" data-theme="default_theme" data-unwrap="0" data-width="1" data-selector="" data-breakpoint="768" data-sticky="0" data-sticky-offset="0">
+  <div class="quadmenu-container">
+    <div class="quadmenu-navbar-header">
+      <button type="button" class="quadmenu-navbar-toggle collapsed" data-quadmenu="collapse" data-target="#quadmenu_0" aria-expanded="false" aria-controls="quadmenu">
+  <span class="icon-bar-container">
+    <span class="icon-bar icon-bar-top"></span>
+    <span class="icon-bar icon-bar-middle"></span>
+    <span class="icon-bar icon-bar-bottom"></span>
+  </span>
+</button>          </div>
+    <div id="quadmenu_0" class="quadmenu-navbar-collapse collapse">
+      <ul class="quadmenu-navbar-nav"><li id="menu-item-48" class="quadmenu-item-48 quadmenu-item quadmenu-item-object-custom quadmenu-item-type-default quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="/">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Главная</span>
+                                            </span>
+    </a>
+        </li><li id="menu-item-49" class="quadmenu-item-49 quadmenu-item quadmenu-item-object-custom quadmenu-item-type-default quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="/">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Каталог тканей</span>
+                                            </span>
+    </a>
+        </li><li id="menu-item-158" class="quadmenu-item-158 quadmenu-item quadmenu-item-object-custom quadmenu-item-type-default quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="http://ввв">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Готовые изделия</span>
+                                            </span>
+    </a>
+        </li><li id="menu-item-204" class="quadmenu-item-204 quadmenu-item quadmenu-item-object-page quadmenu-item-type-post_type quadmenu-item-type-post_type quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="https://dev.emeli.in.ua/dostavka-i-oplata">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Доставка и оплата</span>
+                                            </span>
+    </a>
+        </li><li id="menu-item-205" class="quadmenu-item-205 quadmenu-item quadmenu-item-object-page quadmenu-item-type-post_type quadmenu-item-type-post_type quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="https://dev.emeli.in.ua/contacts">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Контакты</span>
+                                            </span>
+    </a>
+        </li><li id="menu-item-10703" class="quadmenu-item-10703 quadmenu-item quadmenu-item-type-taxonomy quadmenu-item-object-category quadmenu-item-type-default quadmenu-item-level-0 quadmenu-has-title quadmenu-has-link quadmenu-has-background quadmenu-dropdown-right">        <a  href="https://dev.emeli.in.ua/category/news">
+      <span class="quadmenu-item-content">
+                                              <span class="quadmenu-text  hover t_1000">Новости</span>
+                                            </span>
+    </a>
+        </li></ul>    </div>
+  </div>
+</nav>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</nav>
+									</div>
+			</div>
+					</div>
+				</header>
+
+	
+	
+	
+	<div id="content" class="site-content">
+
+		<div class="ast-container">
+
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+		
+
+<section class="error-404 not-found">
+
+	
+	<div class="ast-404-layout-1">
+
+	<header class="page-header"><h1 class="page-title">This page doesn&#039;t seem to exist.</h1></header><!-- .page-header -->
+	<div class="page-content">
+
+		<div class="page-sub-title">
+			It looks like the link pointing here was faulty. Maybe try searching?		</div>
+
+		<div class="ast-404-search">
+			<div class="widget widget_search"><form role="search" method="get" class="search-form" action="https://dev.emeli.in.ua/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></div>		</div>
+
+	</div><!-- .page-content -->
+</div>
+
+	
+</section><!-- .error-404 -->
+
+		
+
+		
+	</div><!-- #primary -->
+
+
+			
+			</div> <!-- ast-container -->
+
+		</div><!-- #content -->
+
+		
+		
+		
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" class="site-footer" role="contentinfo">
+
+			
+			
+<div class="ast-small-footer footer-sml-layout-1">
+	<div class="ast-footer-overlay">
+		<div class="ast-container">
+			<div class="ast-small-footer-wrap" >
+									<div class="ast-small-footer-section ast-small-footer-section-1" >
+						Copyright © 2025 <span class="ast-footer-site-title">API Ecommerce</span> 					</div>
+				
+				
+			</div><!-- .ast-row .ast-small-footer-wrap -->
+		</div><!-- .ast-container -->
+	</div><!-- .ast-footer-overlay -->
+</div><!-- .ast-small-footer-->
+
+			
+		</footer><!-- #colophon -->
+		
+		
+	</div><!-- #page -->
+
+	
+	           
+<ul class='woocs_auto_switcher left' data-view="classic_blocks">
+      
+        <li>
+            <a data-currency="UAH" class="  woocs_curr_curr woocs_auto_switcher_link" href="#">&#1075;&#1088;&#1085;. 
+                <span><div >UAH</div></span>
+            </a> 
+        </li>
+    
+</ul>
+
+<div class="xoo-wsc-modal">
+
+	
+<div class="xoo-wsc-container">
+
+	<div class="xoo-wsc-basket">
+
+					<span class="xoo-wsc-items-count">1</span>
+		
+		<span class="xoo-wsc-bki xoo-wsc-icon-basket1"></span>
+
+		
+	</div>
+
+	<div class="xoo-wsc-header">
+
+		
+		
+<div class="xoo-wsch-top">
+
+			<div class="xoo-wsc-notice-container" data-section="cart"><ul class="xoo-wsc-notices"></ul></div>	
+			<div class="xoo-wsch-basket">
+			<span class="xoo-wscb-icon xoo-wsc-icon-bag2"></span>
+			<span class="xoo-wscb-count">1</span>
+		</div>
+	
+			<span class="xoo-wsch-text">Корзина</span>
+	
+			<span class="xoo-wsch-close xoo-wsc-icon-cross"></span>
+	
+</div>
+		
+	</div>
+
+
+	<div class="xoo-wsc-body">
+
+		
+		
+
+
+<div class="xoo-wsc-products">
+
+	
+<div data-key="cd0cbcc668fe4bc58e0af3cc7e0a653d" class="xoo-wsc-product">
+
+	
+	
+		<div class="xoo-wsc-img-col">
+
+			<a href="https://dev.emeli.in.ua/product/veljur-sport-super-soft-pudra"><img width="300" height="300" src="https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-300x300.jpg 300w, https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-150x150.jpg 150w, https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-768x768.jpg 768w, https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-600x600.jpg 600w, https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128-100x100.jpg 100w, https://dev.emeli.in.ua/wp-content/uploads/2020/10/velyur-plyush-pudra-vt-1128.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			
+		</div>
+
+	
+	<div class="xoo-wsc-sum-col">
+
+		
+		<div class="xoo-wsc-sm-info">
+
+			<div class="xoo-wsc-sm-left">
+
+									<span class="xoo-wsc-pname"><a href="https://dev.emeli.in.ua/product/veljur-sport-super-soft-pudra">Велюр спорт пудра</a></span>
+								
+				
+				
+				<!-- Quantity -->
+
+				<div class="xoo-wsc-qty-price">
+
+											<span>1</span> X <span><span class="woocs_special_price_code" ><span class="woocommerce-Price-amount amount"><bdi>163.63&nbsp;<span class="woocommerce-Price-currencySymbol">&#1075;&#1088;&#1085;.</span></bdi></span></span></span>
+													<span> = <span class="woocs_special_price_code" ><span class="woocommerce-Price-amount amount"><bdi>163.63&nbsp;<span class="woocommerce-Price-currencySymbol">&#1075;&#1088;&#1085;.</span></bdi></span></span></span>
+						
+					
+				</div>
+
+			</div>
+
+			<!-- End Quantity -->
+
+		
+
+			<div class="xoo-wsc-sm-right">
+
+									<span class="xoo-wsc-smr-del xoo-wsc-icon-trash"></span>
+				
+				
+			</div>
+
+		</div>
+
+		
+	</div>
+
+	
+</div>
+</div>
+
+	
+		
+	</div>
+
+	<div class="xoo-wsc-footer">
+
+		
+		
+
+
+
+<div class="xoo-wsc-ft-totals">
+			<div class="xoo-wsc-ft-amt xoo-wsc-ft-amt-subtotal ">
+			<span class="xoo-wsc-ft-amt-label">Сумма</span>
+			<span class="xoo-wsc-ft-amt-value"><span class="woocs_special_price_code" ><span class="woocommerce-Price-amount amount"><bdi>163.63&nbsp;<span class="woocommerce-Price-currencySymbol">&#1075;&#1088;&#1085;.</span></bdi></span></span></span>
+		</div>
+	
+	
+</div>
+<div class="xoo-wsc-ft-buttons-cont">
+
+	<a href="#" class="xoo-wsc-ft-btn button btn xoo-wsc-cart-close xoo-wsc-ft-btn-continue">Продолжить покупку</a><a href="https://emeli.in.ua/cart" class="xoo-wsc-ft-btn button btn xoo-wsc-ft-btn-cart">Просмотр корзины</a><a href="https://emeli.in.ua/checkout" class="xoo-wsc-ft-btn button btn xoo-wsc-ft-btn-checkout">Оформить заказ</a>
+</div>
+
+
+		
+	</div>
+
+	<span class="xoo-wsc-loader"></span>
+
+</div>
+	<span class="xoo-wsc-opac">
+
+</div><script type="text/template" id="tmpl-elementor-templates-modal__header">
+	<div class="elementor-templates-modal__header__logo-area"></div>
+	<div class="elementor-templates-modal__header__menu-area"></div>
+	<div class="elementor-templates-modal__header__items-area">
+		<# if ( closeType ) { #>
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+				<# if ( 'skip' === closeType ) { #>
+				<span>Skip</span>
+				<# } #>
+				<i class="eicon-close" aria-hidden="true"></i>
+				<span class="elementor-screen-only">Close</span>
+			</div>
+		<# } #>
+		<div id="elementor-template-library-header-tools"></div>
+	</div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+	<span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
+		<i class="eicon-elementor"></i>
+	</span>
+	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+</script>
+<script type="text/template" id="tmpl-elementor-finder">
+	<div id="elementor-finder__search">
+		<i class="eicon-search" aria-hidden="true"></i>
+		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor" autocomplete="off">
+	</div>
+	<div id="elementor-finder__content"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder-results-container">
+	<div id="elementor-finder__no-results">No Results Found</div>
+	<div id="elementor-finder__results"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__category">
+	<div class="elementor-finder__results__category__title">{{{ title }}}</div>
+	<div class="elementor-finder__results__category__items"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__item">
+	<a href="{{ url }}" class="elementor-finder__results__item__link">
+		<div class="elementor-finder__results__item__icon">
+			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+		</div>
+		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+		<# if ( description ) { #>
+			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+		<# } #>
+
+		<# if ( lock ) { #>
+		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
+		<# } #>
+	</a>
+	<# if ( actions.length ) { #>
+		<div class="elementor-finder__results__item__actions">
+		<# jQuery.each( actions, function() { #>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
+				<i class="eicon-{{{ this.icon }}}"></i>
+			</a>
+		<# } ); #>
+		</div>
+	<# } #>
+</script>
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='woocs-auto-switcher-css' href='https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/css/auto_switcher/classic_blocks.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-currency-switcher-css' href='https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/css/front.css?ver=1.4.0' type='text/css' media='all' />
+<style id='woocommerce-currency-switcher-inline-css' type='text/css'>
+ 
+.woocs_auto_switcher {
+top: 100px;
+} 
+.woocs_auto_switcher li a {
+background:#222222;
+}
+.woocs_auto_switcher li a.woocs_curr_curr {
+background:#3b5998;
+}
+.woocs_auto_switcher li  a:hover {
+background:#3b5998;
+}
+.woocs_auto_switcher li  a span {
+background:#3b5998;
+}
+.woocs_auto_switcher.left li span:after {
+border-right: 10px solid #3b5998;
+}
+.woocs_auto_switcher.right li a span:after {
+border-left: 10px solid #3b5998;
+}
+
+</style>
+<link rel='stylesheet' id='e-animations-css' href='https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.13.2' type='text/css' media='all' />
+<script type="text/javascript" id="astra-theme-js-js-extra">
+/* <![CDATA[ */
+var astra = {"break_point":"921","isRtl":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/themes/astra/assets/js/minified/style.min.js?ver=1.6.9" id="astra-theme-js-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.6.1" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/dev.emeli.in.ua\/cart","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.6.1" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.6.1" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.6.1" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_b434fa098e9862d3033afa42bf6273aa","fragment_name":"wc_fragments_b434fa098e9862d3033afa42bf6273aa","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.6.1" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" id="hollerbox-popups-js-before">
+/* <![CDATA[ */
+HollerBox = {"active":[],"home_url":"https:\/\/dev.emeli.in.ua","is_preview":false,"is_frontend":true,"is_builder_preview":false,"routes":{"root":"https:\/\/dev.emeli.in.ua\/wp-json\/hollerbox","conversion":"https:\/\/dev.emeli.in.ua\/wp-json\/hollerbox\/conversion","impression":"https:\/\/dev.emeli.in.ua\/wp-json\/hollerbox\/impression","submit":"https:\/\/dev.emeli.in.ua\/wp-json\/hollerbox\/submit"},"nonces":{"_wprest":"28d3fec711"},"settings":{"credit_disabled":false,"gdpr_enabled":false,"gdpr_text":"","cookie_compliance":false,"cookie_name":"viewed_cookie_policy","cookie_value":"yes","script_debug_mode":false}}
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/holler-box/assets/js/popups.min.js?ver=1764612378" id="hollerbox-popups-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/pscrollbar/perfect-scrollbar.jquery.min.js?ver=2.3.7" id="pscrollbar-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/owlcarousel/owl.carousel.min.js?ver=2.3.7" id="owlcarousel-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" id="quadmenu-js-extra">
+/* <![CDATA[ */
+var quadmenu = {"ajaxurl":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin-ajax.php","gutter":"30"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/quadmenu/assets/frontend/js/quadmenu.min.js?ver=2.3.7" id="quadmenu-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1" id="backbone-marionette-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4" id="backbone-radio-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.13.2" id="elementor-common-modules-js"></script>
+<script type="text/javascript" id="elementor-web-cli-js-before">
+/* <![CDATA[ */
+var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/dev.emeli.in.ua\/wp-json\/","assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"28d3fec711","version":"3.13.2"};
+var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/dev.emeli.in.ua\/wp-json\/","assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"28d3fec711","version":"3.13.2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.13.2" id="elementor-web-cli-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0" id="elementor-dialog-js"></script>
+<script type="text/javascript" id="wp-api-request-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"root":"https:\/\/dev.emeli.in.ua\/wp-json\/","nonce":"28d3fec711","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/api-request.min.js?ver=6.6.4" id="wp-api-request-js"></script>
+<script type="text/javascript" id="elementor-dev-tools-js-before">
+/* <![CDATA[ */
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.13.2"}};
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.13.2"}};
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.13.2"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.13.2" id="elementor-dev-tools-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-common-js-before">
+/* <![CDATA[ */
+var elementorCommonConfig = {"version":"3.13.2","isRTL":false,"isDebug":false,"isElementorDebug":false,"activeModules":["ajax","finder","connect","event-tracker"],"experimentalFeatures":{"a11y_improvements":true,"additional_custom_breakpoints":true,"landing-pages":true},"urls":{"assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/","rest":"https:\/\/dev.emeli.in.ua\/wp-json\/"},"filesUpload":{"unfilteredFiles":false},"library_connect":{"is_connected":false,"subscription_plans":[{"label":null,"promotion_url":null,"color":null},{"label":"Pro","promotion_url":"https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"}],"base_access_level":0,"current_access_level":0},"ajax":{"url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin-ajax.php","nonce":"887495dbde"},"finder":{"data":{"edit":{"title":"Edit","dynamic":true,"name":"edit"},"general":{"title":"General","dynamic":false,"items":{"saved-templates":{"title":"Saved Templates","icon":"library-save","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library","keywords":["template","section","page","library"]},"system-info":{"title":"System Info","icon":"info-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-system-info","keywords":["system","info","environment","elementor"]},"role-manager":{"title":"Role Manager","icon":"person","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-role-manager","keywords":["role","manager","user","elementor"]},"knowledge-base":{"title":"Knowledge Base","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=go_knowledge_base_site","keywords":["help","knowledge","docs","elementor"]},"theme-builder":{"title":"Theme Builder","icon":"library-save","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-app&ver=3.13.2#site-editor\/promotion","keywords":["template","header","footer","single","archive","search","404","library"]},"kit-library":{"title":"Kit Library","icon":"kit-parts","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-app&ver=3.13.2#\/kit-library","keywords":["kit library","kit","library","site parts","parts","assets","templates"]}},"name":"general"},"create":{"title":"Create","dynamic":false,"items":{"page":{"title":"Add New Page Template","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=0bc8783bac","keywords":["Add New Page Template","post","page","template","new","create"]},"section":{"title":"Add New Section","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=section&_wpnonce=0bc8783bac","keywords":["Add New Section","post","page","template","new","create"]},"wp-post":{"title":"Add New Post","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=0bc8783bac","keywords":["Add New Post","post","page","template","new","create"]},"wp-page":{"title":"Add New Page","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=0bc8783bac","keywords":["Add New Page","post","page","template","new","create"]},"landing-page":{"title":"Add New Landing Page","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=0bc8783bac#library","keywords":["Add New Landing Page","post","page","template","new","create"]},"product":{"title":"Add New Product","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=product&_wpnonce=0bc8783bac","keywords":["Add New Product","post","page","template","new","create"]},"popup":false,"elementor-hf":{"title":"Add New Elementor Header & Footer Builder","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=0bc8783bac","keywords":["Add New Elementor Header & Footer Builder","post","page","template","new","create"]},"hollerbox":{"title":"Add New Popup","icon":"plus-circle-o","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/edit.php?action=elementor_new_post&post_type=hollerbox&_wpnonce=0bc8783bac","keywords":["Add New Popup","post","page","template","new","create"]}},"name":"create"},"site":{"title":"Site","dynamic":false,"items":{"homepage":{"title":"Homepage","url":"https:\/\/dev.emeli.in.ua","icon":"home-heart","keywords":["home","page"]},"wordpress-dashboard":{"title":"Dashboard","icon":"dashboard","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/","keywords":["dashboard","wordpress"]},"wordpress-menus":{"title":"Menus","icon":"wordpress","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/nav-menus.php","keywords":["menu","wordpress"]},"wordpress-themes":{"title":"Themes","icon":"wordpress","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/themes.php","keywords":["themes","wordpress"]},"wordpress-customizer":{"title":"Customizer","icon":"wordpress","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/customize.php","keywords":["customizer","wordpress"]},"wordpress-plugins":{"title":"Plugins","icon":"wordpress","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/plugins.php","keywords":["plugins","wordpress"]},"wordpress-users":{"title":"Users","icon":"wordpress","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/users.php","keywords":["users","profile","wordpress"]}},"name":"site"},"settings":{"title":"Settings","dynamic":false,"items":{"general-settings":{"title":"General Settings","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor","keywords":["general","settings","elementor"]},"advanced":{"title":"Advanced","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor#tab-advanced","keywords":["advanced","settings","elementor"]},"experiments":{"title":"Experiments","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor#tab-experiments","keywords":["settings","elementor","experiments"]}},"name":"settings"},"tools":{"title":"Tools","dynamic":false,"items":{"tools":{"title":"Tools","icon":"tools","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-tools","keywords":["tools","regenerate css","safe mode","debug bar","sync library","elementor"]},"replace-url":{"title":"Replace URL","icon":"tools","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url","keywords":["tools","replace url","domain","elementor"]},"maintenance-mode":{"title":"Maintenance Mode","icon":"tools","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode","keywords":["tools","maintenance","coming soon","elementor"]},"import-export":{"title":"Import Export","icon":"import-export","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit","keywords":["tools","import export","import","export","kit"]},"version-control":{"title":"Version Control","icon":"time-line","url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-tools#tab-versions","keywords":["tools","version","control","rollback","beta","elementor"]}},"name":"tools"}}},"connect":[],"event-tracker":{"isUserDataShared":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.13.2" id="elementor-common-js"></script>
+<script type="text/javascript" id="elementor-app-loader-js-before">
+/* <![CDATA[ */
+var elementorAppConfig = {"menu_url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-app&ver=3.13.2#site-editor\/promotion","assets_url":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/","return_url":"https:\/\/dev.emeli.in.ua\/wp-admin\/","hasPro":false,"admin_url":"https:\/\/dev.emeli.in.ua\/wp-admin\/","login_url":"https:\/\/dev.emeli.in.ua\/wp-login.php","base_url":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin.php?page=elementor-app&ver=3.13.2","site-editor":[],"import-export":[],"kit-library":[],"onboarding":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.13.2" id="elementor-app-loader-js"></script>
+<script type="text/javascript" id="xoo-wsc-main-js-js-extra">
+/* <![CDATA[ */
+var xoo_wsc_params = {"adminurl":"https:\/\/dev.emeli.in.ua\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","qtyUpdateDelay":"500","notificationTime":"5000","html":{"successNotice":"<ul class=\"xoo-wsc-notices\"><li class=\"xoo-wsc-notice-success\"><span class=\"xoo-wsc-icon-check_circle\"><\/span>%s%<\/li><\/ul>","errorNotice":"<ul class=\"xoo-wsc-notices\"><li class=\"xoo-wsc-notice-error\"><span class=\"xoo-wsc-icon-cross\"><\/span>%s%<\/li><\/ul>"},"strings":{"maxQtyError":"Only %s% in stock","stepQtyError":"Quantity can only be purchased in multiple of %s%","calculateCheckout":"Please use checkout form to calculate shipping","couponEmpty":"Please enter promo code"},"isCheckout":"","isCart":"","sliderAutoClose":"1","shippingEnabled":"1","couponsEnabled":"1","autoOpenCart":"yes","addedToCart":"","ajaxAddToCart":"yes","showBasket":"always_show","flyToCart":"no","productFlyClass":"","refreshCart":"no","fetchDelay":"200"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/side-cart-woocommerce/assets/js/xoo-wsc-main.js?ver=2.1" id="xoo-wsc-main-js-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=7.6.1" id="wc-jquery-ui-touchpunch-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/js/price-slider_33.js?ver=1.4.0" id="wc-price-slider_33-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/url.min.js?ver=36ae0e4dd9043bb8749b" id="wp-url-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/api-fetch.min.js?ver=4c185334c5ec26e149cc" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+/* <![CDATA[ */
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://dev.emeli.in.ua/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "28d3fec711" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://dev.emeli.in.ua/wp-admin/admin-ajax.php?action=rest-nonce";
+/* ]]> */
+</script>
+<script type="text/javascript" id="wc-settings-js-before">
+/* <![CDATA[ */
+var wcSettings = wcSettings || JSON.parse( decodeURIComponent( '%7B%22adminUrl%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fwp-admin%5C%2F%22%2C%22countries%22%3A%7B%22AF%22%3A%22Afghanistan%22%2C%22AX%22%3A%22%5Cu00c5land%20Islands%22%2C%22AL%22%3A%22Albania%22%2C%22DZ%22%3A%22Algeria%22%2C%22AS%22%3A%22American%20Samoa%22%2C%22AD%22%3A%22Andorra%22%2C%22AO%22%3A%22Angola%22%2C%22AI%22%3A%22Anguilla%22%2C%22AQ%22%3A%22Antarctica%22%2C%22AG%22%3A%22Antigua%20and%20Barbuda%22%2C%22AR%22%3A%22Argentina%22%2C%22AM%22%3A%22Armenia%22%2C%22AW%22%3A%22Aruba%22%2C%22AU%22%3A%22Australia%22%2C%22AT%22%3A%22Austria%22%2C%22AZ%22%3A%22Azerbaijan%22%2C%22BS%22%3A%22Bahamas%22%2C%22BH%22%3A%22Bahrain%22%2C%22BD%22%3A%22Bangladesh%22%2C%22BB%22%3A%22Barbados%22%2C%22BY%22%3A%22Belarus%22%2C%22PW%22%3A%22Belau%22%2C%22BE%22%3A%22Belgium%22%2C%22BZ%22%3A%22Belize%22%2C%22BJ%22%3A%22Benin%22%2C%22BM%22%3A%22Bermuda%22%2C%22BT%22%3A%22Bhutan%22%2C%22BO%22%3A%22Bolivia%22%2C%22BQ%22%3A%22Bonaire%2C%20Saint%20Eustatius%20and%20Saba%22%2C%22BA%22%3A%22Bosnia%20and%20Herzegovina%22%2C%22BW%22%3A%22Botswana%22%2C%22BV%22%3A%22Bouvet%20Island%22%2C%22BR%22%3A%22Brazil%22%2C%22IO%22%3A%22British%20Indian%20Ocean%20Territory%22%2C%22BN%22%3A%22Brunei%22%2C%22BG%22%3A%22Bulgaria%22%2C%22BF%22%3A%22Burkina%20Faso%22%2C%22BI%22%3A%22Burundi%22%2C%22KH%22%3A%22Cambodia%22%2C%22CM%22%3A%22Cameroon%22%2C%22CA%22%3A%22Canada%22%2C%22CV%22%3A%22Cape%20Verde%22%2C%22KY%22%3A%22Cayman%20Islands%22%2C%22CF%22%3A%22Central%20African%20Republic%22%2C%22TD%22%3A%22Chad%22%2C%22CL%22%3A%22Chile%22%2C%22CN%22%3A%22China%22%2C%22CX%22%3A%22Christmas%20Island%22%2C%22CC%22%3A%22Cocos%20%28Keeling%29%20Islands%22%2C%22CO%22%3A%22Colombia%22%2C%22KM%22%3A%22Comoros%22%2C%22CG%22%3A%22Congo%20%28Brazzaville%29%22%2C%22CD%22%3A%22Congo%20%28Kinshasa%29%22%2C%22CK%22%3A%22Cook%20Islands%22%2C%22CR%22%3A%22Costa%20Rica%22%2C%22HR%22%3A%22Croatia%22%2C%22CU%22%3A%22Cuba%22%2C%22CW%22%3A%22Cura%26ccedil%3Bao%22%2C%22CY%22%3A%22Cyprus%22%2C%22CZ%22%3A%22Czech%20Republic%22%2C%22DK%22%3A%22Denmark%22%2C%22DJ%22%3A%22Djibouti%22%2C%22DM%22%3A%22Dominica%22%2C%22DO%22%3A%22Dominican%20Republic%22%2C%22EC%22%3A%22Ecuador%22%2C%22EG%22%3A%22Egypt%22%2C%22SV%22%3A%22El%20Salvador%22%2C%22GQ%22%3A%22Equatorial%20Guinea%22%2C%22ER%22%3A%22Eritrea%22%2C%22EE%22%3A%22Estonia%22%2C%22SZ%22%3A%22Eswatini%22%2C%22ET%22%3A%22Ethiopia%22%2C%22FK%22%3A%22Falkland%20Islands%22%2C%22FO%22%3A%22Faroe%20Islands%22%2C%22FJ%22%3A%22Fiji%22%2C%22FI%22%3A%22Finland%22%2C%22FR%22%3A%22France%22%2C%22GF%22%3A%22French%20Guiana%22%2C%22PF%22%3A%22French%20Polynesia%22%2C%22TF%22%3A%22French%20Southern%20Territories%22%2C%22GA%22%3A%22Gabon%22%2C%22GM%22%3A%22Gambia%22%2C%22GE%22%3A%22Georgia%22%2C%22DE%22%3A%22Germany%22%2C%22GH%22%3A%22Ghana%22%2C%22GI%22%3A%22Gibraltar%22%2C%22GR%22%3A%22Greece%22%2C%22GL%22%3A%22Greenland%22%2C%22GD%22%3A%22Grenada%22%2C%22GP%22%3A%22Guadeloupe%22%2C%22GU%22%3A%22Guam%22%2C%22GT%22%3A%22Guatemala%22%2C%22GG%22%3A%22Guernsey%22%2C%22GN%22%3A%22Guinea%22%2C%22GW%22%3A%22Guinea-Bissau%22%2C%22GY%22%3A%22Guyana%22%2C%22HT%22%3A%22Haiti%22%2C%22HM%22%3A%22Heard%20Island%20and%20McDonald%20Islands%22%2C%22HN%22%3A%22Honduras%22%2C%22HK%22%3A%22Hong%20Kong%22%2C%22HU%22%3A%22Hungary%22%2C%22IS%22%3A%22Iceland%22%2C%22IN%22%3A%22India%22%2C%22ID%22%3A%22Indonesia%22%2C%22IR%22%3A%22Iran%22%2C%22IQ%22%3A%22Iraq%22%2C%22IE%22%3A%22Ireland%22%2C%22IM%22%3A%22Isle%20of%20Man%22%2C%22IL%22%3A%22Israel%22%2C%22IT%22%3A%22Italy%22%2C%22CI%22%3A%22Ivory%20Coast%22%2C%22JM%22%3A%22Jamaica%22%2C%22JP%22%3A%22Japan%22%2C%22JE%22%3A%22Jersey%22%2C%22JO%22%3A%22Jordan%22%2C%22KZ%22%3A%22Kazakhstan%22%2C%22KE%22%3A%22Kenya%22%2C%22KI%22%3A%22Kiribati%22%2C%22KW%22%3A%22Kuwait%22%2C%22KG%22%3A%22Kyrgyzstan%22%2C%22LA%22%3A%22Laos%22%2C%22LV%22%3A%22Latvia%22%2C%22LB%22%3A%22Lebanon%22%2C%22LS%22%3A%22Lesotho%22%2C%22LR%22%3A%22Liberia%22%2C%22LY%22%3A%22Libya%22%2C%22LI%22%3A%22Liechtenstein%22%2C%22LT%22%3A%22Lithuania%22%2C%22LU%22%3A%22Luxembourg%22%2C%22MO%22%3A%22Macao%22%2C%22MG%22%3A%22Madagascar%22%2C%22MW%22%3A%22Malawi%22%2C%22MY%22%3A%22Malaysia%22%2C%22MV%22%3A%22Maldives%22%2C%22ML%22%3A%22Mali%22%2C%22MT%22%3A%22Malta%22%2C%22MH%22%3A%22Marshall%20Islands%22%2C%22MQ%22%3A%22Martinique%22%2C%22MR%22%3A%22Mauritania%22%2C%22MU%22%3A%22Mauritius%22%2C%22YT%22%3A%22Mayotte%22%2C%22MX%22%3A%22Mexico%22%2C%22FM%22%3A%22Micronesia%22%2C%22MD%22%3A%22Moldova%22%2C%22MC%22%3A%22Monaco%22%2C%22MN%22%3A%22Mongolia%22%2C%22ME%22%3A%22Montenegro%22%2C%22MS%22%3A%22Montserrat%22%2C%22MA%22%3A%22Morocco%22%2C%22MZ%22%3A%22Mozambique%22%2C%22MM%22%3A%22Myanmar%22%2C%22NA%22%3A%22Namibia%22%2C%22NR%22%3A%22Nauru%22%2C%22NP%22%3A%22Nepal%22%2C%22NL%22%3A%22Netherlands%22%2C%22NC%22%3A%22New%20Caledonia%22%2C%22NZ%22%3A%22New%20Zealand%22%2C%22NI%22%3A%22Nicaragua%22%2C%22NE%22%3A%22Niger%22%2C%22NG%22%3A%22Nigeria%22%2C%22NU%22%3A%22Niue%22%2C%22NF%22%3A%22Norfolk%20Island%22%2C%22KP%22%3A%22North%20Korea%22%2C%22MK%22%3A%22North%20Macedonia%22%2C%22MP%22%3A%22Northern%20Mariana%20Islands%22%2C%22NO%22%3A%22Norway%22%2C%22OM%22%3A%22Oman%22%2C%22PK%22%3A%22Pakistan%22%2C%22PS%22%3A%22Palestinian%20Territory%22%2C%22PA%22%3A%22Panama%22%2C%22PG%22%3A%22Papua%20New%20Guinea%22%2C%22PY%22%3A%22Paraguay%22%2C%22PE%22%3A%22Peru%22%2C%22PH%22%3A%22Philippines%22%2C%22PN%22%3A%22Pitcairn%22%2C%22PL%22%3A%22Poland%22%2C%22PT%22%3A%22Portugal%22%2C%22PR%22%3A%22Puerto%20Rico%22%2C%22QA%22%3A%22Qatar%22%2C%22RE%22%3A%22Reunion%22%2C%22RO%22%3A%22Romania%22%2C%22RU%22%3A%22Russia%22%2C%22RW%22%3A%22Rwanda%22%2C%22ST%22%3A%22S%26atilde%3Bo%20Tom%26eacute%3B%20and%20Pr%26iacute%3Bncipe%22%2C%22BL%22%3A%22Saint%20Barth%26eacute%3Blemy%22%2C%22SH%22%3A%22Saint%20Helena%22%2C%22KN%22%3A%22Saint%20Kitts%20and%20Nevis%22%2C%22LC%22%3A%22Saint%20Lucia%22%2C%22SX%22%3A%22Saint%20Martin%20%28Dutch%20part%29%22%2C%22MF%22%3A%22Saint%20Martin%20%28French%20part%29%22%2C%22PM%22%3A%22Saint%20Pierre%20and%20Miquelon%22%2C%22VC%22%3A%22Saint%20Vincent%20and%20the%20Grenadines%22%2C%22WS%22%3A%22Samoa%22%2C%22SM%22%3A%22San%20Marino%22%2C%22SA%22%3A%22Saudi%20Arabia%22%2C%22SN%22%3A%22Senegal%22%2C%22RS%22%3A%22Serbia%22%2C%22SC%22%3A%22Seychelles%22%2C%22SL%22%3A%22Sierra%20Leone%22%2C%22SG%22%3A%22Singapore%22%2C%22SK%22%3A%22Slovakia%22%2C%22SI%22%3A%22Slovenia%22%2C%22SB%22%3A%22Solomon%20Islands%22%2C%22SO%22%3A%22Somalia%22%2C%22ZA%22%3A%22South%20Africa%22%2C%22GS%22%3A%22South%20Georgia%5C%2FSandwich%20Islands%22%2C%22KR%22%3A%22South%20Korea%22%2C%22SS%22%3A%22South%20Sudan%22%2C%22ES%22%3A%22Spain%22%2C%22LK%22%3A%22Sri%20Lanka%22%2C%22SD%22%3A%22Sudan%22%2C%22SR%22%3A%22Suriname%22%2C%22SJ%22%3A%22Svalbard%20and%20Jan%20Mayen%22%2C%22SE%22%3A%22Sweden%22%2C%22CH%22%3A%22Switzerland%22%2C%22SY%22%3A%22Syria%22%2C%22TW%22%3A%22Taiwan%22%2C%22TJ%22%3A%22Tajikistan%22%2C%22TZ%22%3A%22Tanzania%22%2C%22TH%22%3A%22Thailand%22%2C%22TL%22%3A%22Timor-Leste%22%2C%22TG%22%3A%22Togo%22%2C%22TK%22%3A%22Tokelau%22%2C%22TO%22%3A%22Tonga%22%2C%22TT%22%3A%22Trinidad%20and%20Tobago%22%2C%22TN%22%3A%22Tunisia%22%2C%22TR%22%3A%22Turkey%22%2C%22TM%22%3A%22Turkmenistan%22%2C%22TC%22%3A%22Turks%20and%20Caicos%20Islands%22%2C%22TV%22%3A%22Tuvalu%22%2C%22UG%22%3A%22Uganda%22%2C%22UA%22%3A%22Ukraine%22%2C%22AE%22%3A%22United%20Arab%20Emirates%22%2C%22GB%22%3A%22United%20Kingdom%20%28UK%29%22%2C%22US%22%3A%22United%20States%20%28US%29%22%2C%22UM%22%3A%22United%20States%20%28US%29%20Minor%20Outlying%20Islands%22%2C%22UY%22%3A%22Uruguay%22%2C%22UZ%22%3A%22Uzbekistan%22%2C%22VU%22%3A%22Vanuatu%22%2C%22VA%22%3A%22Vatican%22%2C%22VE%22%3A%22Venezuela%22%2C%22VN%22%3A%22Vietnam%22%2C%22VG%22%3A%22Virgin%20Islands%20%28British%29%22%2C%22VI%22%3A%22Virgin%20Islands%20%28US%29%22%2C%22WF%22%3A%22Wallis%20and%20Futuna%22%2C%22EH%22%3A%22Western%20Sahara%22%2C%22YE%22%3A%22Yemen%22%2C%22ZM%22%3A%22Zambia%22%2C%22ZW%22%3A%22Zimbabwe%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22UAH%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%5Cu0433%5Cu0440%5Cu043d.%22%2C%22symbolPosition%22%3A%22right%22%2C%22decimalSeparator%22%3A%22.%22%2C%22thousandSeparator%22%3A%22%2C%22%2C%22priceFormat%22%3A%22%252%24s%5Cu00a0%251%24s%22%7D%2C%22currentUserId%22%3A1%2C%22currentUserIsAdmin%22%3Atrue%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2F%22%2C%22locale%22%3A%7B%22siteLocale%22%3A%22en_US%22%2C%22userLocale%22%3A%22en_US%22%2C%22weekdaysShort%22%3A%5B%22Sun%22%2C%22Mon%22%2C%22Tue%22%2C%22Wed%22%2C%22Thu%22%2C%22Fri%22%2C%22Sat%22%5D%7D%2C%22dashboardUrl%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fmy-account%22%2C%22orderStatuses%22%3A%7B%22pending%22%3A%22Pending%20payment%22%2C%22processing%22%3A%22Processing%22%2C%22on-hold%22%3A%22On%20hold%22%2C%22completed%22%3A%22Completed%22%2C%22cancelled%22%3A%22Cancelled%22%2C%22refunded%22%3A%22Refunded%22%2C%22failed%22%3A%22Failed%22%2C%22checkout-draft%22%3A%22Draft%22%7D%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder.png%22%2C%22productsSettings%22%3A%7B%22cartRedirectAfterAdd%22%3Afalse%7D%2C%22siteTitle%22%3A%22API%20Ecommerce%22%2C%22storePages%22%3A%7B%22myaccount%22%3A%7B%22id%22%3A7%2C%22title%22%3A%22%5Cu041c%5Cu043e%5Cu0439%20%5Cu0430%5Cu043a%5Cu043a%5Cu0430%5Cu0443%5Cu043d%5Cu0442%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fmy-account%22%7D%2C%22shop%22%3A%7B%22id%22%3A4%2C%22title%22%3A%22%5Cu041c%5Cu0430%5Cu0433%5Cu0430%5Cu0437%5Cu0438%5Cu043d%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fshop%22%7D%2C%22cart%22%3A%7B%22id%22%3A5%2C%22title%22%3A%22%5Cu041a%5Cu043e%5Cu0440%5Cu0437%5Cu0438%5Cu043d%5Cu0430%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fcart%22%7D%2C%22checkout%22%3A%7B%22id%22%3A6%2C%22title%22%3A%22%5Cu041e%5Cu0444%5Cu043e%5Cu0440%5Cu043c%5Cu043b%5Cu0435%5Cu043d%5Cu0438%5Cu0435%20%5Cu0437%5Cu0430%5Cu043a%5Cu0430%5Cu0437%5Cu0430%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fcheckout%22%7D%2C%22privacy%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22terms%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%7D%2C%22wcAssetUrl%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2F%22%2C%22wcVersion%22%3A%227.6.1%22%2C%22wpLoginUrl%22%3A%22https%3A%5C%2F%5C%2Fdev.emeli.in.ua%5C%2Fwp-login.php%22%2C%22wpVersion%22%3A%226.6.4%22%2C%22collectableMethodIds%22%3A%5B%5D%2C%22admin%22%3A%7B%22alertCount%22%3A%220%22%2C%22visibleTaskListIds%22%3A%5B%22setup%22%2C%22extended%22%2C%22setup_two_column%22%2C%22extended_two_column%22%5D%7D%7D' ) );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js?ver=2ab0da8228939724e429840d89f4ce43" id="wc-settings-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-format.js?ver=b924283fe13c09fb1161038102e0652e" id="wc-price-format-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/js/priceformat.js?ver=1.4.0" id="wc-priceformat-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.21" id="lodash-js"></script>
+<script type="text/javascript" id="lodash-js-after">
+/* <![CDATA[ */
+window.lodash = _.noConflict();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1" id="react-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1" id="react-jsx-runtime-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/deprecated.min.js?ver=e1f84915c5e8ae38964c" id="wp-deprecated-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/dom.min.js?ver=4ecffbffba91b10c5c7a" id="wp-dom-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/element.min.js?ver=cb762d190aebbec25b27" id="wp-element-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/is-shallow-equal.min.js?ver=e0f9f1d78d83f5196979" id="wp-is-shallow-equal-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3" id="wp-keycodes-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/priority-queue.min.js?ver=9c21c957c7e50ffdbf48" id="wp-priority-queue-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/compose.min.js?ver=b8d54449305350b51869" id="wp-compose-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/private-apis.min.js?ver=17a2e640b653d742da6e" id="wp-private-apis-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/redux-routine.min.js?ver=a0a172871afaeb261566" id="wp-redux-routine-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/data.min.js?ver=7c62e39de0308c73d50c" id="wp-data-js"></script>
+<script type="text/javascript" id="wp-data-js-after">
+/* <![CDATA[ */
+( function() {
+	var userId = 1;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js?ver=5f668cae608892850d279dd4be59444a" id="wc-blocks-registry-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/data-controls.min.js?ver=49f5587e8b90f9e7cc7e" id="wp-data-controls-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/html-entities.min.js?ver=2cd3358363e0675638fb" id="wp-html-entities-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-includes/js/dist/notices.min.js?ver=673a68a7ac2f556ed50b" id="wp-notices-js"></script>
+<script type="text/javascript" id="wc-blocks-middleware-js-before">
+/* <![CDATA[ */
+			var wcBlocksMiddlewareConfig = {
+				storeApiNonce: '19c055ef1e',
+				wcStoreApiNonceTimestamp: '1764612377'
+			};
+			
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.js?ver=2ee643e67b13341e4fb94acbed6f1dbe" id="wc-blocks-middleware-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js?ver=2ea4545b3efab9b16696a156cf576e0f" id="wc-blocks-data-store-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter-frontend.js?ver=98ee144c91ec50958f7eb81ba76ae790" id="wc-price-filter-block-frontend-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/js/price-filter-frontend.js?ver=1.4.0" id="wc-price-filter-frontend-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/js/jquery.ddslick.min.js?ver=1.4.0" id="jquery.ddslick.min-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/woocommerce-currency-switcher/js/front.js?ver=1.4.0" id="woocommerce-currency-switcher-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.13.2" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.13.2" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.13.2" id="share-link-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.13.2","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"additional_custom_breakpoints":true,"landing-pages":true},"urls":{"assets":"https:\/\/dev.emeli.in.ua\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430 - API Ecommerce","excerpt":""},"user":{"roles":["administrator"]}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.13.2" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://dev.emeli.in.ua/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.13.2" id="preloaded-modules-js"></script>
+
+	</body>
+</html>
+

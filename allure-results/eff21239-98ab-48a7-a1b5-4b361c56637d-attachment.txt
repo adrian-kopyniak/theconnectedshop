@@ -1,0 +1,15 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+CHECK TITLE: Contact us - Email, Phone Call & Online Chat - The Connected Shop
+TITLE OK
+CHECK TEXT: h2 title of "Contact Us" section -> "Contact Us"
+TEXT OK: h2 title of "Contact Us" section
+CHECK VISIBLE: name input
+VISIBLE OK: name input
+CHECK VISIBLE: email input
+VISIBLE OK: email input
+CHECK TEXT: Name input label -> "Name"
+TEXT OK: Name input label
+CHECK TEXT: Email input label -> "Email"

@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> "Bethany Barrows Jr."
+FILL CHECK: filed name field VALUE = "Bethany Barrows Jr."
+FILL: filed email field -> ""
+FILL CHECK: filed email field VALUE = ""
+FILL: filed phoneNumber field -> "+16582206419"
+FILL CHECK: filed phoneNumber field VALUE = "+16582206419"
+FILL: filed comment field -> "Undique tempore suus sperno vinculum conscendo confero cuppedia molestias voluptatem."
+FILL CHECK: filed comment field VALUE = "Undique tempore suus sperno vinculum conscendo confero cuppedia molestias voluptatem."
+CLICK: send button
+CLICK SUCCESS: send button

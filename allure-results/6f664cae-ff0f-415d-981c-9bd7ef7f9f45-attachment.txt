@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> "Vilma.Schulist99@yahoo.com"
+FILL CHECK: filed name field VALUE = "Vilma.Schulist99@yahoo.com"
+FILL: filed email field -> "+14599915858"
+FILL CHECK: filed email field VALUE = "+14599915858"
+FILL: filed phoneNumber field -> "Theatrum speculum adaugeo veritatis taedium alius spoliatio veritas tero tunc."
+FILL CHECK: filed phoneNumber field VALUE = "Theatrum speculum adaugeo veritatis taedium alius spoliatio veritas tero tunc."
+FILL: filed comment field -> "Brian Pollich"
+FILL CHECK: filed comment field VALUE = "Brian Pollich"
+CLICK: send button
+CLICK SUCCESS: send button

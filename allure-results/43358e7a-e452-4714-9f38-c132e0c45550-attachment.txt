@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> "Flora Kirlin"
+FILL CHECK: filed name field VALUE = "Flora Kirlin"
+FILL: filed email field -> "Bethel_Herzog@gmail.com"
+FILL CHECK: filed email field VALUE = "Bethel_Herzog@gmail.com"
+FILL: filed phoneNumber field -> "+17369181237"
+FILL CHECK: filed phoneNumber field VALUE = "+17369181237"
+FILL: filed comment field -> "Absconditus sponte thymbra terror voluntarius adfero averto."
+FILL CHECK: filed comment field VALUE = "Absconditus sponte thymbra terror voluntarius adfero averto."
+CLICK: send button
+CLICK SUCCESS: send button

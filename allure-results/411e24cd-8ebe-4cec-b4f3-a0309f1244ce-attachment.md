@@ -1,0 +1,1846 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+    - generic [ref=e3]: Skip to content
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - generic [ref=e16]: Lifetime Tech Support on All Products
+      - generic [ref=e17]:
+        - generic [ref=e20]:
+          - heading "Country/region" [level=2] [ref=e21]
+          - group [ref=e22]:
+            - generic "Ukraine (UAH ₴)" [ref=e23] [cursor=pointer]:
+              - text: Ukraine (UAH ₴)
+              - img [ref=e24]
+        - generic [ref=e28]:
+          - heading "Language" [level=2] [ref=e29]
+          - group [ref=e30]:
+            - generic "English" [ref=e31] [cursor=pointer]:
+              - text: English
+              - img [ref=e32]
+    - banner [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - button "Navigation toggle in sticky header"
+          - heading "The Connected Shop The Connected Shop" [level=1] [ref=e37]:
+            - generic [ref=e38]: The Connected Shop
+            - link "The Connected Shop" [ref=e39] [cursor=pointer]:
+              - /url: /
+              - img "The Connected Shop" [ref=e40]
+        - generic [ref=e41]:
+          - search [ref=e44]:
+            - combobox "Search" [ref=e45]
+            - generic [ref=e46]: Search
+            - button "Search" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+          - link "(305) 330-3424" [ref=e49] [cursor=pointer]:
+            - /url: tel:(305) 330-3424
+            - img [ref=e50]
+            - generic [ref=e55]: (305) 330-3424
+          - link "Log in" [ref=e56] [cursor=pointer]:
+            - /url: https://theconnectedshop.com/customer_authentication/redirect?locale=en&region_country=UA
+            - img [ref=e57]
+            - generic [ref=e61]: Log in
+          - button "0 items Subtotal ₴0.00" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - img [ref=e65]
+                - generic [ref=e68]:
+                  - generic [ref=e69]: "0"
+                  - generic [ref=e70]: 0 items
+              - generic [ref=e71]:
+                - generic [ref=e72]: Subtotal
+                - generic [ref=e73]: ₴0.00
+        - navigation [ref=e75]:
+          - list [ref=e76]:
+            - listitem [ref=e77]:
+              - link "Home" [ref=e78] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e79]:
+              - link "On Sale" [ref=e80] [cursor=pointer]:
+                - /url: /collections/on-sale
+            - listitem [ref=e81]:
+              - group [ref=e83]:
+                - button "Collections" [ref=e84] [cursor=pointer]:
+                  - text: Collections
+                  - img [ref=e85]
+            - listitem [ref=e87]:
+              - group [ref=e89]:
+                - button "Personal" [ref=e90] [cursor=pointer]:
+                  - text: Personal
+                  - img [ref=e91]
+            - listitem [ref=e93]:
+              - group [ref=e95]:
+                - button "Businesses" [ref=e96] [cursor=pointer]:
+                  - text: Businesses
+                  - img [ref=e97]
+            - listitem [ref=e99]:
+              - link "Tech Talk" [ref=e100] [cursor=pointer]:
+                - /url: /blogs/tech-talk
+            - listitem [ref=e101]:
+              - group [ref=e103]:
+                - button "About us" [ref=e104] [cursor=pointer]:
+                  - text: About us
+                  - img [ref=e105]
+            - listitem [ref=e107]:
+              - link "FAQ" [ref=e108] [cursor=pointer]:
+                - /url: /pages/faqs
+            - listitem [ref=e109]:
+              - link "Contact" [ref=e110] [cursor=pointer]:
+                - /url: /pages/contact-us
+  - main [ref=e111]:
+    - region "Slideshow about our brand" [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - group [ref=e116]:
+            - generic [ref=e119]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: /products/next-gen-smart-lock
+                - generic [ref=e122]: Shop Now
+              - link [ref=e123] [cursor=pointer]:
+                - /url: /products/next-gen-smart-lock
+          - group "2 of 5" [ref=e124]:
+            - generic [ref=e127]:
+              - link "Shop Now" [ref=e129] [cursor=pointer]:
+                - /url: /products/smart-door-lock-slim
+                - generic [ref=e130]: Shop Now
+              - link [ref=e131] [cursor=pointer]:
+                - /url: /products/smart-door-lock-slim
+          - group [ref=e132]:
+            - generic [ref=e135]:
+              - link [ref=e137] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+                - generic [ref=e138]: Shop Now
+              - link [ref=e139] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+          - group [ref=e140]:
+            - generic [ref=e143]:
+              - link [ref=e145] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+                - generic [ref=e146]: Shop Now
+              - link [ref=e147] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+          - group [ref=e148]:
+            - generic [ref=e151]:
+              - link [ref=e153] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+                - generic [ref=e154]: Shop Now
+              - link [ref=e155] [cursor=pointer]:
+                - /url: /products/smart-door-lock-face-recognition-plus
+        - generic [ref=e156]:
+          - button "Previous slide" [ref=e157] [cursor=pointer]
+          - generic [ref=e160]:
+            - button "Load slide 1 of 5" [ref=e161] [cursor=pointer]
+            - button "Load slide 2 of 5" [ref=e163] [cursor=pointer]
+            - button "Load slide 3 of 5" [ref=e165] [cursor=pointer]
+            - button "Load slide 4 of 5" [ref=e167] [cursor=pointer]
+            - button "Load slide 5 of 5" [ref=e169] [cursor=pointer]
+          - button "Next slide" [ref=e171] [cursor=pointer]
+          - button "Pause slideshow" [ref=e174] [cursor=pointer]:
+            - img [ref=e175]
+            - img [ref=e178]
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - heading "Best Sellers" [level=2] [ref=e188]
+          - heading "Smart Door Locks" [level=3] [ref=e189]
+        - generic [ref=e190]:
+          - link "View all products in the Smart Door Locks collection" [ref=e191] [cursor=pointer]:
+            - /url: /collections/smart-door-locks
+            - img [ref=e192]
+            - generic [ref=e197]: View all
+          - generic [ref=e198]:
+            - button "Slide left" [disabled] [ref=e199]
+            - button "Slide right" [ref=e202] [cursor=pointer]
+      - list "Slider" [ref=e206]:
+        - listitem [ref=e207]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - img "Smart Door Lock Slim Black" [ref=e212]
+              - button "Smart Door Lock Slim" [ref=e214] [cursor=pointer]:
+                - img [ref=e215]
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - heading "Smart Door Lock Slim" [level=3] [ref=e219]:
+                  - link "Smart Door Lock Slim" [ref=e220] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-slim
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - img "4.43 out of 5.0 stars" [ref=e223]:
+                      - generic [ref=e224]:
+                        - img [ref=e225]
+                        - img [ref=e226]
+                        - img [ref=e227]
+                        - img [ref=e228]
+                        - img [ref=e229]
+                    - paragraph [ref=e230]:
+                      - text: (30)
+                      - generic [ref=e231]: 30 total reviews
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: Regular price
+                    - text: From ₴18,847.00
+              - list [ref=e237]:
+                - listitem [ref=e238]:
+                  - link "Black" [ref=e239] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-slim?variant=42880260931825
+                    - generic: Black
+                - listitem [ref=e240]:
+                  - link "Silver" [ref=e241] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-slim?variant=42880721682673
+                    - generic: Silver
+                - listitem [ref=e242]:
+                  - link "Gold" [ref=e243] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-slim?variant=42880736362737
+                    - generic: Gold
+                - listitem [ref=e244]:
+                  - link "White" [ref=e245] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-slim?variant=47122700632305
+                    - generic: White
+        - listitem [ref=e246]:
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - img "Smart Door Lock Silver" [ref=e251]
+              - button "Smart Door Lock" [ref=e253] [cursor=pointer]:
+                - img [ref=e254]
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - heading "Smart Door Lock" [level=3] [ref=e258]:
+                  - link "Smart Door Lock" [ref=e259] [cursor=pointer]:
+                    - /url: /products/smart-door-lock
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - img "4.89 out of 5.0 stars" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - img [ref=e265]
+                        - img [ref=e266]
+                        - img [ref=e267]
+                        - img [ref=e268]
+                    - paragraph [ref=e269]:
+                      - text: (27)
+                      - generic [ref=e270]: 27 total reviews
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: Regular price
+                    - text: From ₴13,363.00
+              - list [ref=e276]:
+                - listitem [ref=e277]:
+                  - link "Black" [ref=e278] [cursor=pointer]:
+                    - /url: /products/smart-door-lock?variant=42216381055217
+                    - generic: Black
+                - listitem [ref=e279]:
+                  - link "Silver" [ref=e280] [cursor=pointer]:
+                    - /url: /products/smart-door-lock?variant=42216381907185
+                    - generic: Silver
+                - listitem [ref=e281]:
+                  - link "Bronze" [ref=e282] [cursor=pointer]:
+                    - /url: /products/smart-door-lock?variant=43738249756913
+                    - generic: Bronze
+        - listitem [ref=e283]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - img "Fingerprint Smart Door Lock Black" [ref=e288]
+              - button "Fingerprint Smart Door Lock" [ref=e290] [cursor=pointer]:
+                - img [ref=e291]
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - heading "Fingerprint Smart Door Lock" [level=3] [ref=e295]:
+                  - link "Fingerprint Smart Door Lock" [ref=e296] [cursor=pointer]:
+                    - /url: /products/fingerprint-door-lock
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - img "4.52 out of 5.0 stars" [ref=e299]:
+                      - generic [ref=e300]:
+                        - img [ref=e301]
+                        - img [ref=e302]
+                        - img [ref=e303]
+                        - img [ref=e304]
+                        - img [ref=e305]
+                    - paragraph [ref=e306]:
+                      - text: (29)
+                      - generic [ref=e307]: 29 total reviews
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: Regular price
+                    - text: ₴9,936.00
+              - list [ref=e313]:
+                - listitem [ref=e314]:
+                  - link "Black" [ref=e315] [cursor=pointer]:
+                    - /url: /products/fingerprint-door-lock?variant=40672446939308
+                    - generic: Black
+                - listitem [ref=e316]:
+                  - link "Silver" [ref=e317] [cursor=pointer]:
+                    - /url: /products/fingerprint-door-lock?variant=40672446972076
+                    - generic: Silver
+                - listitem [ref=e318]:
+                  - link "Gray" [ref=e319] [cursor=pointer]:
+                    - /url: /products/fingerprint-door-lock?variant=43776171049201
+                    - generic: Gray
+                - listitem [ref=e320]:
+                  - link "Bronze" [ref=e321] [cursor=pointer]:
+                    - /url: /products/fingerprint-door-lock?variant=43776171081969
+                    - generic: Bronze
+        - listitem [ref=e322]:
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - img "smart-door-lock-thin-no-mortise-black-no-wifi-gateway-66" [ref=e327]
+              - button "Smart Door Lock Thin" [ref=e329] [cursor=pointer]:
+                - img [ref=e330]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - heading "Smart Door Lock Thin" [level=3] [ref=e334]:
+                  - link "Smart Door Lock Thin" [ref=e335] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thin
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - img "5.0 out of 5.0 stars" [ref=e338]:
+                      - generic [ref=e339]:
+                        - img [ref=e340]
+                        - img [ref=e341]
+                        - img [ref=e342]
+                        - img [ref=e343]
+                        - img [ref=e344]
+                    - paragraph [ref=e345]:
+                      - text: (3)
+                      - generic [ref=e346]: 3 total reviews
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Regular price
+                    - text: From ₴18,161.00
+              - list [ref=e352]:
+                - listitem [ref=e353]:
+                  - link "Black" [ref=e354] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thin?variant=42880532218097
+                    - generic: Black
+                - listitem [ref=e355]:
+                  - link "Silver" [ref=e356] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thin?variant=42881030684913
+                    - generic: Silver
+        - listitem [ref=e357]:
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - img "smart-door-lock-sleek-no-mortise-black-no-wifi-gateway-21" [ref=e362]
+              - button "Smart Door Lock Sleek" [ref=e364] [cursor=pointer]:
+                - img [ref=e365]
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - heading "Smart Door Lock Sleek" [level=3] [ref=e369]:
+                  - link "Smart Door Lock Sleek" [ref=e370] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-sleek
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - img "5.0 out of 5.0 stars" [ref=e373]:
+                      - generic [ref=e374]:
+                        - img [ref=e375]
+                        - img [ref=e376]
+                        - img [ref=e377]
+                        - img [ref=e378]
+                        - img [ref=e379]
+                    - paragraph [ref=e380]:
+                      - text: (6)
+                      - generic [ref=e381]: 6 total reviews
+                  - generic [ref=e384]:
+                    - generic [ref=e385]: Regular price
+                    - text: From ₴18,161.00
+              - list [ref=e387]:
+                - listitem [ref=e388]:
+                  - link "Black" [ref=e389] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-sleek?variant=43627190518001
+                    - generic: Black
+                - listitem [ref=e390]:
+                  - link "Silver" [ref=e391] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-sleek?variant=43627190583537
+                    - generic: Silver
+        - listitem [ref=e392]:
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - img "Smart_Door_Lock_Thick" [ref=e397]
+              - button "Smart Door Lock Thick" [ref=e399] [cursor=pointer]:
+                - img [ref=e400]
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - heading "Smart Door Lock Thick" [level=3] [ref=e404]:
+                  - link "Smart Door Lock Thick" [ref=e405] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thick-doors
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - img "4.8 out of 5.0 stars" [ref=e408]:
+                      - generic [ref=e409]:
+                        - img [ref=e410]
+                        - img [ref=e411]
+                        - img [ref=e412]
+                        - img [ref=e413]
+                        - img [ref=e414]
+                    - paragraph [ref=e415]:
+                      - text: (10)
+                      - generic [ref=e416]: 10 total reviews
+                  - generic [ref=e419]:
+                    - generic [ref=e420]: Regular price
+                    - text: From ₴18,161.00
+              - list [ref=e422]:
+                - listitem [ref=e423]:
+                  - link "Black" [ref=e424] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thick-doors?variant=43738169278705
+                    - generic: Black
+                - listitem [ref=e425]:
+                  - link "Red Bronze" [ref=e426] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thick-doors?variant=43738169344241
+                    - generic: Red Bronze
+                - listitem [ref=e427]:
+                  - link "Silver" [ref=e428] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-thick-doors?variant=43738169409777
+                    - generic: Silver
+        - listitem [ref=e429]:
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - img "smart-door-lock-face-recognition-plus-grey-no-mortise-4030" [ref=e434]
+              - button "Smart Door Lock Face Recognition Plus" [ref=e436] [cursor=pointer]:
+                - img [ref=e437]
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - heading "Smart Door Lock Face Recognition Plus" [level=3] [ref=e441]:
+                  - link "Smart Door Lock Face Recognition Plus" [ref=e442] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-face-recognition-plus
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - img "5.0 out of 5.0 stars" [ref=e445]:
+                      - generic [ref=e446]:
+                        - img [ref=e447]
+                        - img [ref=e448]
+                        - img [ref=e449]
+                        - img [ref=e450]
+                        - img [ref=e451]
+                    - paragraph [ref=e452]:
+                      - text: (9)
+                      - generic [ref=e453]: 9 total reviews
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: Regular price
+                    - text: From ₴22,274.00
+              - list [ref=e459]:
+                - listitem [ref=e460]:
+                  - link "Grey" [ref=e461] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-face-recognition-plus?variant=43738127270129
+                    - generic: Grey
+                - listitem [ref=e462]:
+                  - link "Gold" [ref=e463] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-face-recognition-plus?variant=43738127237361
+                    - generic: Gold
+        - listitem [ref=e464]:
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - img "Deadbolt_Smart_Door_Lock_black" [ref=e469]
+              - button "Deadbolt Smart Door Lock" [ref=e471] [cursor=pointer]:
+                - img [ref=e472]
+            - generic [ref=e474]:
+              - generic [ref=e475]:
+                - heading "Deadbolt Smart Door Lock" [level=3] [ref=e476]:
+                  - link "Deadbolt Smart Door Lock" [ref=e477] [cursor=pointer]:
+                    - /url: /products/deadbolt-smart-door-lock
+                - generic [ref=e478]:
+                  - generic [ref=e479]:
+                    - img "4.5 out of 5.0 stars" [ref=e480]:
+                      - generic [ref=e481]:
+                        - img [ref=e482]
+                        - img [ref=e483]
+                        - img [ref=e484]
+                        - img [ref=e485]
+                        - img [ref=e486]
+                    - paragraph [ref=e487]:
+                      - text: (10)
+                      - generic [ref=e488]: 10 total reviews
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: Regular price
+                    - text: From ₴11,992.00
+              - list [ref=e494]:
+                - listitem [ref=e495]:
+                  - link "Black" [ref=e496] [cursor=pointer]:
+                    - /url: /products/deadbolt-smart-door-lock?variant=43738204668145
+                    - generic: Black
+                - listitem [ref=e497]:
+                  - link "Silver" [ref=e498] [cursor=pointer]:
+                    - /url: /products/deadbolt-smart-door-lock?variant=43738204700913
+                    - generic: Silver
+    - generic [ref=e500]:
+      - generic [ref=e503]:
+        - heading "Businesses" [level=2] [ref=e504]
+        - separator [ref=e505]
+        - generic [ref=e506]:
+          - button "Slide left" [disabled] [ref=e507]
+          - button "Slide right" [ref=e510] [cursor=pointer]
+      - list [ref=e515]:
+        - listitem [ref=e516]:
+          - generic [ref=e518]:
+            - heading "Door Manufacturer" [level=3]:
+              - link "Door Manufacturer":
+                - /url: /collections/door-manufacturer
+                - generic [ref=e523] [cursor=pointer]: Door Manufacturer
+        - listitem [ref=e524]:
+          - generic [ref=e526]:
+            - heading "Architect" [level=3]:
+              - link "Architect":
+                - /url: /collections/architect
+                - generic [ref=e531] [cursor=pointer]: Architect
+        - listitem [ref=e532]:
+          - generic [ref=e534]:
+            - heading "Hotels & Airbnb" [level=3]:
+              - link "Hotels & Airbnb":
+                - /url: /collections/hotels-airbnb
+                - generic [ref=e539] [cursor=pointer]: Hotels & Airbnb
+        - listitem [ref=e540]:
+          - generic [ref=e542]:
+            - heading "Industrial" [level=3]:
+              - link "Industrial":
+                - /url: /collections/industrial
+                - generic [ref=e547] [cursor=pointer]: Industrial
+    - generic [ref=e555]:
+      - heading "Locksmith Sign-up" [level=2] [ref=e556]:
+        - generic [ref=e557]: Locksmith Sign-up
+      - generic [ref=e558]: Unlock new opportunities by becoming one of our professional locksmith or integrator partners
+      - link "SIGN UP" [disabled] [ref=e560]:
+        - generic [ref=e561]: SIGN UP
+    - generic [ref=e565]:
+      - generic [ref=e566]:
+        - generic [ref=e567]: Client Spotlight
+        - heading "Successful Installations" [level=2] [ref=e568]:
+          - emphasis [ref=e569]: Successful Installations
+      - list [ref=e572]:
+        - listitem [ref=e573]:
+          - generic [ref=e577]:
+            - heading "Pella Multipoint" [level=3] [ref=e579]:
+              - link "Pella Multipoint" [ref=e580] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8AKLAPACZalTUD3DKo_1koFZ
+            - img [ref=e582]
+        - listitem [ref=e584]:
+          - generic [ref=e588]:
+            - heading "Marvin Multipoint" [level=3] [ref=e590]:
+              - link "Marvin Multipoint" [ref=e591] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8AKD9Dfnm7p5U1q-P1sPGUXC
+            - img [ref=e593]
+        - listitem [ref=e595]:
+          - generic [ref=e599]:
+            - heading "Andersen" [level=3] [ref=e601]:
+              - link "Andersen" [ref=e602] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8AICheXN7_ojIy1pqkp_ImwG
+            - img [ref=e604]
+        - listitem [ref=e606]:
+          - generic [ref=e610]:
+            - heading "Multipoint" [level=3] [ref=e612]:
+              - link "Multipoint" [ref=e613] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8ALRLLr8e_pEft6orpTh3tdH
+            - img [ref=e615]
+        - listitem [ref=e617]:
+          - generic [ref=e621]:
+            - heading "Sliding Door" [level=3] [ref=e623]:
+              - link "Sliding Door" [ref=e624] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8AJbonS7Jy86JzZgxVEPhsnt
+            - img [ref=e626]
+        - listitem [ref=e628]:
+          - generic [ref=e632]:
+            - heading "Commercial" [level=3] [ref=e634]:
+              - link "Commercial" [ref=e635] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLOk2wYvLn8AJseH5MvUrrUn58XOvtKIBy
+            - img [ref=e637]
+    - generic [ref=e643]:
+      - heading "CUSTOMER REVIEWS" [level=2] [ref=e644]
+      - separator [ref=e645]
+    - generic [ref=e650]:
+      - generic [ref=e651]:
+        - heading "Let customers speak for us" [level=2] [ref=e652]
+        - generic [ref=e654]: from 817 reviews
+      - generic [ref=e657]:
+        - generic [ref=e659]:
+          - img "Next Gen Smart Lock" [ref=e661]
+          - generic [ref=e662]:
+            - generic [ref=e663]:
+              - img "5 stars" [ref=e664]:
+                - generic [ref=e665]: 
+                - generic [ref=e666]: 
+                - generic [ref=e667]: 
+                - generic [ref=e668]: 
+                - generic [ref=e669]: 
+              - generic [ref=e670]:
+                - text: 
+                - generic [ref=e671]: John Lucas
+                - generic [ref=e672]: Verified
+              - generic [ref=e673]:
+                - generic [ref=e674]: Front Door Install and Slider door Install
+                - generic [ref=e675]:
+                  - paragraph [ref=e676]: ⸻
+                  - paragraph [ref=e677]: I had two other locksmiths look at installing my smart locks—one said they couldnt do it, and the other wanted to charge me double. Thankfully, The Connector Shop set me up with their preferred installer, Malcolm, and he was absolutely fantastic. I’ll admit I had my doubts at first, but everything came out perfect. The locks work flawlessly, and having the ability to unlock the door remotely for guests or visitors is a game changer. The fingerprint technology is amazing too. Malcolm was professional, reasonable, and really knew what he was doing. Highly recommend!
+            - generic [ref=e678]:
+              - generic [ref=e679]: Next Gen Smart Lock
+              - generic [ref=e680]: 11/23/2025
+        - generic [ref=e682]:
+          - img "Next Gen Smart Lock" [ref=e684]
+          - generic [ref=e685]:
+            - generic [ref=e686]:
+              - img "5 stars" [ref=e687]:
+                - generic [ref=e688]: 
+                - generic [ref=e689]: 
+                - generic [ref=e690]: 
+                - generic [ref=e691]: 
+                - generic [ref=e692]: 
+              - generic [ref=e693]:
+                - text: 
+                - generic [ref=e694]: Zahid
+              - generic [ref=e695]:
+                - generic [ref=e696]: Cold weather city Chicago
+                - paragraph [ref=e698]: Does this smart lock work in cold weather city like Chicago?
+            - generic [ref=e699]:
+              - generic [ref=e700]: Next Gen Smart Lock
+              - generic [ref=e701]: 11/05/2025
+        - generic [ref=e703]:
+          - img "Smart Door Lock Sleek" [ref=e705]
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - img "5 stars" [ref=e708]:
+                - generic [ref=e709]: 
+                - generic [ref=e710]: 
+                - generic [ref=e711]: 
+                - generic [ref=e712]: 
+                - generic [ref=e713]: 
+              - generic [ref=e714]:
+                - text: 
+                - generic [ref=e715]: Geordie Grafton
+                - generic [ref=e716]: Verified
+              - generic [ref=e717]:
+                - generic [ref=e718]: Solid, Sleek,Unique
+                - paragraph [ref=e720]: The product is excellent. We are very happy with the lock sets that Connected Shop has supplied us.Service all the way thru has been Rock solid!
+            - generic [ref=e721]:
+              - generic [ref=e722]: Smart Door Lock Sleek
+              - generic [ref=e723]: 10/25/2025
+        - generic [ref=e725]:
+          - img "Smart Door Lock Slim" [ref=e727]
+          - generic [ref=e728]:
+            - generic [ref=e729]:
+              - img "5 stars" [ref=e730]:
+                - generic [ref=e731]: 
+                - generic [ref=e732]: 
+                - generic [ref=e733]: 
+                - generic [ref=e734]: 
+                - generic [ref=e735]: 
+              - generic [ref=e736]:
+                - text: 
+                - generic [ref=e737]: Robert Bond
+                - generic [ref=e738]: Verified
+              - generic [ref=e739]:
+                - generic [ref=e740]: All as advertised
+                - paragraph [ref=e742]: After the measurements and confirmation, the lock arrived in about two weeks cost me about $150 to install for my commercial aluminum door. I can’t say it was easy but nothing complicated instructions were OK to follow.
+            - generic [ref=e743]:
+              - generic [ref=e744]: Smart Door Lock Slim
+              - generic [ref=e745]: 10/23/2025
+        - generic [ref=e748]:
+          - generic [ref=e749]:
+            - img "5 stars" [ref=e750]:
+              - generic [ref=e751]: 
+              - generic [ref=e752]: 
+              - generic [ref=e753]: 
+              - generic [ref=e754]: 
+              - generic [ref=e755]: 
+            - generic [ref=e756]:
+              - text: 
+              - generic [ref=e757]: Tony Scardina
+              - generic [ref=e758]: Verified
+            - generic [ref=e759]:
+              - generic [ref=e760]: Smart Lock Slim modification for Marvin multi point door.
+              - paragraph [ref=e762]:
+                - text: The modification on the Marvin multi point door was facilitated through the Google Meet platform and was successful due to the professionalism and experience offered by the team walking myself and my door technician through the process.Malcom guided us through the steps necessary to install the Smart lock Slim with patience and knowledge of the older Marvin door and state of the art smart lock system. Dimitris and Moises assisted the installation as well. We could never have installed this system ourselves without their help and guidance.
+                - text: Sincerely
+                - text: Tony Scardina
+                - text: Scardina Builders Inc.
+          - generic [ref=e763]:
+            - generic [ref=e764]: The Connected Shop
+            - generic [ref=e765]: 10/17/2025
+        - generic [ref=e768]:
+          - img "ADA Smart Door Lock" [ref=e770]
+          - generic [ref=e771]:
+            - generic [ref=e772]:
+              - img "5 stars" [ref=e773]:
+                - generic [ref=e774]: 
+                - generic [ref=e775]: 
+                - generic [ref=e776]: 
+                - generic [ref=e777]: 
+                - generic [ref=e778]: 
+              - generic [ref=e779]:
+                - text: 
+                - generic [ref=e780]: Chris Payne
+              - paragraph [ref=e783]: We installed it a couple days ago.. It works very well with a user-friendly app. I'm gonna buy a second one.
+            - generic [ref=e785]:
+              - generic [ref=e786]: ADA Smart Door Lock
+              - generic [ref=e787]: 05/30/2025
+        - generic [ref=e789]:
+          - img "Smart Bluetooth Padlock" [ref=e791]
+          - generic [ref=e792]:
+            - generic [ref=e793]:
+              - img "5 stars" [ref=e794]:
+                - generic [ref=e795]: 
+                - generic [ref=e796]: 
+                - generic [ref=e797]: 
+                - generic [ref=e798]: 
+                - generic [ref=e799]: 
+              - generic [ref=e800]:
+                - text: 
+                - generic [ref=e801]: Michelle Wikens
+              - generic [ref=e802]:
+                - generic [ref=e803]: Pretty cool padlock!
+                - paragraph [ref=e805]: I've been trying out this smart padlock and I have to say, it's pretty cool. It's made locking things up a lot quicker since I can just use my fingerprint to unlock. The convenience factor can’t be beat. It also feels really sturdy, which is a big plus.
+            - generic [ref=e806]:
+              - generic [ref=e807]: Smart Bluetooth Padlock
+              - generic [ref=e808]: 05/02/2025
+        - generic [ref=e810]:
+          - img "Smart Door Lock Slim" [ref=e812]
+          - generic [ref=e813]:
+            - generic [ref=e814]:
+              - img "5 stars" [ref=e815]:
+                - generic [ref=e816]: 
+                - generic [ref=e817]: 
+                - generic [ref=e818]: 
+                - generic [ref=e819]: 
+                - generic [ref=e820]: 
+              - generic [ref=e821]:
+                - text: 
+                - generic [ref=e822]: Anne Vanic
+                - generic [ref=e823]: Verified
+              - generic [ref=e824]:
+                - generic [ref=e825]: Great lock for glass inset door
+                - paragraph [ref=e827]: Very happy to find a digital lock option for our door with a frost glass insert The slim design worked perfectly. Malcolm was great to work with for installation Only thing that could be improved is the digital display is hard to see when the sun shines on it.
+            - generic [ref=e828]:
+              - generic [ref=e829]: Smart Door Lock Slim
+              - generic [ref=e830]: 05/02/2025
+        - generic [ref=e832]:
+          - img "Smart Door Knob" [ref=e834]
+          - generic [ref=e835]:
+            - generic [ref=e836]:
+              - img "5 stars" [ref=e837]:
+                - generic [ref=e838]: 
+                - generic [ref=e839]: 
+                - generic [ref=e840]: 
+                - generic [ref=e841]: 
+                - generic [ref=e842]: 
+              - generic [ref=e843]:
+                - text: 
+                - generic [ref=e844]: Percy Caruso
+              - paragraph [ref=e847]: Got this smart lock for my mom’s door. I helped her find it, since she has lost her keys in the past and wanted a way to not have to have a key on her. The installation was very easy for this type of lock. The store is great as was their tech assistance line, which I called to help me with the set up. Highly recommend!
+            - generic [ref=e849]:
+              - generic [ref=e850]: Smart Door Knob
+              - generic [ref=e851]: 03/19/2025
+        - generic [ref=e853]:
+          - img "Universal Smart Door Lock Camera" [ref=e855]
+          - generic [ref=e856]:
+            - generic [ref=e857]:
+              - img "5 stars" [ref=e858]:
+                - generic [ref=e859]: 
+                - generic [ref=e860]: 
+                - generic [ref=e861]: 
+                - generic [ref=e862]: 
+                - generic [ref=e863]: 
+              - generic [ref=e864]:
+                - text: 
+                - generic [ref=e865]: Elijah Stone
+              - paragraph [ref=e868]: This smart door lock has been a game changer for me. It’s super convenient to unlock the door from my phone, especially when I’m not home. The built-in camera is a great feature as I can see who's at the door before answering, which adds an extra layer of security. The setup was straightforward, and it feels really sturdy. Definitely worth it for the added peace of mind.
+            - generic [ref=e870]:
+              - generic [ref=e871]: Universal Smart Door Lock Camera
+              - generic [ref=e872]: 02/19/2025
+        - generic [ref=e874]:
+          - img "Smart Door Lock Camera" [ref=e876]
+          - generic [ref=e877]:
+            - generic [ref=e878]:
+              - img "5 stars" [ref=e879]:
+                - generic [ref=e880]: 
+                - generic [ref=e881]: 
+                - generic [ref=e882]: 
+                - generic [ref=e883]: 
+                - generic [ref=e884]: 
+              - generic [ref=e885]:
+                - text: 
+                - generic [ref=e886]: Allyssa Davis
+                - generic [ref=e887]: Verified
+              - paragraph [ref=e890]: We had this smart lock installed in our home and so far the family loves it. Even our kids can use their fingerprints to get in after school. The live video feed is also a great feature. They provided an animated user manual but the installation was still a bit tricky for us, but they helped us find a locksmith nearby. Highly recommended!
+            - generic [ref=e892]:
+              - generic [ref=e893]: Smart Door Lock Camera
+              - generic [ref=e894]: 02/11/2025
+        - generic [ref=e896]:
+          - img "Smart Door Knob Lock" [ref=e898]
+          - generic [ref=e899]:
+            - generic [ref=e900]:
+              - img "5 stars" [ref=e901]:
+                - generic [ref=e902]: 
+                - generic [ref=e903]: 
+                - generic [ref=e904]: 
+                - generic [ref=e905]: 
+                - generic [ref=e906]: 
+              - generic [ref=e907]:
+                - text: 
+                - generic [ref=e908]: Leighton Britt
+              - generic [ref=e909]:
+                - generic [ref=e910]: Worth the purchase!
+                - paragraph [ref=e912]: I was looking for a smart door lock that's easy to install and user-friendly for my parents and this one fit their needs. It’s simple and they love that it looks like their old silver door knob but now it’s smart. It’s perfect for their house and their needs. They loved it and are getting a lot of use out of it.
+            - generic [ref=e913]:
+              - generic [ref=e914]: Smart Door Knob Lock
+              - generic [ref=e915]: 02/04/2025
+        - generic [ref=e917]:
+          - img "Smart Door Lock Face Recognition Plus" [ref=e919]
+          - generic [ref=e920]:
+            - generic [ref=e921]:
+              - img "5 stars" [ref=e922]:
+                - generic [ref=e923]: 
+                - generic [ref=e924]: 
+                - generic [ref=e925]: 
+                - generic [ref=e926]: 
+                - generic [ref=e927]: 
+              - generic [ref=e928]:
+                - text: 
+                - generic [ref=e929]: Olivia Green
+              - paragraph [ref=e932]: This smart door lock has been really convenient. Unlocking with my face has honestly been a game changer, and the built-in camera adds more security. Setup after it was installed was simple, and everything worked smoothly. Worth considering if you want to get a face smart door lock. Worth mentioning also that the customer service at this store is very helpful.
+            - generic [ref=e934]:
+              - generic [ref=e935]: Smart Door Lock Face Recognition Plus
+              - generic [ref=e936]: 02/03/2025
+        - generic [ref=e938]:
+          - img "Sliding Door Smart Lock" [ref=e940]
+          - generic [ref=e941]:
+            - generic [ref=e942]:
+              - img "5 stars" [ref=e943]:
+                - generic [ref=e944]: 
+                - generic [ref=e945]: 
+                - generic [ref=e946]: 
+                - generic [ref=e947]: 
+                - generic [ref=e948]: 
+              - generic [ref=e949]:
+                - text: 
+                - generic [ref=e950]: Raquel Watts
+              - generic [ref=e951]:
+                - generic [ref=e952]: Worth the price!
+                - paragraph [ref=e954]:
+                  - text: I recently got this smart door lock from this store, and I’m really happy with it! The lock arrived fast and was packed securely.
+                  - text: It looks amazing on my sliding door. It’s sleek looking and looks sturdy and feels of high-quality, which is great
+                  - text: Overall, the whole process, from buying to using, was hassle-free. I’d definitely recommend this shop to anyone looking for a smart lock for their door.
+            - generic [ref=e955]:
+              - generic [ref=e956]: Sliding Door Smart Lock
+              - generic [ref=e957]: 01/22/2025
+        - generic [ref=e959]:
+          - img "Smart Lockbox" [ref=e961]
+          - generic [ref=e962]:
+            - generic [ref=e963]:
+              - img "5 stars" [ref=e964]:
+                - generic [ref=e965]: 
+                - generic [ref=e966]: 
+                - generic [ref=e967]: 
+                - generic [ref=e968]: 
+                - generic [ref=e969]: 
+              - generic [ref=e970]:
+                - text: 
+                - generic [ref=e971]: Lloyd Cox
+              - generic [ref=e972]:
+                - generic [ref=e973]: This smart lockbox is a lifesaver!
+                - paragraph [ref=e975]: Super easy to install and fingerprint set up was a a breeze. I can let my dog walker in even when I'm not home, which is so convenient. Highly recommend!
+            - generic [ref=e976]:
+              - generic [ref=e977]: Smart Lockbox
+              - generic [ref=e978]: 01/21/2025
+    - generic [ref=e985]:
+      - generic [ref=e987]:
+        - generic [ref=e988]:
+          - heading "Must Have" [level=2] [ref=e989]
+          - heading "Smart Locks" [level=3] [ref=e990]
+        - generic [ref=e991]:
+          - button "Slide left" [disabled] [ref=e992]
+          - button "Slide right" [ref=e995] [cursor=pointer]
+      - list "Slider" [ref=e999]:
+        - listitem [ref=e1000]:
+          - generic [ref=e1002]:
+            - generic [ref=e1003]:
+              - generic [ref=e1004]:
+                - img "smart-padlock-bluetooth-black-413142" [ref=e1005]
+                - img "Smart Padlock Bluetooth Black 1" [ref=e1006]
+              - button "Smart Padlock Bluetooth" [ref=e1008] [cursor=pointer]:
+                - img [ref=e1009]
+            - generic [ref=e1011]:
+              - generic [ref=e1012]:
+                - heading "Smart Padlock Bluetooth" [level=3] [ref=e1013]:
+                  - link "Smart Padlock Bluetooth" [ref=e1014] [cursor=pointer]:
+                    - /url: /products/smart-padlock-bluetooth
+                - generic [ref=e1015]:
+                  - generic [ref=e1016]:
+                    - img "4.27 out of 5.0 stars" [ref=e1017]:
+                      - generic [ref=e1018]:
+                        - img [ref=e1019]
+                        - img [ref=e1020]
+                        - img [ref=e1021]
+                        - img [ref=e1022]
+                        - img [ref=e1023]
+                    - paragraph [ref=e1024]:
+                      - text: (11)
+                      - generic [ref=e1025]: 11 total reviews
+                  - generic [ref=e1028]:
+                    - generic [ref=e1029]: Regular price
+                    - text: ₴4,452.00
+              - list [ref=e1031]:
+                - listitem [ref=e1032]:
+                  - link "Black" [ref=e1033] [cursor=pointer]:
+                    - /url: /products/smart-padlock-bluetooth?variant=39787926126764
+                    - generic: Black
+        - listitem [ref=e1034]:
+          - generic [ref=e1036]:
+            - generic [ref=e1037]:
+              - generic [ref=e1038]:
+                - img "Smart Lockbox" [ref=e1039]
+                - img "smart lockbox with wifi gateway" [ref=e1040]
+              - button "Smart Lockbox" [ref=e1042] [cursor=pointer]:
+                - img [ref=e1043]
+            - generic [ref=e1046]:
+              - heading "Smart Lockbox" [level=3] [ref=e1047]:
+                - link "Smart Lockbox" [ref=e1048] [cursor=pointer]:
+                  - /url: /products/smart-lock-box
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - img "5.0 out of 5.0 stars" [ref=e1051]:
+                    - generic [ref=e1052]:
+                      - img [ref=e1053]
+                      - img [ref=e1054]
+                      - img [ref=e1055]
+                      - img [ref=e1056]
+                      - img [ref=e1057]
+                  - paragraph [ref=e1058]:
+                    - text: (14)
+                    - generic [ref=e1059]: 14 total reviews
+                - generic [ref=e1062]:
+                  - generic [ref=e1063]: Regular price
+                  - text: From ₴11,992.00
+        - listitem [ref=e1064]:
+          - generic [ref=e1066]:
+            - generic [ref=e1067]:
+              - generic [ref=e1068]:
+                - img "bluetooth-drawer-lock-1-piece" [ref=e1069]
+                - img "bluetooth-drawer-lock-1-piece" [ref=e1070]
+              - button "Bluetooth Drawer Lock" [ref=e1072] [cursor=pointer]:
+                - img [ref=e1073]
+            - generic [ref=e1076]:
+              - heading "Bluetooth Drawer Lock" [level=3] [ref=e1077]:
+                - link "Bluetooth Drawer Lock" [ref=e1078] [cursor=pointer]:
+                  - /url: /products/bluetooth-drawer-lock
+              - generic [ref=e1079]:
+                - generic [ref=e1080]:
+                  - img "3.33 out of 5.0 stars" [ref=e1081]:
+                    - generic [ref=e1082]:
+                      - img [ref=e1083]
+                      - img [ref=e1084]
+                      - img [ref=e1085]
+                      - img [ref=e1086]
+                      - img [ref=e1087]
+                  - paragraph [ref=e1088]:
+                    - text: (3)
+                    - generic [ref=e1089]: 3 total reviews
+                - generic [ref=e1092]:
+                  - generic [ref=e1093]: Regular price
+                  - text: From ₴2,739.00
+        - listitem [ref=e1094]:
+          - generic [ref=e1096]:
+            - generic [ref=e1097]:
+              - generic [ref=e1098]:
+                - img "Smart Bike Lock - Black - Steel Wire -" [ref=e1099]
+                - img "Smart Bike Lock - Red - Steel Wire -" [ref=e1100]
+              - button "Smart Bike Lock" [ref=e1102] [cursor=pointer]:
+                - img [ref=e1103]
+            - generic [ref=e1105]:
+              - generic [ref=e1106]:
+                - heading "Smart Bike Lock" [level=3] [ref=e1107]:
+                  - link "Smart Bike Lock" [ref=e1108] [cursor=pointer]:
+                    - /url: /products/smart-bike-lock
+                - generic [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - img "4.4 out of 5.0 stars" [ref=e1111]:
+                      - generic [ref=e1112]:
+                        - img [ref=e1113]
+                        - img [ref=e1114]
+                        - img [ref=e1115]
+                        - img [ref=e1116]
+                        - img [ref=e1117]
+                    - paragraph [ref=e1118]:
+                      - text: (10)
+                      - generic [ref=e1119]: 10 total reviews
+                  - generic [ref=e1122]:
+                    - generic [ref=e1123]: Regular price
+                    - text: From ₴5,823.00
+              - list [ref=e1125]:
+                - listitem [ref=e1126]:
+                  - link "Black" [ref=e1127] [cursor=pointer]:
+                    - /url: /products/smart-bike-lock?variant=42698525081841
+                    - generic: Black
+                - listitem [ref=e1128]:
+                  - link "Blue" [ref=e1129] [cursor=pointer]:
+                    - /url: /products/smart-bike-lock?variant=42698525114609
+                    - generic: Blue
+                - listitem [ref=e1130]:
+                  - link "Red" [ref=e1131] [cursor=pointer]:
+                    - /url: /products/smart-bike-lock?variant=42698525147377
+                    - generic: Red
+        - listitem [ref=e1132]:
+          - generic [ref=e1134]:
+            - generic [ref=e1135]:
+              - generic [ref=e1136]:
+                - img "Fingerprint Lock Smart Padlock Black" [ref=e1137]
+                - img "Fingerprint Lock Smart Padlock Silver" [ref=e1138]
+              - button "Fingerprint Lock Smart Padlock" [ref=e1140] [cursor=pointer]:
+                - img [ref=e1141]
+            - generic [ref=e1143]:
+              - generic [ref=e1144]:
+                - heading "Fingerprint Lock Smart Padlock" [level=3] [ref=e1145]:
+                  - link "Fingerprint Lock Smart Padlock" [ref=e1146] [cursor=pointer]:
+                    - /url: /products/fingerprint-lock-smart-padlock
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]:
+                    - img "4.84 out of 5.0 stars" [ref=e1149]:
+                      - generic [ref=e1150]:
+                        - img [ref=e1151]
+                        - img [ref=e1152]
+                        - img [ref=e1153]
+                        - img [ref=e1154]
+                        - img [ref=e1155]
+                    - paragraph [ref=e1156]:
+                      - text: (31)
+                      - generic [ref=e1157]: 31 total reviews
+                  - generic [ref=e1160]:
+                    - generic [ref=e1161]: Regular price
+                    - text: From ₴1,711.00
+              - list [ref=e1163]:
+                - listitem [ref=e1164]:
+                  - link "Black" [ref=e1165] [cursor=pointer]:
+                    - /url: /products/fingerprint-lock-smart-padlock?variant=37839283290284
+                    - generic: Black
+                - listitem [ref=e1166]:
+                  - link "Silver" [ref=e1167] [cursor=pointer]:
+                    - /url: /products/fingerprint-lock-smart-padlock?variant=37839283421356
+                    - generic: Silver
+        - listitem [ref=e1168]:
+          - generic [ref=e1170]:
+            - generic [ref=e1171]:
+              - generic [ref=e1172]:
+                - img "Fingerprint Drawer Lock Black" [ref=e1173]
+                - img "Fingerprint Drawer Lock - Black - -" [ref=e1174]
+              - button "Fingerprint Drawer Lock" [ref=e1176] [cursor=pointer]:
+                - img [ref=e1177]
+            - generic [ref=e1179]:
+              - generic [ref=e1180]:
+                - heading "Fingerprint Drawer Lock" [level=3] [ref=e1181]:
+                  - link "Fingerprint Drawer Lock" [ref=e1182] [cursor=pointer]:
+                    - /url: /products/fingerprint-drawer-lock
+                - generic [ref=e1186]:
+                  - generic [ref=e1187]: Regular price
+                  - text: ₴3,253.00
+              - list [ref=e1189]:
+                - listitem [ref=e1190]:
+                  - link "Black" [ref=e1191] [cursor=pointer]:
+                    - /url: /products/fingerprint-drawer-lock?variant=42474656825585
+                    - generic: Black
+        - listitem [ref=e1192]:
+          - generic [ref=e1194]:
+            - generic [ref=e1195]:
+              - generic [ref=e1196]:
+                - img "Smart Bluetooth Padlock - Without Gateway" [ref=e1197]
+                - img "Smart Bluetooth Padlock - Without Gateway - -" [ref=e1198]
+              - button "Smart Bluetooth Padlock" [ref=e1200] [cursor=pointer]:
+                - img [ref=e1201]
+            - generic [ref=e1204]:
+              - heading "Smart Bluetooth Padlock" [level=3] [ref=e1205]:
+                - link "Smart Bluetooth Padlock" [ref=e1206] [cursor=pointer]:
+                  - /url: /products/smart-bluetooth-padlock
+              - generic [ref=e1207]:
+                - generic [ref=e1208]:
+                  - img "5.0 out of 5.0 stars" [ref=e1209]:
+                    - generic [ref=e1210]:
+                      - img [ref=e1211]
+                      - img [ref=e1212]
+                      - img [ref=e1213]
+                      - img [ref=e1214]
+                      - img [ref=e1215]
+                  - paragraph [ref=e1216]:
+                    - text: (7)
+                    - generic [ref=e1217]: 7 total reviews
+                - generic [ref=e1220]:
+                  - generic [ref=e1221]: Regular price
+                  - text: From ₴6,680.00
+        - listitem [ref=e1222]:
+          - generic [ref=e1224]:
+            - generic [ref=e1225]:
+              - generic [ref=e1226]:
+                - img "Luggage Fingerprint Padlock - Black" [ref=e1227]
+                - img "Luggage Fingerprint Padlock - Black - -" [ref=e1228]
+              - button "Luggage Fingerprint Padlock" [ref=e1230] [cursor=pointer]:
+                - img [ref=e1231]
+            - generic [ref=e1233]:
+              - generic [ref=e1234]:
+                - heading "Luggage Fingerprint Padlock" [level=3] [ref=e1235]:
+                  - link "Luggage Fingerprint Padlock" [ref=e1236] [cursor=pointer]:
+                    - /url: /products/luggage-fingerprint-padlock
+                - generic [ref=e1237]:
+                  - generic [ref=e1238]:
+                    - img "5.0 out of 5.0 stars" [ref=e1239]:
+                      - generic [ref=e1240]:
+                        - img [ref=e1241]
+                        - img [ref=e1242]
+                        - img [ref=e1243]
+                        - img [ref=e1244]
+                        - img [ref=e1245]
+                    - paragraph [ref=e1246]:
+                      - text: (4)
+                      - generic [ref=e1247]: 4 total reviews
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]: Regular price
+                    - text: ₴2,739.00
+              - list [ref=e1253]:
+                - listitem [ref=e1254]:
+                  - link "Black" [ref=e1255] [cursor=pointer]:
+                    - /url: /products/luggage-fingerprint-padlock?variant=42388524663025
+                    - generic: Black
+        - listitem [ref=e1256]:
+          - generic [ref=e1258]:
+            - generic [ref=e1259]:
+              - generic [ref=e1260]:
+                - img "Smart Door Lock Mounts" [ref=e1261]
+                - img "Smart Door Lock Mounts" [ref=e1262]
+              - button "Smart Door Lock Mounts" [ref=e1264] [cursor=pointer]:
+                - img [ref=e1265]
+            - generic [ref=e1267]:
+              - generic [ref=e1268]:
+                - heading "Smart Door Lock Mounts" [level=3] [ref=e1269]:
+                  - link "Smart Door Lock Mounts" [ref=e1270] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-mounts
+                - generic [ref=e1274]:
+                  - generic [ref=e1275]: Regular price
+                  - text: ₴13,363.00
+              - list [ref=e1277]:
+                - listitem [ref=e1278]:
+                  - link "Black" [ref=e1279] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-mounts?variant=45910854074609
+                    - generic: Black
+                - listitem [ref=e1280]:
+                  - link "Silver" [ref=e1281] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-mounts?variant=46957641892081
+                    - generic: Silver
+                - listitem [ref=e1282]:
+                  - link "Bronze" [ref=e1283] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-mounts?variant=46957641957617
+                    - generic: Bronze
+                - listitem [ref=e1284]:
+                  - link "Gold" [ref=e1285] [cursor=pointer]:
+                    - /url: /products/smart-door-lock-mounts?variant=46957642023153
+                    - generic: Gold
+    - generic [ref=e1292]:
+      - list [ref=e1293]:
+        - listitem [ref=e1294]:
+          - link "- Set Up Your Smart Home Today" [ref=e1295] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1296]: "- Set Up Your Smart Home Today"
+        - listitem [ref=e1297]:
+          - link "- Lifetime Video Tech Support" [ref=e1298] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1299]: "- Lifetime Video Tech Support"
+        - listitem [ref=e1300]:
+          - link "- No Subscription Plans Ever" [ref=e1301] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1302]: "- No Subscription Plans Ever"
+      - list [ref=e1303]:
+        - listitem [ref=e1304]:
+          - link "- Set Up Your Smart Home Today" [ref=e1305] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1306]: "- Set Up Your Smart Home Today"
+        - listitem [ref=e1307]:
+          - link "- Lifetime Video Tech Support" [ref=e1308] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1309]: "- Lifetime Video Tech Support"
+        - listitem [ref=e1310]:
+          - link "- No Subscription Plans Ever" [ref=e1311] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e1312]: "- No Subscription Plans Ever"
+    - generic [ref=e1315]:
+      - generic [ref=e1316]:
+        - button "1" [ref=e1319] [cursor=pointer]
+        - button "2" [ref=e1321] [cursor=pointer]
+        - button "3" [ref=e1323] [cursor=pointer]
+        - button "4" [ref=e1325] [cursor=pointer]
+        - button "5" [ref=e1327] [cursor=pointer]
+        - button "6" [ref=e1329] [cursor=pointer]
+        - button "7" [ref=e1331] [cursor=pointer]
+      - generic [ref=e1333]:
+        - list [ref=e1334]:
+          - listitem [ref=e1335]:
+            - generic [ref=e1337]:
+              - link "Smart Smoke Detector" [ref=e1338] [cursor=pointer]:
+                - /url: /products/smart-smoke-detector
+                - img "Smart Smoke Detector" [ref=e1339]
+                - img "Smart Smoke Detector - 1 piece - -" [ref=e1340]
+              - generic [ref=e1341]:
+                - generic [ref=e1342]:
+                  - heading "Smart Smoke Detector" [level=3] [ref=e1343]:
+                    - link "Smart Smoke Detector" [ref=e1344] [cursor=pointer]:
+                      - /url: /products/smart-smoke-detector
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]: Regular price
+                    - generic [ref=e1351]: ₴2,910.00
+                    - generic [ref=e1352]: Sale price
+                    - generic [ref=e1353]: From ₴2,396.00
+                - button "View" [ref=e1355] [cursor=pointer]:
+                  - img [ref=e1356]
+                  - generic [ref=e1358]: View
+          - listitem [ref=e1359]:
+            - generic [ref=e1361]:
+              - link "Smart Lightbulb Camera" [ref=e1362] [cursor=pointer]:
+                - /url: /products/smart-light-bulb-camera
+                - img "Smart Lightbulb Camera" [ref=e1363]
+                - img "Smart Lightbulb Camera" [ref=e1364]
+              - generic [ref=e1365]:
+                - generic [ref=e1366]:
+                  - heading "Smart Lightbulb Camera" [level=3] [ref=e1367]:
+                    - link "Smart Lightbulb Camera" [ref=e1368] [cursor=pointer]:
+                      - /url: /products/smart-light-bulb-camera
+                  - generic [ref=e1372]:
+                    - generic [ref=e1373]: Regular price
+                    - generic [ref=e1375]: ₴5,823.00
+                    - generic [ref=e1376]: Sale price
+                    - generic [ref=e1377]: From ₴5,138.00
+                - button "View" [ref=e1379] [cursor=pointer]:
+                  - img [ref=e1380]
+                  - generic [ref=e1382]: View
+          - listitem [ref=e1383]:
+            - generic [ref=e1385]:
+              - link "Smart Air Sensor" [ref=e1386] [cursor=pointer]:
+                - /url: /products/smart-air-sensor
+                - img "Smart Air Sensor - 12-hour Format - -" [ref=e1387]
+                - img "Smart Air Sensor - 12-hour Format - -" [ref=e1388]
+              - generic [ref=e1389]:
+                - generic [ref=e1390]:
+                  - heading "Smart Air Sensor" [level=3] [ref=e1391]:
+                    - link "Smart Air Sensor" [ref=e1392] [cursor=pointer]:
+                      - /url: /products/smart-air-sensor
+                  - generic [ref=e1396]:
+                    - generic [ref=e1397]: Regular price
+                    - text: ₴2,396.00
+                - button "View" [ref=e1399] [cursor=pointer]:
+                  - img [ref=e1400]
+                  - generic [ref=e1402]: View
+          - listitem [ref=e1403]:
+            - generic [ref=e1405]:
+              - link "Smart Door Lock Thick" [ref=e1406] [cursor=pointer]:
+                - /url: /products/smart-door-lock-thick-doors
+                - img "Smart_Door_Lock_Thick" [ref=e1407]
+                - img "smart-door-lock-thick-no-mortise-SILVER-no-wifi-gateway-771" [ref=e1408]
+              - generic [ref=e1409]:
+                - generic [ref=e1410]:
+                  - heading "Smart Door Lock Thick" [level=3] [ref=e1411]:
+                    - link "Smart Door Lock Thick" [ref=e1412] [cursor=pointer]:
+                      - /url: /products/smart-door-lock-thick-doors
+                  - generic [ref=e1416]:
+                    - generic [ref=e1417]: Regular price
+                    - text: From ₴18,161.00
+                - button "View" [ref=e1419] [cursor=pointer]:
+                  - img [ref=e1420]
+                  - generic [ref=e1422]: View
+          - listitem [ref=e1423]:
+            - generic [ref=e1425]:
+              - link "Smart Light Switch" [ref=e1426] [cursor=pointer]:
+                - /url: /products/smart-light-switch
+                - img "smart-light-switch-black-4-switch" [ref=e1427]
+                - img "smart-light-switch-black-3-switch" [ref=e1428]
+              - generic [ref=e1429]:
+                - generic [ref=e1430]:
+                  - heading "Smart Light Switch" [level=3] [ref=e1431]:
+                    - link "Smart Light Switch" [ref=e1432] [cursor=pointer]:
+                      - /url: /products/smart-light-switch
+                  - generic [ref=e1436]:
+                    - generic [ref=e1437]: Regular price
+                    - text: From ₴4,452.00
+                - button "View" [ref=e1439] [cursor=pointer]:
+                  - img [ref=e1440]
+                  - generic [ref=e1442]: View
+          - listitem [ref=e1443]:
+            - generic [ref=e1445]:
+              - link "Mug Warmer Wireless Charger" [ref=e1446] [cursor=pointer]:
+                - /url: /products/mug-warmer-wireless-charger
+                - img "mug-warmer-wireless-charger-black-971782" [ref=e1447]
+                - img "mug-warmer-wireless-charger-white-674620" [ref=e1448]
+              - generic [ref=e1449]:
+                - generic [ref=e1450]:
+                  - heading "Mug Warmer Wireless Charger" [level=3] [ref=e1451]:
+                    - link "Mug Warmer Wireless Charger" [ref=e1452] [cursor=pointer]:
+                      - /url: /products/mug-warmer-wireless-charger
+                  - generic [ref=e1456]:
+                    - generic [ref=e1457]: Regular price
+                    - text: ₴4,110.00
+                - button "View" [ref=e1459] [cursor=pointer]:
+                  - img [ref=e1460]
+                  - generic [ref=e1462]: View
+          - listitem [ref=e1463]:
+            - generic [ref=e1465]:
+              - link "Wireless Label Printer" [ref=e1466] [cursor=pointer]:
+                - /url: /products/wireless-label-printer
+                - img "wireless-label-printer-white-1-roll-of-160-pcs-12x40mm-420129" [ref=e1467]
+                - img "wireless-label-printer-pink-1-roll-of-160-pcs-12x40mm-540350" [ref=e1468]
+              - generic [ref=e1469]:
+                - generic [ref=e1470]:
+                  - heading "Wireless Label Printer" [level=3] [ref=e1471]:
+                    - link "Wireless Label Printer" [ref=e1472] [cursor=pointer]:
+                      - /url: /products/wireless-label-printer
+                  - generic [ref=e1476]:
+                    - generic [ref=e1477]: Regular price
+                    - generic [ref=e1479]: ₴4,624.00
+                    - generic [ref=e1480]: Sale price
+                    - generic [ref=e1481]: From ₴3,253.00
+                - button "View" [ref=e1483] [cursor=pointer]:
+                  - img [ref=e1484]
+                  - generic [ref=e1486]: View
+        - generic [ref=e1487]:
+          - button "Slide left" [disabled] [ref=e1488]
+          - generic [ref=e1492]:
+            - button "Load slide 1 of 7" [ref=e1493] [cursor=pointer]
+            - button "Load slide 2 of 7" [ref=e1495] [cursor=pointer]
+            - button "Load slide 3 of 7" [ref=e1497] [cursor=pointer]
+            - button "Load slide 4 of 7" [ref=e1499] [cursor=pointer]
+            - button "Load slide 5 of 7" [ref=e1501] [cursor=pointer]
+            - button "Load slide 6 of 7" [ref=e1503] [cursor=pointer]
+            - button "Load slide 7 of 7" [ref=e1505] [cursor=pointer]
+          - button "Slide right" [ref=e1507] [cursor=pointer]
+    - generic [ref=e1514]:
+      - generic [ref=e1516]:
+        - generic [ref=e1517]:
+          - heading "Essential" [level=2] [ref=e1518]
+          - heading "Smart Sensors" [level=3] [ref=e1519]
+        - generic [ref=e1520]:
+          - link "View all products in the Smart Sensors collection" [ref=e1521] [cursor=pointer]:
+            - /url: /collections/smart-sensors
+            - img [ref=e1522]
+            - generic [ref=e1527]: View all
+          - generic [ref=e1528]:
+            - button "Slide left" [disabled] [ref=e1529]
+            - button "Slide right" [ref=e1532] [cursor=pointer]
+      - list "Slider" [ref=e1536]:
+        - listitem [ref=e1537]:
+          - generic [ref=e1539]:
+            - generic [ref=e1540]:
+              - generic [ref=e1541]:
+                - img "Smart Temperature Monitor" [ref=e1542]
+                - img "smart-temperature-monitor-white-596763" [ref=e1543]
+              - generic [ref=e1544]: Save ₴342.00
+              - button "Smart Temperature Monitor" [ref=e1546] [cursor=pointer]:
+                - img [ref=e1547]
+            - generic [ref=e1550]:
+              - heading "Smart Temperature Monitor Save ₴342.00" [level=3] [ref=e1551]:
+                - link "Smart Temperature Monitor Save ₴342.00" [ref=e1552] [cursor=pointer]:
+                  - /url: /products/smart-temperature-monitor
+                  - text: Smart Temperature Monitor
+              - generic [ref=e1553]:
+                - generic [ref=e1554]:
+                  - img "4.6 out of 5.0 stars" [ref=e1555]:
+                    - generic [ref=e1556]:
+                      - img [ref=e1557]
+                      - img [ref=e1558]
+                      - img [ref=e1559]
+                      - img [ref=e1560]
+                      - img [ref=e1561]
+                  - paragraph [ref=e1562]:
+                    - text: (25)
+                    - generic [ref=e1563]: 25 total reviews
+                - generic [ref=e1566]:
+                  - generic [ref=e1567]: Regular price
+                  - generic [ref=e1568]:
+                    - generic [ref=e1569]: ₴3,424.00
+                    - generic [ref=e1570]: "-₴342.00"
+                  - generic [ref=e1571]: Sale price
+                  - generic [ref=e1572]: From ₴3,082.00
+        - listitem [ref=e1573]:
+          - generic [ref=e1575]:
+            - generic [ref=e1576]:
+              - generic [ref=e1577]:
+                - img "plant-flower-smart-sensors-1-piece" [ref=e1578]
+                - img "plant-flower-smart-sensors-1-piece" [ref=e1579]
+              - button "Plant & Flower Smart Sensors" [ref=e1581] [cursor=pointer]:
+                - img [ref=e1582]
+            - generic [ref=e1585]:
+              - heading "Plant & Flower Smart Sensors" [level=3] [ref=e1586]:
+                - link "Plant & Flower Smart Sensors" [ref=e1587] [cursor=pointer]:
+                  - /url: /products/plant-flower-smart-sensors
+              - generic [ref=e1588]:
+                - generic [ref=e1589]:
+                  - img "4.84 out of 5.0 stars" [ref=e1590]:
+                    - generic [ref=e1591]:
+                      - img [ref=e1592]
+                      - img [ref=e1593]
+                      - img [ref=e1594]
+                      - img [ref=e1595]
+                      - img [ref=e1596]
+                  - paragraph [ref=e1597]:
+                    - text: (38)
+                    - generic [ref=e1598]: 38 total reviews
+                - generic [ref=e1601]:
+                  - generic [ref=e1602]: Regular price
+                  - text: From ₴3,082.00
+        - listitem [ref=e1603]:
+          - generic [ref=e1605]:
+            - generic [ref=e1606]:
+              - generic [ref=e1607]:
+                - img "smart-water-leak-detector-1-piece-753679" [ref=e1608]
+                - img "smart-water-leak-detector-3-pieces-757330" [ref=e1609]
+              - generic [ref=e1610]: Save ₴342.00
+              - button "Smart Water Leak Detector" [ref=e1612] [cursor=pointer]:
+                - img [ref=e1613]
+            - generic [ref=e1616]:
+              - heading "Smart Water Leak Detector Save ₴342.00" [level=3] [ref=e1617]:
+                - link "Smart Water Leak Detector Save ₴342.00" [ref=e1618] [cursor=pointer]:
+                  - /url: /products/smart-water-leak-detector
+                  - text: Smart Water Leak Detector
+              - generic [ref=e1619]:
+                - generic [ref=e1620]:
+                  - img "4.86 out of 5.0 stars" [ref=e1621]:
+                    - generic [ref=e1622]:
+                      - img [ref=e1623]
+                      - img [ref=e1624]
+                      - img [ref=e1625]
+                      - img [ref=e1626]
+                      - img [ref=e1627]
+                  - paragraph [ref=e1628]:
+                    - text: (22)
+                    - generic [ref=e1629]: 22 total reviews
+                - generic [ref=e1632]:
+                  - generic [ref=e1633]: Regular price
+                  - generic [ref=e1634]:
+                    - generic [ref=e1635]: ₴2,053.00
+                    - generic [ref=e1636]: "-₴342.00"
+                  - generic [ref=e1637]: Sale price
+                  - generic [ref=e1638]: From ₴1,711.00
+        - listitem [ref=e1639]:
+          - generic [ref=e1641]:
+            - generic [ref=e1642]:
+              - generic [ref=e1643]:
+                - img "smart-door-peephole-camera-no-sd-card-776437" [ref=e1644]
+                - img "smart-door-peephole-camera-no-sd-card-776437" [ref=e1645]
+              - button "Smart Door Peephole Camera" [ref=e1647] [cursor=pointer]:
+                - img [ref=e1648]
+            - generic [ref=e1651]:
+              - heading "Smart Door Peephole Camera" [level=3] [ref=e1652]:
+                - link "Smart Door Peephole Camera" [ref=e1653] [cursor=pointer]:
+                  - /url: /products/smart-door-peephole-camera
+              - generic [ref=e1654]:
+                - generic [ref=e1655]:
+                  - img "4.75 out of 5.0 stars" [ref=e1656]:
+                    - generic [ref=e1657]:
+                      - img [ref=e1658]
+                      - img [ref=e1659]
+                      - img [ref=e1660]
+                      - img [ref=e1661]
+                      - img [ref=e1662]
+                  - paragraph [ref=e1663]:
+                    - text: (4)
+                    - generic [ref=e1664]: 4 total reviews
+                - generic [ref=e1667]:
+                  - generic [ref=e1668]: Regular price
+                  - text: From ₴5,481.00
+        - listitem [ref=e1669]:
+          - generic [ref=e1671]:
+            - generic [ref=e1672]:
+              - generic [ref=e1673]:
+                - img "Smart Lightbulb Camera" [ref=e1674]
+                - img "Smart Lightbulb Camera" [ref=e1675]
+              - generic [ref=e1676]: Save ₴685.00
+              - button "Smart Lightbulb Camera" [ref=e1678] [cursor=pointer]:
+                - img [ref=e1679]
+            - generic [ref=e1682]:
+              - heading "Smart Lightbulb Camera Save ₴685.00" [level=3] [ref=e1683]:
+                - link "Smart Lightbulb Camera Save ₴685.00" [ref=e1684] [cursor=pointer]:
+                  - /url: /products/smart-light-bulb-camera
+                  - text: Smart Lightbulb Camera
+              - generic [ref=e1685]:
+                - generic [ref=e1686]:
+                  - img "4.82 out of 5.0 stars" [ref=e1687]:
+                    - generic [ref=e1688]:
+                      - img [ref=e1689]
+                      - img [ref=e1690]
+                      - img [ref=e1691]
+                      - img [ref=e1692]
+                      - img [ref=e1693]
+                  - paragraph [ref=e1694]:
+                    - text: (11)
+                    - generic [ref=e1695]: 11 total reviews
+                - generic [ref=e1698]:
+                  - generic [ref=e1699]: Regular price
+                  - generic [ref=e1700]:
+                    - generic [ref=e1701]: ₴5,823.00
+                    - generic [ref=e1702]: "-₴685.00"
+                  - generic [ref=e1703]: Sale price
+                  - generic [ref=e1704]: From ₴5,138.00
+        - listitem [ref=e1705]:
+          - generic [ref=e1707]:
+            - generic [ref=e1708]:
+              - generic [ref=e1709]:
+                - img "Smart Gas Leak Detector" [ref=e1710]
+                - img "Smart Gas Leak Detector - -" [ref=e1711]
+              - generic [ref=e1712]: Save ₴686.00
+              - button "Smart Gas Leak Detector" [ref=e1714] [cursor=pointer]:
+                - img [ref=e1715]
+            - generic [ref=e1718]:
+              - heading "Smart Gas Leak Detector Save ₴686.00" [level=3] [ref=e1719]:
+                - link "Smart Gas Leak Detector Save ₴686.00" [ref=e1720] [cursor=pointer]:
+                  - /url: /products/smart-gas-leak-detector
+                  - text: Smart Gas Leak Detector
+              - generic [ref=e1721]:
+                - generic [ref=e1722]:
+                  - img "5.0 out of 5.0 stars" [ref=e1723]:
+                    - generic [ref=e1724]:
+                      - img [ref=e1725]
+                      - img [ref=e1726]
+                      - img [ref=e1727]
+                      - img [ref=e1728]
+                      - img [ref=e1729]
+                  - paragraph [ref=e1730]:
+                    - text: (2)
+                    - generic [ref=e1731]: 2 total reviews
+                - generic [ref=e1734]:
+                  - generic [ref=e1735]: Regular price
+                  - generic [ref=e1736]:
+                    - generic [ref=e1737]: ₴6,509.00
+                    - generic [ref=e1738]: "-₴686.00"
+                  - generic [ref=e1739]: Sale price
+                  - generic [ref=e1740]: ₴5,823.00
+        - listitem [ref=e1741]:
+          - generic [ref=e1743]:
+            - generic [ref=e1744]:
+              - generic [ref=e1745]:
+                - img "Valve Control Water Leak Detector - 1" [ref=e1746]
+                - img "Smart Valve Controller - Black - 1/2 inches -" [ref=e1747]
+              - generic [ref=e1748]: Save ₴342.00
+              - button "Smart Valve Controller" [ref=e1750] [cursor=pointer]:
+                - img [ref=e1751]
+            - generic [ref=e1753]:
+              - generic [ref=e1754]:
+                - heading "Smart Valve Controller Save ₴342.00" [level=3] [ref=e1755]:
+                  - link "Smart Valve Controller Save ₴342.00" [ref=e1756] [cursor=pointer]:
+                    - /url: /products/smart-valve-controller
+                    - text: Smart Valve Controller
+                - generic [ref=e1757]:
+                  - generic [ref=e1758]:
+                    - img "5.0 out of 5.0 stars" [ref=e1759]:
+                      - generic [ref=e1760]:
+                        - img [ref=e1761]
+                        - img [ref=e1762]
+                        - img [ref=e1763]
+                        - img [ref=e1764]
+                        - img [ref=e1765]
+                    - paragraph [ref=e1766]:
+                      - text: (11)
+                      - generic [ref=e1767]: 11 total reviews
+                  - generic [ref=e1770]:
+                    - generic [ref=e1771]: Regular price
+                    - generic [ref=e1772]:
+                      - generic [ref=e1773]: ₴3,424.00
+                      - generic [ref=e1774]: "-₴342.00"
+                    - generic [ref=e1775]: Sale price
+                    - generic [ref=e1776]: ₴3,082.00
+              - list [ref=e1778]:
+                - listitem [ref=e1779]:
+                  - link "Black" [ref=e1780] [cursor=pointer]:
+                    - /url: /products/smart-valve-controller?variant=43627231150321
+                    - generic: Black
+        - listitem [ref=e1781]:
+          - generic [ref=e1783]:
+            - generic [ref=e1784]:
+              - generic [ref=e1785]:
+                - img "smart-water-tank-water-level-grey-436666" [ref=e1786]
+                - img "smart-water-tank-water-level-grey-143691" [ref=e1787]
+              - button "Smart Water Tank Water Level" [ref=e1789] [cursor=pointer]:
+                - img [ref=e1790]
+            - generic [ref=e1792]:
+              - generic [ref=e1793]:
+                - heading "Smart Water Tank Water Level" [level=3] [ref=e1794]:
+                  - link "Smart Water Tank Water Level" [ref=e1795] [cursor=pointer]:
+                    - /url: /products/smart-water-tank-water-level
+                - generic [ref=e1796]:
+                  - generic [ref=e1797]:
+                    - img "5.0 out of 5.0 stars" [ref=e1798]:
+                      - generic [ref=e1799]:
+                        - img [ref=e1800]
+                        - img [ref=e1801]
+                        - img [ref=e1802]
+                        - img [ref=e1803]
+                        - img [ref=e1804]
+                    - paragraph [ref=e1805]:
+                      - text: (2)
+                      - generic [ref=e1806]: 2 total reviews
+                  - generic [ref=e1809]:
+                    - generic [ref=e1810]: Regular price
+                    - text: ₴5,138.00
+              - list [ref=e1812]:
+                - listitem [ref=e1813]:
+                  - link "Grey" [ref=e1814] [cursor=pointer]:
+                    - /url: /products/smart-water-tank-water-level?variant=43415381213425
+                    - generic: Grey
+    - generic [ref=e1817]:
+      - generic [ref=e1819]:
+        - heading "Tech Talk" [level=2] [ref=e1820]
+        - separator [ref=e1821]
+        - generic [ref=e1822]:
+          - link "View all" [ref=e1823] [cursor=pointer]:
+            - /url: /blogs/tech-talk
+            - img [ref=e1824]
+            - generic [ref=e1829]: View all
+          - generic [ref=e1830]:
+            - button "Slide left" [disabled] [ref=e1831]
+            - button "Slide right" [ref=e1834] [cursor=pointer]
+      - list [ref=e1839]:
+        - listitem [ref=e1840]:
+          - generic [ref=e1842]:
+            - 'link "Premium Smart Door Locks Spotlight: XL Pad Model vs. Face Recognition Plus" [ref=e1843] [cursor=pointer]':
+              - /url: /blogs/tech-talk/premium-smart-door-locks-spotlight-xl-pad-model-vs-face-recognition-plus
+              - 'img "Premium Smart Door Locks Spotlight: XL Pad Model vs. Face Recognition Plus" [ref=e1845]'
+            - generic [ref=e1846]:
+              - 'heading "Premium Smart Door Locks Spotlight: XL Pad Mode..." [level=3] [ref=e1847]'
+              - separator [ref=e1848]
+              - generic [ref=e1850]:
+                - img [ref=e1851]
+                - time [ref=e1854]: November 25, 2025
+            - link "3d facial recognition" [ref=e1855] [cursor=pointer]:
+              - /url: /tagged/3d-facial-recognition
+        - listitem [ref=e1856]:
+          - generic [ref=e1858]:
+            - 'link "The Ultimate Home Entry Upgrade: Smart Door Locks for Storm Doors" [ref=e1859] [cursor=pointer]':
+              - /url: /blogs/tech-talk/the-ultimate-home-entry-upgrade-smart-door-locks-for-storm-doors
+              - img "smart locks for storm doors" [ref=e1861]
+            - generic [ref=e1862]:
+              - 'heading "The Ultimate Home Entry Upgrade: Smart Door Loc..." [level=3] [ref=e1863]'
+              - separator [ref=e1864]
+              - generic [ref=e1866]:
+                - img [ref=e1867]
+                - time [ref=e1870]: November 21, 2025
+            - link "auto-lock smart door locks" [ref=e1871] [cursor=pointer]:
+              - /url: /tagged/auto-lock-smart-door-locks
+        - listitem [ref=e1872]:
+          - generic [ref=e1874]:
+            - link "The Pros and Cons of DIY Smart Door Lock Installations" [ref=e1875] [cursor=pointer]:
+              - /url: /blogs/tech-talk/the-pros-and-cons-of-diy-smart-door-lock-installations
+              - img "The Pros and Cons of DIY Smart Door Lock Installations" [ref=e1877]
+            - generic [ref=e1878]:
+              - heading "The Pros and Cons of DIY Smart Door Lock Instal..." [level=3] [ref=e1879]
+              - separator [ref=e1880]
+              - generic [ref=e1882]:
+                - img [ref=e1883]
+                - time [ref=e1886]: November 18, 2025
+            - link "diy smart lock installations" [ref=e1887] [cursor=pointer]:
+              - /url: /tagged/diy-smart-lock-installations
+        - listitem [ref=e1888]:
+          - generic [ref=e1890]:
+            - 'link "Smart Locks 101: Choosing Between Latch and Mortise for Your Home" [ref=e1891] [cursor=pointer]':
+              - /url: /blogs/tech-talk/smart-locks-101-choosing-between-latch-and-mortise-for-your-home
+              - 'img "Smart Locks 101: Choosing Between Latch and Mortise for Your Home" [ref=e1893]'
+            - generic [ref=e1894]:
+              - 'heading "Smart Locks 101: Choosing Between Latch and Mor..." [level=3] [ref=e1895]'
+              - separator [ref=e1896]
+              - generic [ref=e1898]:
+                - img [ref=e1899]
+                - time [ref=e1902]: November 14, 2025
+            - link "auto-lock smart door locks" [ref=e1903] [cursor=pointer]:
+              - /url: /tagged/auto-lock-smart-door-locks
+    - list [ref=e1909]:
+      - listitem [ref=e1910]:
+        - generic [ref=e1911]:
+          - img [ref=e1914]
+          - generic [ref=e1916]:
+            - heading "Express Shipping" [level=2] [ref=e1917]:
+              - link "Express Shipping" [ref=e1918] [cursor=pointer]:
+                - /url: https://theconnectedshop.com/policies/shipping-policy
+            - paragraph [ref=e1919]: 5-7 Business Days Fast and Secure Delivery
+      - listitem [ref=e1920]:
+        - generic [ref=e1921]:
+          - img [ref=e1924]
+          - generic [ref=e1926]:
+            - heading "Lifetime Tech Support Guaranteed" [level=2] [ref=e1927]:
+              - link "Lifetime Tech Support Guaranteed" [ref=e1928] [cursor=pointer]:
+                - /url: https://theconnectedshop.com/pages/contact-us
+            - paragraph [ref=e1929]: Live Video Troubleshooting with Expert Technical Support
+      - listitem [ref=e1930]:
+        - generic [ref=e1931]:
+          - img [ref=e1934]
+          - generic [ref=e1937]:
+            - heading "30-Day Return and Refund" [level=2] [ref=e1938]
+            - paragraph [ref=e1939]: Order Return For Any Reason Within 30 Days
+    - generic [ref=e1943]:
+      - generic [ref=e1946]:
+        - heading "Customer Care" [level=2] [ref=e1947]
+        - separator [ref=e1948]
+      - generic [ref=e1950]:
+        - group [ref=e1952]:
+          - button "Shipping Policy" [ref=e1953] [cursor=pointer]:
+            - generic [ref=e1954]:
+              - img [ref=e1955]
+              - heading "Shipping Policy" [level=2] [ref=e1957]
+        - group [ref=e1963]:
+          - button "Refund Policy" [ref=e1964] [cursor=pointer]:
+            - generic [ref=e1965]:
+              - img [ref=e1966]
+              - heading "Refund Policy" [level=2] [ref=e1968]
+        - group [ref=e1974]:
+          - button "Tech Support" [ref=e1975] [cursor=pointer]:
+            - generic [ref=e1976]:
+              - img [ref=e1977]
+              - heading "Tech Support" [level=2] [ref=e1979]
+        - group [ref=e1985]:
+          - button "Customer Support" [ref=e1986] [cursor=pointer]:
+            - generic [ref=e1987]:
+              - img [ref=e1988]
+              - heading "Customer Support" [level=2] [ref=e1990]
+  - contentinfo [ref=e1996]:
+    - generic [ref=e1997]:
+      - generic [ref=e1999]:
+        - generic [ref=e2000]:
+          - heading "Our Story" [level=2] [ref=e2001]:
+            - link "Our Story" [ref=e2002]:
+              - /url: "#"
+          - list [ref=e2003]:
+            - listitem [ref=e2004]:
+              - link "About us" [ref=e2005] [cursor=pointer]:
+                - /url: /pages/about-us
+            - listitem [ref=e2006]:
+              - link "Reviews" [ref=e2007] [cursor=pointer]:
+                - /url: /pages/reviews
+            - listitem [ref=e2008]:
+              - link "Tech Talk" [ref=e2009] [cursor=pointer]:
+                - /url: /blogs/tech-talk
+            - listitem [ref=e2010]:
+              - link "Press" [ref=e2011] [cursor=pointer]:
+                - /url: /pages/press
+        - generic [ref=e2012]:
+          - heading "BBB Rating" [level=2] [ref=e2013]:
+            - link "BBB Rating" [ref=e2014]:
+              - /url: "#"
+          - link "Connected Shop Inc BBB Business Review" [ref=e2016] [cursor=pointer]:
+            - /url: https://www.bbb.org/us/fl/miami-beach/profile/ecommerce/connected-shop-inc-0633-92025167/#sealclick
+            - img "Connected Shop Inc BBB Business Review" [ref=e2017]
+        - generic [ref=e2018]:
+          - heading "Contact Info" [level=2] [ref=e2019]:
+            - link "Contact Info" [ref=e2020]:
+              - /url: "#"
+          - list [ref=e2022]:
+            - listitem [ref=e2023]:
+              - img [ref=e2024]
+              - generic [ref=e2026]: Miami Beach FL
+            - listitem [ref=e2027]:
+              - img [ref=e2028]
+              - link "+1 305 330 3424" [ref=e2031] [cursor=pointer]:
+                - /url: tel:305 330 3424
+            - listitem [ref=e2032]:
+              - img [ref=e2033]
+              - generic [ref=e2035]: contact@theconnectedshop.com
+        - generic [ref=e2036]:
+          - heading "Newsletter" [level=2] [ref=e2037]:
+            - link "Newsletter" [ref=e2038]:
+              - /url: "#"
+          - generic [ref=e2039]:
+            - paragraph [ref=e2041]: Subscribe to receive updates, access to exclusive deals, and more.
+            - generic [ref=e2043]:
+              - generic [ref=e2044]:
+                - textbox "Email" [ref=e2045]
+                - generic [ref=e2046]: Email
+              - button "Subscribe" [ref=e2047] [cursor=pointer]:
+                - img [ref=e2048]
+      - generic [ref=e2051]:
+        - list [ref=e2053]:
+          - listitem [ref=e2054]:
+            - link "Terms of Service" [ref=e2055] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e2056]:
+            - link "Privacy Policy" [ref=e2057] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - listitem [ref=e2058]:
+            - link "Shipping Policy" [ref=e2059] [cursor=pointer]:
+              - /url: /policies/shipping-policy
+          - listitem [ref=e2060]:
+            - link "Refund Policy" [ref=e2061] [cursor=pointer]:
+              - /url: /policies/refund-policy
+          - listitem [ref=e2062]:
+            - link "Contact us" [ref=e2063] [cursor=pointer]:
+              - /url: /pages/contact-us
+          - listitem [ref=e2064]:
+            - link "FAQ" [ref=e2065] [cursor=pointer]:
+              - /url: /pages/faqs
+        - list [ref=e2067]:
+          - listitem [ref=e2068]:
+            - link "Twitter" [ref=e2069] [cursor=pointer]:
+              - /url: https://twitter.com/_ConnectedShop
+              - img [ref=e2070]
+              - generic [ref=e2072]: Twitter
+          - listitem [ref=e2073]:
+            - link "Facebook" [ref=e2074] [cursor=pointer]:
+              - /url: https://www.facebook.com/theconnectedshop
+              - img [ref=e2075]
+              - generic [ref=e2077]: Facebook
+          - listitem [ref=e2078]:
+            - link "Pinterest" [ref=e2079] [cursor=pointer]:
+              - /url: https://www.pinterest.com/TheConnectedShop
+              - img [ref=e2080]
+              - generic [ref=e2082]: Pinterest
+          - listitem [ref=e2083]:
+            - link "Instagram" [ref=e2084] [cursor=pointer]:
+              - /url: https://www.instagram.com/theconnectedshop/
+              - img [ref=e2085]
+              - generic [ref=e2089]: Instagram
+          - listitem [ref=e2090]:
+            - link "YouTube" [ref=e2091] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC_GC3VbckW1qEcuyOqVSbvQ
+              - img [ref=e2092]
+              - generic [ref=e2094]: YouTube
+          - listitem [ref=e2095]:
+            - link "TikTok" [ref=e2096] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@theconnectedshop
+              - img [ref=e2097]
+              - generic [ref=e2099]: TikTok
+          - listitem [ref=e2100]:
+            - link "Linkedin" [ref=e2101] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/87133943/
+              - img [ref=e2102]
+              - generic [ref=e2105]: Linkedin
+        - button "Follow on Shop" [ref=e2109] [cursor=pointer]:
+          - img [ref=e2112]
+          - generic [ref=e2114]:
+            - text: Follow on
+            - img "Shop" [ref=e2115]
+      - generic [ref=e2118]:
+        - generic [ref=e2119]:
+          - generic [ref=e2120]: Payment methods
+          - list [ref=e2121]:
+            - listitem [ref=e2122]:
+              - img "Amazon" [ref=e2123]
+            - listitem [ref=e2128]:
+              - img "American Express" [ref=e2129]
+            - listitem [ref=e2138]:
+              - img "Apple Pay" [ref=e2139]
+            - listitem [ref=e2150]:
+              - img "Bancontact" [ref=e2151]
+            - listitem [ref=e2158]:
+              - img "Diners Club" [ref=e2159]
+            - listitem [ref=e2163]:
+              - img "Discover" [ref=e2164]
+            - listitem [ref=e2173]:
+              - img "Google Pay" [ref=e2174]
+            - listitem [ref=e2182]:
+              - img "iDEAL" [ref=e2183]
+            - listitem [ref=e2192]:
+              - img "Mastercard" [ref=e2193]
+            - listitem [ref=e2199]:
+              - img "PayPal" [ref=e2200]
+            - listitem [ref=e2206]:
+              - img "Shop Pay" [ref=e2207]
+            - listitem [ref=e2211]:
+              - img "USDC" [ref=e2212]
+            - listitem [ref=e2219]:
+              - img "Visa" [ref=e2220]
+        - generic [ref=e2224]:
+          - generic [ref=e2225]:
+            - text: © 2025,
+            - link "The Connected Shop" [ref=e2226] [cursor=pointer]:
+              - /url: /
+          - link "Powered by Shopify" [ref=e2228] [cursor=pointer]:
+            - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+  - iframe [ref=e2229]:
+    - generic [ref=f10e2]:
+      - button "Open Chat":
+        - img [ref=f10e4] [cursor=pointer]
+```
