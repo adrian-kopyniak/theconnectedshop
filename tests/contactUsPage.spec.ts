@@ -1,6 +1,7 @@
 import { expect, test } from '@playwright/test';
 import { ContactUsPage } from '../pages/ContactUsPage';
 import { generateContactFormData } from '../utils/test-data';
+import * as allure from 'allure-js-commons';
 
 test.describe('"Contact Us" page verification', () => {
   let contactUsPage: ContactUsPage;
@@ -12,6 +13,7 @@ test.describe('"Contact Us" page verification', () => {
   });
 
   test('Check "Contact Us" page', async () => {
+    await allure.severity('medium');
     await contactUsPage.verifyTitle();
     await contactUsPage.verifyPageHeading();
     await contactUsPage.verifyFormElements();
@@ -20,6 +22,8 @@ test.describe('"Contact Us" page verification', () => {
 
   test('Fill form with valid data', async () => {
     const formData = await generateContactFormData();
+
+    await allure.severity('medium');
 
     await contactUsPage.fillContactForm(formData.name, formData.email, formData.phone, formData.comment);
     await contactUsPage.submitContactForm();

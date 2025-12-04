@@ -1,0 +1,73 @@
+OPENING URL: /
+URL OPENED: /
+OPENING URL: /
+URL OPENED: /
+CHECK URL: /
+URL OK: /
+CHECK TITLE: The Connected Shop - Smart Locks, Smart Sensors, Smart Home & Office
+TITLE OK
+CHECK VISIBLE: Account Button
+VISIBLE OK: Account Button
+CHECK VISIBLE: Account Button Icon
+VISIBLE OK: Account Button Icon
+CHECK VISIBLE: Cart Button
+VISIBLE OK: Cart Button
+CHECK VISIBLE: Cart Button Icon
+VISIBLE OK: Cart Button Icon
+CHECK VISIBLE: Customer Support Button
+VISIBLE OK: Customer Support Button
+CHECK VISIBLE: Customer Support Button Icon
+VISIBLE OK: Customer Support Button Icon
+CHECK ATTR: Customer Support Button.href -> "tel:(305) 330-3424"
+ATTR OK: Customer Support Button.href
+CHECK VISIBLE: logo
+VISIBLE OK: logo
+CHECK VISIBLE: logo image
+VISIBLE OK: logo image
+CHECK ATTR: Logo link.href -> "/"
+ATTR OK: Logo link.href
+CHECK ATTR: Logo image.alt -> "The Connected Shop"
+ATTR OK: Logo image.alt
+CHECK VISIBLE: Search container
+VISIBLE OK: Search container
+CHECK VISIBLE: Search Input
+VISIBLE OK: Search Input
+CHECK VISIBLE: Search Button
+VISIBLE OK: Search Button
+CHECK VISIBLE: Search Button Icon
+VISIBLE OK: Search Button Icon
+CHECK ATTR: Search input placeholder.placeholder -> "Search"
+ATTR OK: Search input placeholder.placeholder
+CHECK VISIBLE: NavBar Container
+VISIBLE OK: NavBar Container
+CHECK VISIBLE: NavBar "Home" Button
+VISIBLE OK: NavBar "Home" Button
+CHECK VISIBLE: NavBar "On Sale" Button
+VISIBLE OK: NavBar "On Sale" Button
+CHECK VISIBLE: NavBar "Collections" Button
+VISIBLE OK: NavBar "Collections" Button
+CHECK VISIBLE: NavBar "Personal" Button
+VISIBLE OK: NavBar "Personal" Button
+CHECK VISIBLE: NavBar "Businesses" Button
+VISIBLE OK: NavBar "Businesses" Button
+CHECK VISIBLE: NavBar "Tech Talk" Button
+VISIBLE OK: NavBar "Tech Talk" Button
+CHECK VISIBLE: NavBar "About Us" Button
+VISIBLE OK: NavBar "About Us" Button
+CHECK VISIBLE: NavBar FAQ Button
+VISIBLE OK: NavBar FAQ Button
+CHECK VISIBLE: NavBar "Contact" Button
+VISIBLE OK: NavBar "Contact" Button
+CHECK TEXT: NavBar "Home" Button -> "Home"
+TEXT OK: NavBar "Home" Button
+CHECK TEXT: NavBar "On Sale" Button -> "On Sale"
+TEXT OK: NavBar "On Sale" Button
+CHECK TEXT: NavBar "Collections" Button -> "Collections"
+TEXT OK: NavBar "Collections" Button
+CHECK TEXT: NavBar "Personal" Button -> "Personal"
+TEXT OK: NavBar "Personal" Button
+CHECK TEXT: NavBar "Businesses" Button -> "Businesses"
+TEXT OK: NavBar "Businesses" Button
+CHECK TEXT: NavBar "Tech Talk" Button -> "Tech Talk"
+TEXT OK: NavBar "Tech Talk" Button
+CHECK TEXT: NavBar "About Us" Button -> "About Us"

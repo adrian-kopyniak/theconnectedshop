@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> "Robin Schimmel"
+FILL CHECK: filed name field VALUE = "Robin Schimmel"
+FILL: filed email field -> "Hillary_Stokes76@gmail.com"
+FILL CHECK: filed email field VALUE = "Hillary_Stokes76@gmail.com"
+FILL: filed phoneNumber field -> "+17144188604"
+FILL CHECK: filed phoneNumber field VALUE = "+17144188604"
+FILL: filed comment field -> "Terminatio dedico conicio corona crur aperte aureus amplitudo vulariter."
+FILL CHECK: filed comment field VALUE = "Terminatio dedico conicio corona crur aperte aureus amplitudo vulariter."
+CLICK: send button
+CLICK SUCCESS: send button

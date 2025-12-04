@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> "Jeff_OKon35@gmail.com"
+FILL CHECK: filed name field VALUE = "Jeff_OKon35@gmail.com"
+FILL: filed email field -> "+15922139817"
+FILL CHECK: filed email field VALUE = "+15922139817"
+FILL: filed phoneNumber field -> "Vita pecto caecus vitiosus."
+FILL CHECK: filed phoneNumber field VALUE = "Vita pecto caecus vitiosus."
+FILL: filed comment field -> "Freda Johns Sr."
+FILL CHECK: filed comment field VALUE = "Freda Johns Sr."
+CLICK: send button
+CLICK SUCCESS: send button

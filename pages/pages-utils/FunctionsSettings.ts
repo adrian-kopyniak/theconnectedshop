@@ -15,6 +15,7 @@ export async function fillElement(locator: Locator, value: string, name: string)
   try {
     console.log(`FILL: ${name} -> "${value}"`);
     await locator.fill(value);
+    await expect(locator).toHaveValue(value);
     const actual = await locator.inputValue();
     console.log(`FILL CHECK: ${name} VALUE = "${actual}"`);
   } catch (error) {

@@ -1,0 +1,14 @@
+OPENING URL: /pages/contact-us
+URL OPENED: /pages/contact-us
+CHECK URL: /pages/contact-us
+URL OK: /pages/contact-us
+FILL: filed name field -> ""
+FILL CHECK: filed name field VALUE = ""
+FILL: filed email field -> "Tressa_Kshlerin7@hotmail.com"
+FILL CHECK: filed email field VALUE = "Tressa_Kshlerin7@hotmail.com"
+FILL: filed phoneNumber field -> ""
+FILL CHECK: filed phoneNumber field VALUE = ""
+FILL: filed comment field -> ""
+FILL CHECK: filed comment field VALUE = ""
+CLICK: send button
+CLICK SUCCESS: send button
