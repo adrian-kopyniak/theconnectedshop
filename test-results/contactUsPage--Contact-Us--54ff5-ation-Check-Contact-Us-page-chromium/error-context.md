@@ -1,0 +1,279 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+    - generic [ref=e3]: Skip to content
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - generic [ref=e16]: Lifetime Tech Support on All Products
+      - generic [ref=e17]:
+        - generic [ref=e20]:
+          - heading "Country/region" [level=2] [ref=e21]
+          - group [ref=e22]:
+            - generic "Ukraine (UAH ₴)" [ref=e23] [cursor=pointer]:
+              - text: Ukraine (UAH ₴)
+              - img [ref=e24]
+        - generic [ref=e28]:
+          - heading "Language" [level=2] [ref=e29]
+          - group [ref=e30]:
+            - generic "English" [ref=e31] [cursor=pointer]:
+              - text: English
+              - img [ref=e32]
+    - banner [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - button "Navigation toggle in sticky header"
+          - link "The Connected Shop" [ref=e37] [cursor=pointer]:
+            - /url: /
+            - img "The Connected Shop" [ref=e38]
+        - generic [ref=e39]:
+          - search [ref=e42]:
+            - combobox "Search" [ref=e43]
+            - generic [ref=e44]: Search
+            - button "Search" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - link "(305) 330-3424" [ref=e47] [cursor=pointer]:
+            - /url: tel:(305) 330-3424
+            - img [ref=e48]
+            - generic [ref=e53]: (305) 330-3424
+          - link "Log in" [ref=e54] [cursor=pointer]:
+            - /url: https://theconnectedshop.com/customer_authentication/redirect?locale=en&region_country=UA
+            - img [ref=e55]
+            - generic [ref=e59]: Log in
+          - button "0 items Subtotal ₴0.00" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - img [ref=e63]
+                - generic [ref=e66]:
+                  - generic [ref=e67]: "0"
+                  - generic [ref=e68]: 0 items
+              - generic [ref=e69]:
+                - generic [ref=e70]: Subtotal
+                - generic [ref=e71]: ₴0.00
+        - navigation [ref=e73]:
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - link "Home" [ref=e76] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e77]:
+              - link "On Sale" [ref=e78] [cursor=pointer]:
+                - /url: /collections/on-sale
+            - listitem [ref=e79]:
+              - group [ref=e81]:
+                - button "Collections" [ref=e82] [cursor=pointer]:
+                  - text: Collections
+                  - img [ref=e83]
+            - listitem [ref=e85]:
+              - group [ref=e87]:
+                - button "Personal" [ref=e88] [cursor=pointer]:
+                  - text: Personal
+                  - img [ref=e89]
+            - listitem [ref=e91]:
+              - group [ref=e93]:
+                - button "Businesses" [ref=e94] [cursor=pointer]:
+                  - text: Businesses
+                  - img [ref=e95]
+            - listitem [ref=e97]:
+              - link "Tech Talk" [ref=e98] [cursor=pointer]:
+                - /url: /blogs/tech-talk
+            - listitem [ref=e99]:
+              - group [ref=e101]:
+                - button "About us" [ref=e102] [cursor=pointer]:
+                  - text: About us
+                  - img [ref=e103]
+            - listitem [ref=e105]:
+              - link "FAQ" [ref=e106] [cursor=pointer]:
+                - /url: /pages/faqs
+            - listitem [ref=e107]:
+              - link "Contact" [ref=e108] [cursor=pointer]:
+                - /url: /pages/contact-us
+  - main [ref=e109]:
+    - generic [ref=e114]:
+      - generic [ref=e117]:
+        - heading "Contact Us" [level=1] [ref=e118]
+        - heading "Contact Us" [level=2] [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Name
+            - textbox "Name" [ref=e124]
+          - generic [ref=e125]:
+            - generic [ref=e126]: Email *
+            - textbox "Email" [ref=e127]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Phone number
+            - textbox "Phone number" [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e132]: Comment
+            - textbox "Comment" [ref=e133]
+        - button "Send" [ref=e135] [cursor=pointer]:
+          - generic [ref=e136]: Send
+    - generic [ref=e141]:
+      - heading "Door Lock Size Inquiry" [level=2] [ref=e142]
+      - paragraph [ref=e144]: Find out which smart lock is right for you with our simple door lock size inquiry form.
+      - link "Learn more" [ref=e146] [cursor=pointer]:
+        - /url: https://theconnectedshop.com/pages/door-lock-size-inquiry
+        - generic [ref=e147]: Learn more
+  - contentinfo [ref=e149]:
+    - generic [ref=e150]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - heading "Our Story" [level=2] [ref=e154]:
+            - link "Our Story" [ref=e155]:
+              - /url: "#"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "About us" [ref=e158] [cursor=pointer]:
+                - /url: /pages/about-us
+            - listitem [ref=e159]:
+              - link "Reviews" [ref=e160] [cursor=pointer]:
+                - /url: /pages/reviews
+            - listitem [ref=e161]:
+              - link "Tech Talk" [ref=e162] [cursor=pointer]:
+                - /url: /blogs/tech-talk
+            - listitem [ref=e163]:
+              - link "Press" [ref=e164] [cursor=pointer]:
+                - /url: /pages/press
+        - generic [ref=e165]:
+          - heading "BBB Rating" [level=2] [ref=e166]:
+            - link "BBB Rating" [ref=e167]:
+              - /url: "#"
+          - link "Connected Shop Inc BBB Business Review" [ref=e169] [cursor=pointer]:
+            - /url: https://www.bbb.org/us/fl/miami-beach/profile/ecommerce/connected-shop-inc-0633-92025167/#sealclick
+            - img "Connected Shop Inc BBB Business Review" [ref=e170]
+        - generic [ref=e171]:
+          - heading "Contact Info" [level=2] [ref=e172]:
+            - link "Contact Info" [ref=e173]:
+              - /url: "#"
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - img [ref=e177]
+              - generic [ref=e179]: Miami Beach FL
+            - listitem [ref=e180]:
+              - img [ref=e181]
+              - link "+1 305 330 3424" [ref=e184] [cursor=pointer]:
+                - /url: tel:305 330 3424
+            - listitem [ref=e185]:
+              - img [ref=e186]
+              - generic [ref=e188]: contact@theconnectedshop.com
+        - generic [ref=e189]:
+          - heading "Newsletter" [level=2] [ref=e190]:
+            - link "Newsletter" [ref=e191]:
+              - /url: "#"
+          - generic [ref=e192]:
+            - paragraph [ref=e194]: Subscribe to receive updates, access to exclusive deals, and more.
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - textbox "Email" [ref=e198]
+                - generic [ref=e199]: Email
+              - button "Subscribe" [ref=e200] [cursor=pointer]:
+                - img [ref=e201]
+      - generic [ref=e204]:
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - link "Terms of Service" [ref=e208] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e209]:
+            - link "Privacy Policy" [ref=e210] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - listitem [ref=e211]:
+            - link "Shipping Policy" [ref=e212] [cursor=pointer]:
+              - /url: /policies/shipping-policy
+          - listitem [ref=e213]:
+            - link "Refund Policy" [ref=e214] [cursor=pointer]:
+              - /url: /policies/refund-policy
+          - listitem [ref=e215]:
+            - link "Contact us" [ref=e216] [cursor=pointer]:
+              - /url: /pages/contact-us
+          - listitem [ref=e217]:
+            - link "FAQ" [ref=e218] [cursor=pointer]:
+              - /url: /pages/faqs
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "Twitter" [ref=e222] [cursor=pointer]:
+              - /url: https://twitter.com/_ConnectedShop
+              - img [ref=e223]
+              - generic [ref=e225]: Twitter
+          - listitem [ref=e226]:
+            - link "Facebook" [ref=e227] [cursor=pointer]:
+              - /url: https://www.facebook.com/theconnectedshop
+              - img [ref=e228]
+              - generic [ref=e230]: Facebook
+          - listitem [ref=e231]:
+            - link "Pinterest" [ref=e232] [cursor=pointer]:
+              - /url: https://www.pinterest.com/TheConnectedShop
+              - img [ref=e233]
+              - generic [ref=e235]: Pinterest
+          - listitem [ref=e236]:
+            - link "Instagram" [ref=e237] [cursor=pointer]:
+              - /url: https://www.instagram.com/theconnectedshop/
+              - img [ref=e238]
+              - generic [ref=e242]: Instagram
+          - listitem [ref=e243]:
+            - link "YouTube" [ref=e244] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC_GC3VbckW1qEcuyOqVSbvQ
+              - img [ref=e245]
+              - generic [ref=e247]: YouTube
+          - listitem [ref=e248]:
+            - link "TikTok" [ref=e249] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@theconnectedshop
+              - img [ref=e250]
+              - generic [ref=e252]: TikTok
+          - listitem [ref=e253]:
+            - link "Linkedin" [ref=e254] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/87133943/
+              - img [ref=e255]
+              - generic [ref=e258]: Linkedin
+        - button "Follow on Shop" [ref=e262] [cursor=pointer]:
+          - img [ref=e265]
+          - generic [ref=e267]:
+            - text: Follow on
+            - img "Shop" [ref=e268]
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Payment methods
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - img "Amazon" [ref=e276]
+            - listitem [ref=e281]:
+              - img "American Express" [ref=e282]
+            - listitem [ref=e291]:
+              - img "Apple Pay" [ref=e292]
+            - listitem [ref=e303]:
+              - img "Bancontact" [ref=e304]
+            - listitem [ref=e311]:
+              - img "Diners Club" [ref=e312]
+            - listitem [ref=e316]:
+              - img "Discover" [ref=e317]
+            - listitem [ref=e326]:
+              - img "Google Pay" [ref=e327]
+            - listitem [ref=e335]:
+              - img "iDEAL" [ref=e336]
+            - listitem [ref=e345]:
+              - img "Mastercard" [ref=e346]
+            - listitem [ref=e352]:
+              - img "PayPal" [ref=e353]
+            - listitem [ref=e359]:
+              - img "Shop Pay" [ref=e360]
+            - listitem [ref=e364]:
+              - img "USDC" [ref=e365]
+            - listitem [ref=e372]:
+              - img "Visa" [ref=e373]
+        - generic [ref=e377]:
+          - generic [ref=e378]:
+            - text: © 2025,
+            - link "The Connected Shop" [ref=e379] [cursor=pointer]:
+              - /url: /
+          - link "Powered by Shopify" [ref=e381] [cursor=pointer]:
+            - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+  - iframe [ref=e382]:
+    - generic [ref=f3e2]:
+      - button "Open Chat":
+        - img [ref=f3e4] [cursor=pointer]
+```

@@ -1,0 +1,635 @@
+{
+  "stats": {
+    "total": 7,
+    "passed": 4,
+    "failed": 3,
+    "skipped": 0,
+    "flaky": 0,
+    "duration": 19040
+  },
+  "tests": [
+    {
+      "title": "Check home page",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/homePage.spec.ts",
+      "line": 22,
+      "column": 3,
+      "status": "failed",
+      "duration": 11668,
+      "error": "Error: TEXT MISMATCH: NavBar \"About Us\" Button, EXPECTED=\"About Us\"\nError: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')\nTimeout: 5000ms\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- About Us\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+                           About us\u001b[39m\n\u001b[31m+ \u001b[43m  \u001b[49m\u001b[39m\n\u001b[31m+ \u001b[43m  \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to <summary role=\"button\" aria-expanded=\"false\" data-href=\"/pages/about-us\" aria-controls=\"HeaderMenu-MenuList-7\" class=\"header__menu-item header__menu-item--top list-menu__item link h6 header__menu-item--link\">…</summary>\u001b[22m\n\u001b[2m      - unexpected value \"\u001b[22m\n\u001b[2m                          About us\u001b[22m\n\u001b[2m  \u001b[22m\n\u001b[2m  \"\u001b[22m\n",
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 4609,
+          "category": "hook"
+        },
+        {
+          "title": "Navigate to \"/\"",
+          "duration": 1758,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveURL\"",
+          "duration": 15,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveTitle\"",
+          "duration": 1,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__icon--account').nth(1)",
+          "duration": 7,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('svg.icon-account').nth(1)",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__icon--cart')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('svg.icon-cart')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__customer-support-region')",
+          "duration": 4,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('svg.icon-support-region').nth(1)",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveAttribute\" locator('a.header__customer-support-region')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__heading-link')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__heading-link').locator('img.header__heading-logo')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveAttribute\" locator('a.header__heading-link')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveAttribute\" locator('a.header__heading-link').locator('img.header__heading-logo')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('div.header__search')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('input#Search-In-Inline')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('button.search__button').first()",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('svg.icon-search').first()",
+          "duration": 4,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveAttribute\" locator('input#Search-In-Inline')",
+          "duration": 5,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('div.header__inline-menu')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__menu-item[href=\"/\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__menu-item[href=\"/collections/on-sale\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('summary.header__menu-item[data-href=\"/pages/products\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('summary.header__menu-item[data-href=\"/pages/personal\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('summary.header__menu-item[data-href=\"/pages/businesses\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__menu-item[href=\"/blogs/tech-talk\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__menu-item[href=\"/pages/faqs\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('a.header__menu-item[href=\"/pages/contact-us\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('a.header__menu-item[href=\"/\"]')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('a.header__menu-item[href=\"/collections/on-sale\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('summary.header__menu-item[data-href=\"/pages/products\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('summary.header__menu-item[data-href=\"/pages/personal\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('summary.header__menu-item[data-href=\"/pages/businesses\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('a.header__menu-item[href=\"/blogs/tech-talk\"]')",
+          "duration": 4,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')",
+          "duration": 5004,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')\nTimeout: 5000ms\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- About Us\u001b[39m\n\u001b[31m+\u001b[39m\n\u001b[31m+                           About us\u001b[39m\n\u001b[31m+ \u001b[43m  \u001b[49m\u001b[39m\n\u001b[31m+ \u001b[43m  \u001b[49m\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('summary.header__menu-item[data-href=\"/pages/about-us\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to <summary role=\"button\" aria-expanded=\"false\" data-href=\"/pages/about-us\" aria-controls=\"HeaderMenu-MenuList-7\" class=\"header__menu-item header__menu-item--top list-menu__item link h6 header__menu-item--link\">…</summary>\u001b[22m\n\u001b[2m      - unexpected value \"\u001b[22m\n\u001b[2m                          About us\u001b[22m\n\u001b[2m  \u001b[22m\n\u001b[2m  \"\u001b[22m\n",
+          "category": "expect"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 173,
+          "category": "hook"
+        },
+        {
+          "title": "Worker Cleanup",
+          "duration": 19,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/Users/adrian/Course_PW_TS/theconnectedshop/test-results/homePage-Main-page-verification-Check-home-page-chromium/error-context.md"
+        }
+      ],
+      "retries": 0
+    },
+    {
+      "title": "Check \"Contact Us\" page",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/contactUsPage.spec.ts",
+      "line": 15,
+      "column": 3,
+      "status": "failed",
+      "duration": 11397,
+      "error": "Error: TEXT MISMATCH: Email input label, EXPECTED=\"Email\"\nError: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('label[for=\"ContactForm-email\"]')\nExpected: \u001b[32m\"Email\"\u001b[39m\nReceived: \u001b[31m\"Email\u001b[7m *\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('label[for=\"ContactForm-email\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to <label for=\"ContactForm-email\" class=\"field__label text-small font-body-semi-bold uppercase\">…</label>\u001b[22m\n\u001b[2m      - unexpected value \"Email *\"\u001b[22m\n",
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 6637,
+          "category": "hook"
+        },
+        {
+          "title": "Attach \"Allure Metadata (metadata)\"",
+          "duration": 1,
+          "category": "test.attach"
+        },
+        {
+          "title": "Expect \"toHaveTitle\"",
+          "duration": 6,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('div.title h2')",
+          "duration": 8,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('input#ContactForm-name')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toBeVisible\" locator('#ContactForm-email')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('label[for=\"ContactForm-name\"]')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Expect \"toHaveText\" locator('label[for=\"ContactForm-email\"]')",
+          "duration": 5005,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('label[for=\"ContactForm-email\"]')\nExpected: \u001b[32m\"Email\"\u001b[39m\nReceived: \u001b[31m\"Email\u001b[7m *\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('label[for=\"ContactForm-email\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to <label for=\"ContactForm-email\" class=\"field__label text-small font-body-semi-bold uppercase\">…</label>\u001b[22m\n\u001b[2m      - unexpected value \"Email *\"\u001b[22m\n",
+          "category": "expect"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 82,
+          "category": "hook"
+        },
+        {
+          "title": "Worker Cleanup",
+          "duration": 18,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [
+        {
+          "name": "Allure Metadata (metadata)",
+          "contentType": "application/vnd.allure.message+json"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/Users/adrian/Course_PW_TS/theconnectedshop/test-results/contactUsPage--Contact-Us--54ff5-ation-Check-Contact-Us-page-chromium/error-context.md"
+        }
+      ],
+      "retries": 0
+    },
+    {
+      "title": "Submit form with empty required fields",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/contactUsPage.spec.ts",
+      "line": 42,
+      "column": 3,
+      "status": "passed",
+      "duration": 7546,
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 7740,
+          "category": "hook"
+        },
+        {
+          "title": "Fill \"Marty Huels\" locator('input#ContactForm-name')",
+          "duration": 28,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('input#ContactForm-name')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"\" locator('#ContactForm-email')",
+          "duration": 15,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-email')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"+19628010161\" locator('#ContactForm-phone')",
+          "duration": 45,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-phone')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Vos venio surculus debeo canonicus infit.\" locator('#ContactForm-body')",
+          "duration": 7,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-body')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Click locator('div.contact__button button')",
+          "duration": 67,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"not toBeVisible\" locator('form#ContactForm h2')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 22,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [],
+      "retries": 0
+    },
+    {
+      "title": "Fill form with valid data",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/contactUsPage.spec.ts",
+      "line": 23,
+      "column": 3,
+      "status": "passed",
+      "duration": 6453,
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 6617,
+          "category": "hook"
+        },
+        {
+          "title": "Attach \"Allure Metadata (metadata)\"",
+          "duration": 0,
+          "category": "test.attach"
+        },
+        {
+          "title": "Fill \"Rosemary Romaguera I\" locator('input#ContactForm-name')",
+          "duration": 22,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('input#ContactForm-name')",
+          "duration": 5,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Jimmy93@hotmail.com\" locator('#ContactForm-email')",
+          "duration": 16,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-email')",
+          "duration": 44,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"+15812063144\" locator('#ContactForm-phone')",
+          "duration": 10,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-phone')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Tactus talio cupiditate.\" locator('#ContactForm-body')",
+          "duration": 21,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-body')",
+          "duration": 11,
+          "category": "expect"
+        },
+        {
+          "title": "Click locator('div.contact__button button')",
+          "duration": 79,
+          "category": "pw:api"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 15,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [
+        {
+          "name": "Allure Metadata (metadata)",
+          "contentType": "application/vnd.allure.message+json"
+        }
+      ],
+      "retries": 0
+    },
+    {
+      "title": "Fill form with invalid data",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/contactUsPage.spec.ts",
+      "line": 34,
+      "column": 3,
+      "status": "passed",
+      "duration": 6420,
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 6607,
+          "category": "hook"
+        },
+        {
+          "title": "Fill \"Jaydon.Beer17@gmail.com\" locator('input#ContactForm-name')",
+          "duration": 32,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('input#ContactForm-name')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"+16318818491\" locator('#ContactForm-email')",
+          "duration": 14,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-email')",
+          "duration": 47,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Statua suadeo coma.\" locator('#ContactForm-phone')",
+          "duration": 7,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-phone')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Rufus Williamson\" locator('#ContactForm-body')",
+          "duration": 7,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-body')",
+          "duration": 9,
+          "category": "expect"
+        },
+        {
+          "title": "Click locator('div.contact__button button')",
+          "duration": 79,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"not toBeVisible\" locator('form#ContactForm h2')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 15,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [],
+      "retries": 0
+    },
+    {
+      "title": "Submit form with filled only required fields",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/contactUsPage.spec.ts",
+      "line": 50,
+      "column": 3,
+      "status": "passed",
+      "duration": 6307,
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 6014,
+          "category": "hook"
+        },
+        {
+          "title": "Fill \"\" locator('input#ContactForm-name')",
+          "duration": 24,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('input#ContactForm-name')",
+          "duration": 3,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"Maiya.Ward@yahoo.com\" locator('#ContactForm-email')",
+          "duration": 5,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-email')",
+          "duration": 2,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"\" locator('#ContactForm-phone')",
+          "duration": 17,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-phone')",
+          "duration": 231,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"\" locator('#ContactForm-body')",
+          "duration": 9,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveValue\" locator('#ContactForm-body')",
+          "duration": 10,
+          "category": "expect"
+        },
+        {
+          "title": "Click locator('div.contact__button button')",
+          "duration": 93,
+          "category": "pw:api"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 13,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [],
+      "retries": 0
+    },
+    {
+      "title": "CRUD",
+      "file": "/Users/adrian/Course_PW_TS/theconnectedshop/tests/API-test.spec.ts",
+      "line": 4,
+      "column": 1,
+      "status": "failed",
+      "duration": 1296,
+      "error": "ReferenceError: id is not defined",
+      "steps": [
+        {
+          "title": "Before Hooks",
+          "duration": 8,
+          "category": "hook"
+        },
+        {
+          "title": "Create request context",
+          "duration": 2,
+          "category": "pw:api"
+        },
+        {
+          "title": "POST \"/posts\"",
+          "duration": 1285,
+          "category": "pw:api"
+        },
+        {
+          "title": "After Hooks",
+          "duration": 15,
+          "category": "hook"
+        },
+        {
+          "title": "Worker Cleanup",
+          "duration": 1,
+          "category": "hook"
+        }
+      ],
+      "annotations": [],
+      "attachments": [],
+      "retries": 0
+    }
+  ],
+  "generatedAt": "2025-12-08T17:17:04.431Z"
+}
