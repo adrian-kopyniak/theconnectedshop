@@ -1,54 +1,61 @@
 name: Playwright Tests
-
+ 
 on:
+
   push:
+
     branches: [main, master]
 
   pull_request:
+
     branches: [main, master]
-
+ 
 jobs:
+
   test:
+
     runs-on: ubuntu-latest
+ 
+    permissions:
 
+      contents: write
+
+      pages: write
+
+      id-token: write
+ 
     steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+    - uses: actions/checkout@v4
+ 
+    - uses: actions/setup-node@v4
 
-        with:
-          node-version: lts/*
+      with:
 
-      - name: Install dependencies
+        node-version: lts/*
+ 
+    - name: Install dependencies
 
-        run: npm ci
+      run: npm ci
+ 
+    - name: Install Playwright Browsers
 
-      - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+ 
+    - name: Run Playwright tests
 
-        run: npx playwright install --with-deps
+      run: npx playwright test --reporter=html
+ 
+    - name: Deploy report to GitHub Pages
 
-      - name: Run Playwright tests
+      uses: JamesIves/github-pages-deploy-action@v4
 
-        run: npx playwright test --reporter=html
+      with:
 
-      - uses: actions/upload-artifact@v4
+        branch: gh-pages
 
-        if: ${{ !cancelled() }}
+        folder: playwright-report
 
-        with:
-          name: playwright-report
+        clean: true
 
-          path: playwright-report/
-
-          retention-days: 30
-
-      - name: Upload report to GitHub Pages
-
-        uses: JamesIves/github-pages-deploy-action@v4
-
-        with:
-          folder: playwright-report
-
-          branch: gh-pages
-
-          clean: true
+ 
