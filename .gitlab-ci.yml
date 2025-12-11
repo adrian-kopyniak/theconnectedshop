@@ -1,0 +1,39 @@
+stages:
+  - test
+  - deploy
+ 
+variables:
+  NODE_ENV: production
+  PLAYWRIGHT_BROWSERS_PATH: 0 
+ 
+cache:
+  paths:
+    - node_modules/
+
+playwright_tests:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.47.0-jammy
+  script:
+    - node -v
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test --reporter=html
+  artifacts:
+    when: always
+    expire_in: 7 days
+    paths:
+      - playwright-report/
+
+pages:
+  stage: deploy
+  dependencies:
+    - playwright_tests
+  script:
+    - mkdir public
+    - cp -r playwright-report/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    - master
