@@ -6,26 +6,10 @@ stages:
 variables:
   NODE_ENV: production
 
-  PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
-
-  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
-
-cache:
-  paths:
-    - node_modules/
-
-    - .npm/
-
-  key:
-    files:
-      - package-lock.json
-
-    prefix: ${CI_COMMIT_REF_SLUG}
-
 playwright_tests:
   stage: test
 
-  image: mcr.microsoft.com/playwright:v1.49.0-noble
+  image: mcr.microsoft.com/playwright:v1.57.0-noble
 
   before_script:
     - node -v
@@ -33,25 +17,21 @@ playwright_tests:
     - npm -v
 
   script:
-    # Remove any cached/corrupted node_modules
+    # Clean install
 
-    - rm -rf node_modules
+    - rm -rf node_modules package-lock.json
 
-    # Fresh install of all dependencies (ignore engine warnings)
+    - npm install --legacy-peer-deps
 
-    - npm install --force
+    # Show what's installed
 
-    # Verify Playwright is installed
+    - ls -la node_modules/@playwright/ || echo "Playwright not in node_modules"
 
-    - npm list @playwright/test
+    - npm list @playwright/test || echo "Not in package list"
 
-    - npx playwright --version
+    # Try to run playwright
 
-    # Install browser binaries
-
-    - npx playwright install --with-deps chromium
-
-    # Run tests
+    - npx playwright install chromium
 
     - npx playwright test --reporter=html,junit
 
@@ -75,6 +55,8 @@ playwright_tests:
       - runner_system_failure
 
       - stuck_or_timeout_failure
+
+  allow_failure: false
 
 pages:
   stage: deploy
