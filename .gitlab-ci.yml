@@ -8,8 +8,6 @@ variables:
 
   PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
 
-  # Prevent Playwright from downloading browsers during npm install
-
   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
 
 cache:
@@ -27,27 +25,25 @@ cache:
 playwright_tests:
   stage: test
 
-  image: mcr.microsoft.com/playwright:v1.57.0-noble
+  image: mcr.microsoft.com/playwright:v1.57.0-jammy
 
   before_script:
     - node -v
 
     - npm -v
 
-    - echo "Installing dependencies..."
-
   script:
-    # Install dependencies (if package-lock.json exists)
+    # Install dependencies from package.json/package-lock.json
 
     - npm ci --cache .npm --no-audit || npm install --cache .npm --no-audit
 
-    # Install Playwright if not in package.json
+    # Force install Playwright test package
 
-    - npm list @playwright/test || npm install -D @playwright/test
+    - npm install --save-dev @playwright/test
 
-    - echo "Playwright version:"
+    # Verify it's installed
 
-    - npx playwright --version
+    - npm list @playwright/test
 
     # Install browser binaries
 
@@ -70,8 +66,6 @@ playwright_tests:
     reports:
       junit: playwright-report/results.xml
 
-  coverage: '/All tests (\d+)/'
-
   retry:
     max: 1
 
@@ -90,8 +84,6 @@ pages:
 
   script:
     - mkdir -p public
-
-    # Copy report files if they exist
 
     - |
 
