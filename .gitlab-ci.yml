@@ -17,41 +17,33 @@ playwright_tests:
     - npm -v
 
   script:
-    # Check package.json
+    # Debug: show all files including hidden
 
-    - cat package.json
+    - ls -la
 
-    # Clean everything
+    - cat .npmrc 2>/dev/null || echo "No .npmrc"
 
-    - rm -rf node_modules package-lock.json
+    - cat .gitignore 2>/dev/null || echo "No .gitignore"
 
-    # Install packages one by one to debug
+    # Check npm config
 
-    - npm install @playwright/test@1.57.0 --save-dev
+    - npm config list
 
-    - npm install @faker-js/faker@10.1.0 --save-dev
+    # Try with --force and --verbose to see what's happening
 
-    - npm install @types/node@24.9.2 --save-dev
+    - npm install --force --verbose @playwright/test
 
-    - npm install allure-playwright@3.4.2 --save-dev
+    # If that fails, try global install
 
-    - npm install fs-extra@11.3.2 --save-dev
-
-    - npm install prettier@3.6.2 --save-dev
-
-    # Verify installation
-
-    - ls -la node_modules/@playwright/
-
-    - npx playwright --version
+    - npm install -g @playwright/test || true
 
     # Install browsers
 
-    - npx playwright install chromium
+    - npx playwright install chromium || playwright install chromium
 
     # Run tests
 
-    - npx playwright test --reporter=html,junit
+    - npx playwright test --reporter=html,junit || playwright test --reporter=html,junit
 
   artifacts:
     when: always
