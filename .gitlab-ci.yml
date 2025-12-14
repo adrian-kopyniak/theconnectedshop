@@ -37,9 +37,9 @@ playwright_tests:
 
     - npm ci --cache .npm --no-audit || npm install --cache .npm --no-audit
 
-    # Force install Playwright test package
+    # Force install Playwright test package (ignore existing package.json)
 
-    - npm install --save-dev @playwright/test
+    - npm install --force --no-save @playwright/test
 
     # Verify it's installed
 
