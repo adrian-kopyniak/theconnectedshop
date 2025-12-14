@@ -19,7 +19,7 @@ cache:
 playwright_tests:
   stage: test
 
-  image: mcr.microsoft.com/playwright:v1.57.0-focal
+  image: mcr.microsoft.com/playwright:v1.57.0-noble
 
   script:
     - node -v
