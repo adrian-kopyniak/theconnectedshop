@@ -25,7 +25,7 @@ cache:
 playwright_tests:
   stage: test
 
-  image: mcr.microsoft.com/playwright:v1.57.0-jammy
+  image: mcr.microsoft.com/playwright:v1.49.0-noble
 
   before_script:
     - node -v
@@ -37,9 +37,9 @@ playwright_tests:
 
     - rm -rf node_modules
 
-    # Fresh install of all dependencies
+    # Fresh install of all dependencies (ignore engine warnings)
 
-    - npm install
+    - npm install --force
 
     # Verify Playwright is installed
 
