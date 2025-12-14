@@ -17,33 +17,23 @@ playwright_tests:
     - npm -v
 
   script:
-    # Debug: show all files including hidden
+    # Use npm ci which properly reads package-lock.json and creates node_modules
 
-    - ls -la
+    - npm ci
 
-    - cat .npmrc 2>/dev/null || echo "No .npmrc"
+    # Verify installation
 
-    - cat .gitignore 2>/dev/null || echo "No .gitignore"
+    - ls -la node_modules/@playwright/
 
-    # Check npm config
-
-    - npm config list
-
-    # Try with --force and --verbose to see what's happening
-
-    - npm install --force --verbose @playwright/test
-
-    # If that fails, try global install
-
-    - npm install -g @playwright/test || true
+    - npx playwright --version
 
     # Install browsers
 
-    - npx playwright install chromium || playwright install chromium
+    - npx playwright install chromium
 
     # Run tests
 
-    - npx playwright test --reporter=html,junit || playwright test --reporter=html,junit
+    - npx playwright test --reporter=html,junit
 
   artifacts:
     when: always
