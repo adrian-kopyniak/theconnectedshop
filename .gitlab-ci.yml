@@ -17,6 +17,16 @@ playwright_tests:
     - npm -v
 
   script:
+    # Check if package.json exists and show its content
+
+    - echo "=== Checking package.json ==="
+
+    - ls -la package.json
+
+    - cat package.json
+
+    - echo "=== End of package.json ==="
+
     # Clean install
 
     - rm -rf node_modules package-lock.json
@@ -24,6 +34,10 @@ playwright_tests:
     - npm install --legacy-peer-deps
 
     # Show what's installed
+
+    - echo "=== Checking node_modules ==="
+
+    - ls -la node_modules/ | head -20
 
     - ls -la node_modules/@playwright/ || echo "Playwright not in node_modules"
 
