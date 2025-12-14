@@ -33,17 +33,19 @@ playwright_tests:
     - npm -v
 
   script:
-    # Install dependencies from package.json/package-lock.json
+    # Remove any cached/corrupted node_modules
 
-    - npm ci --cache .npm --no-audit || npm install --cache .npm --no-audit
+    - rm -rf node_modules
 
-    # Force install Playwright test package (ignore existing package.json)
+    # Fresh install of all dependencies
 
-    - npm install --force --no-save @playwright/test
+    - npm install
 
-    # Verify it's installed
+    # Verify Playwright is installed
 
     - npm list @playwright/test
+
+    - npx playwright --version
 
     # Install browser binaries
 
