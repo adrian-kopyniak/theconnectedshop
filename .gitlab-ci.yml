@@ -17,35 +17,39 @@ playwright_tests:
     - npm -v
 
   script:
-    # Check if package.json exists and show its content
-
-    - echo "=== Checking package.json ==="
-
-    - ls -la package.json
+    # Check package.json
 
     - cat package.json
 
-    - echo "=== End of package.json ==="
-
-    # Clean install
+    # Clean everything
 
     - rm -rf node_modules package-lock.json
 
-    - npm install --legacy-peer-deps
+    # Install packages one by one to debug
 
-    # Show what's installed
+    - npm install @playwright/test@1.57.0 --save-dev
 
-    - echo "=== Checking node_modules ==="
+    - npm install @faker-js/faker@10.1.0 --save-dev
 
-    - ls -la node_modules/ | head -20
+    - npm install @types/node@24.9.2 --save-dev
 
-    - ls -la node_modules/@playwright/ || echo "Playwright not in node_modules"
+    - npm install allure-playwright@3.4.2 --save-dev
 
-    - npm list @playwright/test || echo "Not in package list"
+    - npm install fs-extra@11.3.2 --save-dev
 
-    # Try to run playwright
+    - npm install prettier@3.6.2 --save-dev
+
+    # Verify installation
+
+    - ls -la node_modules/@playwright/
+
+    - npx playwright --version
+
+    # Install browsers
 
     - npx playwright install chromium
+
+    # Run tests
 
     - npx playwright test --reporter=html,junit
 
