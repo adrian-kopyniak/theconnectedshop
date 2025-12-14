@@ -8,27 +8,42 @@ variables:
 
   PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
 
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+
 cache:
   paths:
     - node_modules/
 
     - .npm/
 
-  key: ${CI_COMMIT_REF_SLUG}
+  key:
+    files:
+      - package-lock.json
+
+    prefix: ${CI_COMMIT_REF_SLUG}
 
 playwright_tests:
   stage: test
 
   image: mcr.microsoft.com/playwright:v1.57.0-noble
 
-  script:
+  before_script:
     - node -v
 
-    - npm ci --no-audit
+    - npm -v
 
-    - npx playwright install --with-deps
+    - echo "Installing dependencies..."
 
-    - npx playwright test --reporter=html
+  script:
+    - npm ci --cache .npm --no-audit
+
+    - echo "Verifying Playwright installation..."
+
+    - npm list @playwright/test
+
+    - npx playwright install --with-deps chromium
+
+    - npx playwright test --reporter=html,junit
 
   artifacts:
     when: always
@@ -38,8 +53,20 @@ playwright_tests:
     paths:
       - playwright-report/
 
+      - test-results/
+
     reports:
-      junit: playwright-report/junit.xml
+      junit: playwright-report/results.xml
+
+  coverage: '/All tests (\d+)/'
+
+  retry:
+    max: 1
+
+    when:
+      - runner_system_failure
+
+      - stuck_or_timeout_failure
 
 pages:
   stage: deploy
@@ -52,13 +79,32 @@ pages:
   script:
     - mkdir -p public
 
-    - cp -r playwright-report/* public/ 2>/dev/null || echo "No report found"
+    # Copy report files if they exist
+
+    - |
+
+      if [ -d "playwright-report" ]; then
+
+        cp -r playwright-report/* public/
+
+      else
+
+        echo "<h1>No test report available</h1>" > public/index.html
+
+      fi
 
   artifacts:
     paths:
       - public
 
-  only:
-    - main
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-    - master
+    - if: $CI_COMMIT_BRANCH == "main"
+
+    - if: $CI_COMMIT_BRANCH == "master"
+
+  environment:
+    name: production
+
+    url: $CI_PAGES_URL
