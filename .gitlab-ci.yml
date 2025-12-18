@@ -1,98 +1,70 @@
 stages:
   - test
-
   - deploy
 
 variables:
   NODE_ENV: production
+  PLAYWRIGHT_BROWSERS_PATH: $CI_PROJECT_DIR/.playwright
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - node_modules/
+    - .playwright/
 
 playwright_tests:
   stage: test
-
   image: mcr.microsoft.com/playwright:v1.57.0-noble
-
   before_script:
     - node -v
-
     - npm -v
-
   script:
-    # Use npm ci which properly reads package-lock.json and creates node_modules
-
+    # Install dependencies from package-lock.json
     - npm ci
-
     # Verify installation
-
     - ls -la node_modules/@playwright/
-
     - npx playwright --version
-
-    # Install browsers
-
+    # Install browsers (will use cache if available)
     - npx playwright install chromium
-
     # Run tests
-
     - npx playwright test --reporter=html,junit
-
   artifacts:
     when: always
-
     expire_in: 7 days
-
     paths:
       - playwright-report/
-
       - test-results/
-
     reports:
       junit: playwright-report/results.xml
-
   retry:
     max: 1
-
     when:
       - runner_system_failure
-
       - stuck_or_timeout_failure
-
   allow_failure: false
 
 pages:
   stage: deploy
-
   dependencies:
     - playwright_tests
-
   image: alpine:latest
-
   script:
     - mkdir -p public
-
     - |
-
       if [ -d "playwright-report" ]; then
-
         cp -r playwright-report/* public/
-
       else
-
         echo "<h1>No test report available</h1>" > public/index.html
-
       fi
-
   artifacts:
     paths:
       - public
-
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
     - if: $CI_COMMIT_BRANCH == "main"
-
     - if: $CI_COMMIT_BRANCH == "master"
-
   environment:
     name: production
-
     url: $CI_PAGES_URL
