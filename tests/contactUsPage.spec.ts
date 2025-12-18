@@ -54,5 +54,6 @@ test.describe('"Contact Us" page verification', () => {
     await contactUsPage.submitContactForm();
     /* captcha issue
     await contactUsPage.verifySuccessMessage(); */
+    //.
   });
 });
